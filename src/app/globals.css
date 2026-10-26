@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Identitate BacLab: prună #30243A · crem #F5F1E8 · lime #D9ED79 · salvie #8AA995 · coral #E7A08E */
+:root {
+  --bg: 245 241 232;
+  --surface: 255 253 248;
+  --ink: 48 36 58;
+  --muted: 104 92 114;
+  --line: 224 217 203;
+  --brand: 48 36 58;
+  --on-brand: 245 241 232;
+  --accent: 217 237 121;
+  --on-accent: 48 36 58;
+  --sage: 138 169 149;
+  --coral: 231 160 142;
+  --good: 42 120 76;
+  --good-soft: 222 240 228;
+  --bad: 176 58 46;
+  --bad-soft: 250 227 221;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: 28 21 34;
+    --surface: 42 33 52;
+    --ink: 245 241 232;
+    --muted: 190 180 198;
+    --line: 72 60 84;
+    --brand: 245 241 232;
+    --on-brand: 48 36 58;
+    --good: 134 204 156;
+    --good-soft: 34 62 46;
+    --bad: 244 156 140;
+    --bad-soft: 74 38 36;
+    color-scheme: dark;
+  }
+}
+
+html { -webkit-text-size-adjust: 100%; }
+body { background: rgb(var(--bg)); color: rgb(var(--ink)); font-family: var(--font-jakarta), system-ui, sans-serif; }
+:focus-visible { outline: 3px solid rgb(var(--sage)); outline-offset: 2px; border-radius: 6px; }
+button, a { -webkit-tap-highlight-color: transparent; }
+@media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+
+.tabnum { font-variant-numeric: tabular-nums; }
+.punnett td, .punnett th { border: 1px solid rgb(var(--line)); padding: .5rem .75rem; text-align: center; }
+.punnett th { background: rgb(var(--bg)); font-weight: 700; }

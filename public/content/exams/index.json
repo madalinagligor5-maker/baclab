@@ -1,0 +1,18 @@
+[
+ {
+  "id": "bac-2026-simulare",
+  "title": "Simulare Bacalaureat 2026",
+  "year": 2026,
+  "kind": "oficial",
+  "durationMin": 180,
+  "file": "bac-2026-simulare.json"
+ },
+ {
+  "id": "bac-2025-var01",
+  "title": "Bacalaureat 2025 — Varianta 1",
+  "year": 2025,
+  "kind": "oficial",
+  "durationMin": 180,
+  "file": "bac-2025-var01.json"
+ }
+]

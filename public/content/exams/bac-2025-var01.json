@@ -1,0 +1,426 @@
+{
+ "id": "bac-2025-var01",
+ "title": "Bacalaureat 2025 — Varianta 1",
+ "year": 2025,
+ "kind": "oficial",
+ "durationMin": 180,
+ "note": "Enunțurile sunt cele oficiale. Răspunsurile model sunt scrise de autorii aplicației (baremul oficial nu a fost furnizat) și trebuie verificate de un profesor.",
+ "parts": [
+  {
+   "id": "I.A",
+   "subject": "I",
+   "title": "Completare",
+   "points": 4,
+   "kind": "open",
+   "intro": "Scrieți noțiunile cu care completați spațiile libere: „Procesul de ............ poate fi evidențiat după substanțele organice sintetizate și ............ .”",
+   "subs": [
+    {
+     "id": "a",
+     "prompt": "Completați primul spațiu liber.",
+     "points": 2,
+     "chapters": [
+      "A06"
+     ],
+     "model": [
+      "fotosinteză"
+     ]
+    },
+    {
+     "id": "b",
+     "prompt": "Completați al doilea spațiu liber.",
+     "points": 2,
+     "chapters": [
+      "A06"
+     ],
+     "model": [
+      "oxigenul eliberat (sau: amidonul / lumina absorbită, după varianta acceptată de barem)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "I.B",
+   "subject": "I",
+   "title": "Exemple și caracteristici",
+   "points": 6,
+   "kind": "open",
+   "intro": "Dați două exemple de componente ale unei celule procariote; scrieți în dreptul fiecărui component câte o caracteristică structurală.",
+   "subs": [
+    {
+     "id": "1",
+     "prompt": "Primul component și o caracteristică structurală.",
+     "points": 3,
+     "chapters": [
+      "A01"
+     ],
+     "model": [
+      "Ribozomii — granule mici, formate din ARN și proteine, fără membrană."
+     ]
+    },
+    {
+     "id": "2",
+     "prompt": "Al doilea component și o caracteristică structurală.",
+     "points": 3,
+     "chapters": [
+      "A01"
+     ],
+     "model": [
+      "Nucleoidul — ADN circular, necondensat în cromozomi, fără membrană nucleară.",
+      "(alt exemplu acceptabil: peretele celular — conține peptidoglican)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "I.C",
+   "subject": "I",
+   "title": "Grile",
+   "points": 10,
+   "kind": "mcq",
+   "items": [
+    {
+     "q": "Sunt vertebrate:",
+     "options": [
+      "arahnidele",
+      "amfibienii",
+      "celenteratele",
+      "moluștele"
+     ],
+     "correct": 1,
+     "chapter": "A03",
+     "explanation": "Amfibienii au coloană vertebrală; celelalte grupe sunt nevertebrate."
+    },
+    {
+     "q": "Organitul citoplasmatic comun celulelor vegetală și animală, cu rol în sinteza proteinelor, este:",
+     "options": [
+      "centrozomul",
+      "cloroplastul",
+      "lizozomul",
+      "ribozomul"
+     ],
+     "correct": 3,
+     "chapter": "A01",
+     "explanation": "Ribozomii sintetizează proteine. Centrozomul lipsește la plante, cloroplastul la animale."
+    },
+    {
+     "q": "Fiecare dintre celulele-fiice formate prin diviziunea meiotică a unei celule-mamă cu 2n = 14 cromozomi are:",
+     "options": [
+      "n = 7 cromozomi",
+      "n = 14 cromozomi",
+      "2n = 7 cromozomi",
+      "2n = 14 cromozomi"
+     ],
+     "correct": 0,
+     "chapter": "A02",
+     "explanation": "Meioza reduce numărul de cromozomi la jumătate: n = 7."
+    },
+    {
+     "q": "Plămânii mamiferelor:",
+     "options": [
+      "conțin lobuli alcătuiți din numeroși lobi",
+      "își măresc volumul în timpul expirației",
+      "sunt localizaţi în cavitatea abdominală",
+      "sunt acoperiți de două pleure"
+     ],
+     "correct": 3,
+     "chapter": "A10",
+     "explanation": "Plămânul este acoperit de pleura viscerală și pleura parietală. Volumul crește la inspirație; plămânii sunt în cavitatea toracică; lobii conțin lobuli, nu invers."
+    },
+    {
+     "q": "Bila și sucul pancreatic au în comun următoarea caracteristică:",
+     "options": [
+      "conțin lipaze cu rol în digestia lipidelor emulsionate",
+      "participă la digestia intestinală a alimentelor",
+      "sunt sucuri digestive lipsite de enzime",
+      "transformă chimic oligopeptidele în aminoacizi"
+     ],
+     "correct": 1,
+     "chapter": "A08",
+     "explanation": "Ambele se varsă în duoden și participă la digestia intestinală. Bila nu conține enzime, iar lipazele sunt în sucul pancreatic."
+    }
+   ]
+  },
+  {
+   "id": "I.D",
+   "subject": "I",
+   "title": "Adevărat / Fals",
+   "points": 10,
+   "kind": "af",
+   "weights": [
+    3,
+    3,
+    4
+   ],
+   "intro": "Dacă afirmația este falsă, modificați-o parțial, fără negație, pentru a deveni adevărată.",
+   "items": [
+    {
+     "q": "Gonoreea este o boală cu transmitere sexuală cauzată de infecția cu o ciupercă.",
+     "truth": false,
+     "correction": "Gonoreea este o boală cu transmitere sexuală cauzată de infecția cu o bacterie (Neisseria gonorrhoeae).",
+     "chapter": "A21",
+     "explanation": "Gonoreea este bacteriană."
+    },
+    {
+     "q": "Androceul florii angiospermelor este alcătuit din totalitatea carpelelor.",
+     "truth": false,
+     "correction": "Androceul florii angiospermelor este alcătuit din totalitatea staminelor.",
+     "chapter": "A20",
+     "explanation": "Carpelele formează gineceul."
+    },
+    {
+     "q": "Rinichii sunt componente ale sistemului excretor al mamiferelor.",
+     "truth": true,
+     "chapter": "A15",
+     "explanation": "Rinichii formează urina; fac parte din sistemul excretor."
+    }
+   ]
+  },
+  {
+   "id": "II.A",
+   "subject": "II",
+   "title": "Sângele și circulația",
+   "points": 18,
+   "kind": "open",
+   "intro": "Unul dintre componentele mediului intern al mamiferelor este sângele, care circulă într-un sistem închis de vase.",
+   "subs": [
+    {
+     "id": "a",
+     "prompt": "Precizați trei componente ale sângelui și câte un rol pentru două dintre aceste componente.",
+     "points": 6,
+     "chapters": [
+      "A12"
+     ],
+     "model": [
+      "Componente: plasma, hematiile, leucocitele, trombocitele (trei dintre acestea).",
+      "Rol: hematiile transportă oxigenul (hemoglobina); leucocitele apără organismul prin fagocitoză și anticorpi; trombocitele participă la coagulare; plasma transportă substanțe."
+     ]
+    },
+    {
+     "id": "b",
+     "prompt": "Explicați rolul valvulelor semilunare/sigmoide.",
+     "points": 4,
+     "chapters": [
+      "A13"
+     ],
+     "model": [
+      "Valvulele semilunare se află la baza aortei și a arterei pulmonare.",
+      "Ele se închid după sistola ventriculară și împiedică refluxul sângelui din artere înapoi în ventricule, asigurând sensul unic al circulației."
+     ]
+    },
+    {
+     "id": "c",
+     "prompt": "Calculați masa apei din plasma sângelui unui copil (corp: 11 kg; sânge 7%; plasmă 55%; apă 90%). Scrieți toate etapele.",
+     "points": 5,
+     "chapters": [
+      "A12"
+     ],
+     "model": [
+      "Masa sângelui = 11 × 7 / 100 = 0,77 kg",
+      "Masa plasmei = 0,77 × 55 / 100 = 0,4235 kg",
+      "Masa apei = 0,4235 × 90 / 100 = 0,38115 kg"
+     ],
+     "chain": {
+      "mass": "11",
+      "unit": "kg",
+      "asks": "masa apei din plasma sângelui",
+      "steps": [
+       {
+        "label": "masa sângelui",
+        "pct": "7",
+        "of": "masa corpului"
+       },
+       {
+        "label": "masa plasmei sangvine",
+        "pct": "55",
+        "of": "masa sângelui"
+       },
+       {
+        "label": "masa apei din plasmă",
+        "pct": "90",
+        "of": "masa plasmei sangvine"
+       }
+      ]
+     }
+    },
+    {
+     "id": "d",
+     "prompt": "Completați problema cu o altă cerință și rezolvați-o.",
+     "points": 3,
+     "chapters": [
+      "A12"
+     ],
+     "model": [
+      "Exemplu: masa elementelor figurate din sângele copilului (45% din masa sângelui).",
+      "0,77 × 45 / 100 = 0,3465 kg"
+     ],
+     "chain": {
+      "mass": "11",
+      "unit": "kg",
+      "asks": "masa elementelor figurate din sânge",
+      "steps": [
+       {
+        "label": "masa sângelui",
+        "pct": "7",
+        "of": "masa corpului"
+       },
+       {
+        "label": "masa elementelor figurate",
+        "pct": "45",
+        "of": "masa sângelui"
+       }
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "II.B",
+   "subject": "II",
+   "title": "Genetică (dihibridare)",
+   "points": 12,
+   "kind": "open",
+   "intro": "Se încrucișează un soi de pepene cu fructe oval-alungite (O) și de culoare galben-auriu (v) cu un soi de pepene cu fructe rotunde (o) și de culoare verde-deschis (V). Părinții sunt homozigoți pentru ambele caractere. În F1 se obțin hibrizi; prin încrucișarea lor se obțin în F2 16 combinații.",
+   "subs": [
+    {
+     "id": "a",
+     "prompt": "Tipurile de gameți formați de organismele din F1.",
+     "points": 3,
+     "chapters": [
+      "A22"
+     ],
+     "model": [
+      "P: OOvv × ooVV → F1: OoVv",
+      "Gameți: OV, Ov, oV, ov (câte 25%)"
+     ]
+    },
+    {
+     "id": "b",
+     "prompt": "Fenotipul organismelor din F1.",
+     "points": 3,
+     "chapters": [
+      "A22"
+     ],
+     "model": [
+      "Toți hibrizii F1 sunt OoVv: fructe oval-alungite, de culoare verde-deschis (alelele O și V sunt dominante)."
+     ]
+    },
+    {
+     "id": "c",
+     "prompt": "Numărul combinațiilor din F2 dublu heterozigote și dublu homozigote; genotipul celor cu fructe rotunde, galben-auriu.",
+     "points": 3,
+     "chapters": [
+      "A22"
+     ],
+     "model": [
+      "Dublu heterozigote (OoVv): 4 din 16.",
+      "Dublu homozigote (OOVV, OOvv, ooVV, oovv): 4 din 16.",
+      "Fructe rotunde, galben-auriu: oovv."
+     ]
+    },
+    {
+     "id": "d",
+     "prompt": "Completați problema cu o altă cerință și rezolvați-o.",
+     "points": 3,
+     "chapters": [
+      "A22"
+     ],
+     "model": [
+      "Exemplu: raportul de segregare după fenotip în F2 = 9 : 3 : 3 : 1 (9 oval-alungite verzi, 3 oval-alungite galbene, 3 rotunde verzi, 1 rotundă galbenă)."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "III.1",
+   "subject": "III",
+   "title": "Organe de simț și sistem nervos",
+   "points": 14,
+   "kind": "open",
+   "intro": "Organele de simț și sistemul nervos participă la realizarea funcțiilor de relație ale unui organism.",
+   "subs": [
+    {
+     "id": "a",
+     "prompt": "Numiți trei deficiențe senzoriale la om.",
+     "points": 3,
+     "chapters": [
+      "A19"
+     ],
+     "model": [
+      "Miopia, hipermetropia, astigmatismul, daltonismul, surditatea (trei dintre acestea)."
+     ]
+    },
+    {
+     "id": "b",
+     "prompt": "Explicați: „La mamifere, cerebelul are rol în menținerea echilibrului corpului”.",
+     "points": 3,
+     "chapters": [
+      "A18"
+     ],
+     "model": [
+      "Cerebelul primește informații de la urechea internă (vestibul, canale semicirculare), de la mușchi și articulații.",
+      "Le integrează și coordonează contracția mușchilor scheletici, reglând tonusul muscular și echilibrul."
+     ]
+    },
+    {
+     "id": "c",
+     "prompt": "Construiți patru enunțuri afirmative, câte două pentru Diencefal și Urechea internă.",
+     "points": 8,
+     "chapters": [
+      "A18",
+      "A19"
+     ],
+     "model": [
+      "Diencefalul conține talamusul, care este stație de releu pentru căile senzitive.",
+      "Hipotalamusul, parte a diencefalului, reglează temperatura corpului și controlează hipofiza.",
+      "Urechea internă conține melcul membranos, în care se află organul Corti, cu receptorii auditivi.",
+      "Vestibulul și canalele semicirculare din urechea internă conțin receptorii echilibrului."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "III.2",
+   "subject": "III",
+   "title": "Țesuturi",
+   "points": 16,
+   "kind": "open",
+   "intro": "Țesuturile sunt alcătuite din celule care au aceeași formă, aceeași structură și îndeplinesc aceeași funcție.",
+   "subs": [
+    {
+     "id": "a",
+     "prompt": "Precizați trei tipuri de țesuturi animale epiteliale.",
+     "points": 3,
+     "chapters": [
+      "A05"
+     ],
+     "model": [
+      "Epiteliu de acoperire, epiteliu glandular, epiteliu senzorial."
+     ]
+    },
+    {
+     "id": "b",
+     "prompt": "Argument pentru: „Vasele conducătoare liberiene ale plantelor sunt adaptate funcției de conducere”.",
+     "points": 3,
+     "chapters": [
+      "A04"
+     ],
+     "model": [
+      "Sunt formate din celule alungite, așezate cap la cap, ale căror pereți transversali sunt perforați (plăci ciuruite), ceea ce permite circulația sevei elaborate."
+     ]
+    },
+    {
+     "id": "c",
+     "prompt": "Minieseu „Țesutul muscular”: șase noțiuni și un text de maximum 3–4 fraze.",
+     "points": 10,
+     "chapters": [
+      "A05"
+     ],
+     "model": [
+      "Noțiuni: miocit, actină, miozină, contracție, țesut muscular striat, țesut muscular neted (sau cardiac).",
+      "Text: Țesutul muscular este format din miocite, celule alungite care conțin proteinele contractile actină și miozină. Prin contracție, acestea produc mișcarea. Țesutul muscular striat mișcă scheletul, iar cel neted se găsește în pereții organelor interne."
+     ]
+    }
+   ]
+  }
+ ]
+}

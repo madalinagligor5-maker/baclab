@@ -1,0 +1,1303 @@
+{
+ "version": 1,
+ "note": "Banca de pornire (seed). Itemi scriși de autor, nevalidați de specialist.",
+ "items": [
+  {
+   "id": "A01-SG01",
+   "chapter": "A01",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Care dintre organitele celulare este sediul sintezei proteinelor?",
+   "options": [
+    "Lizozomii",
+    "Ribozomii",
+    "Aparatul Golgi",
+    "Centrozomul"
+   ],
+   "correct": 1,
+   "explanation": "Ribozomii, liberi sau atașați reticulului endoplasmatic rugos, sintetizează proteinele.",
+   "wrong_why": [
+    "Lizozomii conțin enzime hidrolitice și realizează digestia intracelulară.",
+    null,
+    "Aparatul Golgi modifică, sortează și secretă produse; nu sintetizează proteine.",
+    "Centrozomul organizează fusul de diviziune."
+   ],
+   "level": "C",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A01-SG02",
+   "chapter": "A01",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Peretele celular de natură celulozică se găsește la:",
+   "options": [
+    "celula animală",
+    "celula vegetală",
+    "toate celulele eucariote",
+    "bacteriile (are aceeași compoziție)"
+   ],
+   "correct": 1,
+   "explanation": "Celuloza este componenta peretelui celulei vegetale. Celula animală nu are perete.",
+   "wrong_why": [
+    "Celula animală nu are perete celular.",
+    null,
+    "Fungii au perete chitinos, celula animală nu are perete.",
+    "Peretele bacterian conține peptidoglican, nu celuloză."
+   ],
+   "level": "C",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A01-SG03",
+   "chapter": "A01",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Mitocondriile sunt organite în care are loc:",
+   "options": [
+    "fotosinteza",
+    "respirația celulară aerobă",
+    "sinteza lipidelor din membrană",
+    "digestia intracelulară"
+   ],
+   "correct": 1,
+   "explanation": "În mitocondrii se desfășoară etapele aerobe ale respirației celulare, cu producere de ATP.",
+   "wrong_why": [
+    "Fotosinteza are loc în cloroplaste.",
+    null,
+    "Sinteza lipidelor are loc în reticulul endoplasmatic neted.",
+    "Digestia intracelulară este realizată de lizozomi."
+   ],
+   "level": "C",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A01-SA01",
+   "chapter": "A01",
+   "type": "adevarat_fals",
+   "slot": "I.D",
+   "q": "Celula procariotă are nucleu delimitat de membrană nucleară.",
+   "truth": false,
+   "correction": "Celula procariotă nu are nucleu delimitat de membrană nucleară; materialul genetic este în citoplasmă.",
+   "explanation": "Procariotele (bacteriile) au nucleoid, nu nucleu adevărat.",
+   "level": "U",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A01-SA02",
+   "chapter": "A01",
+   "type": "adevarat_fals",
+   "slot": "I.D",
+   "q": "Membrana plasmatică are permeabilitate selectivă.",
+   "truth": true,
+   "explanation": "Membrana controlează ce intră și ce iese din celulă.",
+   "level": "U",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A02-SG01",
+   "chapter": "A02",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Numărul de cromozomi al celulelor rezultate prin meioză, față de celula inițială, este:",
+   "options": [
+    "dublu",
+    "același",
+    "redus la jumătate",
+    "triplu"
+   ],
+   "correct": 2,
+   "explanation": "Meioza este diviziune reducțională: din celula 2n rezultă patru celule n.",
+   "wrong_why": [
+    "Dublarea nu are loc la diviziune; replicarea ADN-ului are loc în interfază.",
+    "Numărul rămâne același în mitoză, nu în meioză.",
+    null,
+    "Nicio diviziune nu triplează numărul de cromozomi."
+   ],
+   "level": "C",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A02-SG02",
+   "chapter": "A02",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Mitoza dintr-o celulă 2n = 46 produce:",
+   "options": [
+    "2 celule cu 23 de cromozomi",
+    "2 celule cu 46 de cromozomi",
+    "4 celule cu 23 de cromozomi",
+    "4 celule cu 46 de cromozomi"
+   ],
+   "correct": 1,
+   "explanation": "Mitoza dă două celule fiice identice genetic cu cea mamă, deci tot cu 46 de cromozomi.",
+   "wrong_why": [
+    "23 de cromozomi rezultă prin meioză (gameți).",
+    null,
+    "Patru celule cu 23 de cromozomi rezultă prin meioză.",
+    "Mitoza dă două celule, nu patru."
+   ],
+   "level": "A",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A02-SG03",
+   "chapter": "A02",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Replicarea ADN-ului are loc în:",
+   "options": [
+    "profază",
+    "metafază",
+    "faza S a interfazei",
+    "telofază"
+   ],
+   "correct": 2,
+   "explanation": "ADN-ul se dublează în faza S a interfazei, înainte de diviziune.",
+   "wrong_why": [
+    "În profază cromatina se condensează; ADN-ul era deja replicat.",
+    "În metafază cromozomii se aliniază la ecuator.",
+    null,
+    "În telofază se reconstituie învelișul nuclear."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A02-SA01",
+   "chapter": "A02",
+   "type": "adevarat_fals",
+   "slot": "I.D",
+   "q": "Prin meioză se formează celule somatice.",
+   "truth": false,
+   "correction": "Prin meioză se formează celule sexuale (gameți) sau spori, cu număr redus de cromozomi.",
+   "explanation": "Celulele somatice se înmulțesc prin mitoză.",
+   "level": "U",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A06-SG01",
+   "chapter": "A06",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Oxigenul eliberat în fotosinteză provine din:",
+   "options": [
+    "dioxidul de carbon",
+    "apă",
+    "glucoză",
+    "clorofilă"
+   ],
+   "correct": 1,
+   "explanation": "Oxigenul rezultă din fotoliza apei, în faza luminoasă.",
+   "wrong_why": [
+    "Carbonul din CO2 intră în glucoză.",
+    null,
+    "Glucoza este produsul fotosintezei, nu sursa de oxigen eliberat.",
+    "Clorofila captează lumina, nu este sursa oxigenului."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A06-SG02",
+   "chapter": "A06",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Faza de întuneric a fotosintezei are loc:",
+   "options": [
+    "în tilacoide",
+    "în stroma cloroplastului",
+    "în mitocondrii",
+    "în citoplasmă, la animale"
+   ],
+   "correct": 1,
+   "explanation": "Reacțiile independente de lumină (ciclul Calvin) au loc în stroma cloroplastului.",
+   "wrong_why": [
+    "În tilacoide are loc faza luminoasă.",
+    null,
+    "Mitocondriile realizează respirația.",
+    "Fotosinteza este specifică organismelor autotrofe fotosintetizante."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A06-SG03",
+   "chapter": "A06",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Care este ecuația globală corectă a fotosintezei?",
+   "options": [
+    "6CO2 + 6H2O → C6H12O6 + 6O2",
+    "C6H12O6 + 6O2 → 6CO2 + 6H2O",
+    "6CO2 + 6O2 → C6H12O6 + 6H2O",
+    "6H2O → 6O2 + C6H12O6"
+   ],
+   "correct": 0,
+   "explanation": "Din dioxid de carbon și apă, cu energie luminoasă, rezultă glucoză și oxigen.",
+   "wrong_why": [
+    null,
+    "Aceasta este ecuația respirației aerobe.",
+    "Oxigenul nu este reactant în fotosinteză.",
+    "Lipsește CO2, sursa de carbon."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A06-SA01",
+   "chapter": "A06",
+   "type": "adevarat_fals",
+   "slot": "I.D",
+   "q": "Clorofila absoarbe cel mai puțin lumina verde.",
+   "truth": true,
+   "explanation": "Clorofila absoarbe lumina roșie și albastră; cea verde o reflectă, de aceea frunzele sunt verzi.",
+   "level": "U",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A08-SG01",
+   "chapter": "A08",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Absorbția principală a nutrienților la om are loc în:",
+   "options": [
+    "stomac",
+    "intestinul subțire",
+    "intestinul gros",
+    "esofag"
+   ],
+   "correct": 1,
+   "explanation": "Intestinul subțire are vilozități intestinale, care măresc suprafața de absorbție.",
+   "wrong_why": [
+    "În stomac se absorb doar puține substanțe (apă, alcool).",
+    null,
+    "În intestinul gros se absoarbe în principal apa.",
+    "Esofagul doar conduce bolul alimentar."
+   ],
+   "level": "C",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A08-SG02",
+   "chapter": "A08",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Bila este produsă de:",
+   "options": [
+    "pancreas",
+    "vezicula biliară",
+    "ficat",
+    "stomac"
+   ],
+   "correct": 2,
+   "explanation": "Bila este secretată de ficat și stocată în vezicula biliară.",
+   "wrong_why": [
+    "Pancreasul produce suc pancreatic.",
+    "Vezicula biliară doar depozitează și concentrează bila.",
+    null,
+    "Stomacul produce suc gastric."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A08-SG03",
+   "chapter": "A08",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Enzima din saliva care începe digestia amidonului este:",
+   "options": [
+    "pepsina",
+    "amilaza salivară",
+    "lipaza",
+    "tripsina"
+   ],
+   "correct": 1,
+   "explanation": "Amilaza salivară (ptialina) descompune amidonul în maltoză.",
+   "wrong_why": [
+    "Pepsina digeră proteinele în stomac.",
+    null,
+    "Lipaza digeră lipidele.",
+    "Tripsina digeră proteinele în intestinul subțire."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A08-SA01",
+   "chapter": "A08",
+   "type": "adevarat_fals",
+   "slot": "I.D",
+   "q": "Digestia proteinelor începe în stomac.",
+   "truth": true,
+   "explanation": "Pepsina, activă în mediul acid, începe digestia proteinelor.",
+   "level": "U",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A09-SG01",
+   "chapter": "A09",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Fermentația alcoolică produce:",
+   "options": [
+    "acid lactic și CO2",
+    "etanol și CO2",
+    "apă și CO2",
+    "acid acetic și apă"
+   ],
+   "correct": 1,
+   "explanation": "Drojdiile transformă glucoza în etanol și dioxid de carbon.",
+   "wrong_why": [
+    "Acidul lactic se formează în fermentația lactică.",
+    null,
+    "Apa și CO2 rezultă din respirația aerobă.",
+    "Acidul acetic apare în fermentația acetică, care este aerobă."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A09-SG02",
+   "chapter": "A09",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Câte molecule de ATP se formează net în glicoliză dintr-o moleculă de glucoză?",
+   "options": [
+    "2",
+    "4",
+    "36",
+    "38"
+   ],
+   "correct": 0,
+   "explanation": "Glicoliza dă net 2 ATP (se produc 4, se consumă 2).",
+   "wrong_why": [
+    null,
+    "4 ATP sunt produși brut; 2 se consumă.",
+    "Aproximativ 36 ATP sunt în total la respirația aerobă, nu în glicoliză.",
+    "38 este o valoare uneori citată pentru bilanțul total aerob."
+   ],
+   "level": "C",
+   "difficulty": 3,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A10-SG01",
+   "chapter": "A10",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Schimbul de gaze între aer și sânge are loc la nivelul:",
+   "options": [
+    "bronhiilor",
+    "traheei",
+    "alveolelor pulmonare",
+    "laringelui"
+   ],
+   "correct": 2,
+   "explanation": "Alveolele au pereți subțiri și o rețea densă de capilare.",
+   "wrong_why": [
+    "Bronhiile conduc aerul.",
+    "Traheea este cale de conducere.",
+    null,
+    "Laringele conține corzile vocale."
+   ],
+   "level": "C",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A10-SG02",
+   "chapter": "A10",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "În inspirația normală:",
+   "options": [
+    "diafragmul se relaxează",
+    "volumul cutiei toracice scade",
+    "diafragmul se contractă și se coboară",
+    "aerul iese din plămâni"
+   ],
+   "correct": 2,
+   "explanation": "Contracția diafragmului și a mușchilor intercostali mărește volumul toracic, iar aerul intră.",
+   "wrong_why": [
+    "Relaxarea diafragmului este caracteristică expirației.",
+    "Volumul toracic crește la inspirație.",
+    null,
+    "Aerul iese în expirație."
+   ],
+   "level": "U",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A10-SA01",
+   "chapter": "A10",
+   "type": "adevarat_fals",
+   "slot": "I.D",
+   "q": "Schimbul de gaze în alveole se face prin difuzie.",
+   "truth": true,
+   "explanation": "Gazele trec după gradientul de concentrație, fără consum de energie.",
+   "level": "U",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A12-SG01",
+   "chapter": "A12",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Transportul oxigenului în sânge este realizat în principal de:",
+   "options": [
+    "leucocite",
+    "trombocite",
+    "hemoglobina din hematii",
+    "plasma, dizolvat în totalitate"
+   ],
+   "correct": 2,
+   "explanation": "Hemoglobina leagă oxigenul formând oxihemoglobina.",
+   "wrong_why": [
+    "Leucocitele au rol imunitar.",
+    "Trombocitele participă la coagulare.",
+    null,
+    "Doar o mică parte din oxigen este dizolvat în plasmă."
+   ],
+   "level": "C",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A12-SG02",
+   "chapter": "A12",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Plasma sangvină conține aproximativ:",
+   "options": [
+    "10% apă",
+    "55% apă",
+    "90% apă",
+    "99% proteine"
+   ],
+   "correct": 2,
+   "explanation": "Plasma este formată din circa 90% apă, 8% proteine și circa 2% alte substanțe.",
+   "wrong_why": [
+    "Plasma este în mare parte apă.",
+    "55% este proporția plasmei din volumul sângelui, nu proporția apei din plasmă.",
+    null,
+    "Proteinele sunt circa 7–8%."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A12-SG03",
+   "chapter": "A12",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Un individ cu grupa sanguină AB (Rh pozitiv) poate primi, ca primitor universal, sânge de la:",
+   "options": [
+    "doar grupa AB",
+    "doar grupa O",
+    "orice grupă ABO, cu Rh pozitiv sau negativ",
+    "doar grupa A"
+   ],
+   "correct": 2,
+   "explanation": "AB Rh+ nu are aglutinine anti-A, anti-B, anti-Rh, deci tolerează toate grupele (în transfuzia de hematii).",
+   "wrong_why": [
+    "AB poate primi și de la alte grupe.",
+    "Nu doar de la O.",
+    null,
+    "Nu doar de la A."
+   ],
+   "level": "A",
+   "difficulty": 3,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A12-SA01",
+   "chapter": "A12",
+   "type": "adevarat_fals",
+   "slot": "I.D",
+   "q": "Trombocitele sunt implicate în coagularea sângelui.",
+   "truth": true,
+   "explanation": "Trombocitele formează dopul plachetar și eliberează factori ai coagulării.",
+   "level": "U",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A13-SG01",
+   "chapter": "A13",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Sângele oxigenat ajunge în atriul stâng prin:",
+   "options": [
+    "artera pulmonară",
+    "venele pulmonare",
+    "vena cavă superioară",
+    "aorta"
+   ],
+   "correct": 1,
+   "explanation": "Venele pulmonare aduc sânge oxigenat din plămâni în atriul stâng.",
+   "wrong_why": [
+    "Artera pulmonară duce sânge neoxigenat spre plămâni.",
+    null,
+    "Vena cavă superioară se varsă în atriul drept.",
+    "Aorta pleacă din ventriculul stâng."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A13-SG02",
+   "chapter": "A13",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Valvula bicuspidă (mitrală) se află între:",
+   "options": [
+    "atriul drept și ventriculul drept",
+    "atriul stâng și ventriculul stâng",
+    "ventriculul stâng și aortă",
+    "ventriculul drept și artera pulmonară"
+   ],
+   "correct": 1,
+   "explanation": "Valvula mitrală separă atriul stâng de ventriculul stâng.",
+   "wrong_why": [
+    "Aici se află valvula tricuspidă.",
+    null,
+    "Aici se află valvulele sigmoide aortice.",
+    "Aici se află valvulele sigmoide pulmonare."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A13-SG03",
+   "chapter": "A13",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Circulația mică (pulmonară) începe în:",
+   "options": [
+    "ventriculul stâng",
+    "atriul drept",
+    "ventriculul drept",
+    "atriul stâng"
+   ],
+   "correct": 2,
+   "explanation": "Ventriculul drept trimite sângele neoxigenat prin artera pulmonară spre plămâni.",
+   "wrong_why": [
+    "Din ventriculul stâng pleacă circulația mare.",
+    "Atriul drept primește sângele din circulația mare.",
+    null,
+    "Atriul stâng primește sângele de la plămâni."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A13-SA01",
+   "chapter": "A13",
+   "type": "adevarat_fals",
+   "slot": "I.D",
+   "q": "Arterele transportă întotdeauna sânge bogat în oxigen.",
+   "truth": false,
+   "correction": "Arterele transportă sânge de la inimă spre organe; artera pulmonară transportă sânge sărac în oxigen.",
+   "explanation": "Criteriul este sensul față de inimă, nu oxigenarea.",
+   "level": "U",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A15-SG01",
+   "chapter": "A15",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Unitatea structurală și funcțională a rinichiului este:",
+   "options": [
+    "nefronul",
+    "alveola",
+    "neuronul",
+    "sarcomerul"
+   ],
+   "correct": 0,
+   "explanation": "Nefronul filtrează sângele și formează urina.",
+   "wrong_why": [
+    null,
+    "Alveola aparține plămânului.",
+    "Neuronul aparține sistemului nervos.",
+    "Sarcomerul este unitatea contractilă a mușchiului."
+   ],
+   "level": "C",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A15-SG02",
+   "chapter": "A15",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Formarea urinii primare are loc prin:",
+   "options": [
+    "reabsorbție tubulară",
+    "secreție tubulară",
+    "filtrare glomerulară",
+    "absorbție intestinală"
+   ],
+   "correct": 2,
+   "explanation": "La nivelul glomerulului, plasma este filtrată în capsula Bowman.",
+   "wrong_why": [
+    "Reabsorbția are loc în tubul urinifer, după filtrare.",
+    "Secreția adaugă substanțe în urină, după filtrare.",
+    null,
+    "Absorbția intestinală aparține digestiei."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A14-SG01",
+   "chapter": "A14",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Stomatele reglează:",
+   "options": [
+    "numai absorbția apei",
+    "schimbul de gaze și transpirația",
+    "fotosinteza în rădăcină",
+    "depozitarea amidonului"
+   ],
+   "correct": 1,
+   "explanation": "Prin stomate se elimină vapori de apă și se schimbă gaze.",
+   "wrong_why": [
+    "Apa se absoarbe prin perișorii absorbanți.",
+    null,
+    "Rădăcina nu realizează fotosinteza.",
+    "Amidonul se depozitează în organite specializate."
+   ],
+   "level": "C",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A18-SG01",
+   "chapter": "A18",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Centrul respirației și al activității cardiace se află în:",
+   "options": [
+    "scoarța cerebrală",
+    "bulbul rahidian",
+    "cerebel",
+    "hipotalamus"
+   ],
+   "correct": 1,
+   "explanation": "Bulbul rahidian conține centri vitali.",
+   "wrong_why": [
+    "Scoarța cerebrală coordonează funcții superioare.",
+    null,
+    "Cerebelul coordonează echilibrul și mișcările.",
+    "Hipotalamusul reglează homeostazia și legătura cu hipofiza."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A18-SG02",
+   "chapter": "A18",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Arcul reflex simplu NU conține:",
+   "options": [
+    "receptor",
+    "neuron senzitiv",
+    "centru nervos",
+    "glandă endocrină"
+   ],
+   "correct": 3,
+   "explanation": "Arcul reflex: receptor, cale aferentă, centru, cale eferentă, efector.",
+   "wrong_why": [
+    "Receptorul este primul element.",
+    "Neuronul senzitiv conduce spre centru.",
+    "Centrul nervos integrează răspunsul.",
+    null
+   ],
+   "level": "U",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A19-SG01",
+   "chapter": "A19",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Miopia se corectează cu lentile:",
+   "options": [
+    "convergente",
+    "divergente",
+    "cilindrice exclusiv",
+    "prismatice"
+   ],
+   "correct": 1,
+   "explanation": "În miopie imaginea se formează înaintea retinei; lentilele divergente o deplasează înapoi.",
+   "wrong_why": [
+    "Lentilele convergente corectează hipermetropia.",
+    null,
+    "Cilindrice corectează astigmatismul.",
+    "Prismatice corectează tulburări de aliniere a ochilor."
+   ],
+   "level": "U",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A19-SG02",
+   "chapter": "A19",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Celulele cu conuri din retină sunt responsabile de:",
+   "options": [
+    "vederea nocturnă",
+    "vederea cromatică și acuitatea vizuală",
+    "reglarea cantității de lumină",
+    "echilibru"
+   ],
+   "correct": 1,
+   "explanation": "Conurile funcționează la lumină intensă și detectează culorile.",
+   "wrong_why": [
+    "Vederea nocturnă este realizată de bastonașe.",
+    null,
+    "Reglarea cantității de lumină o face irisul.",
+    "Echilibrul ține de urechea internă."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A20-SG01",
+   "chapter": "A20",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Fecundația dublă este caracteristică:",
+   "options": [
+    "gimnospermelor",
+    "angiospermelor",
+    "ferigilor",
+    "mușchilor"
+   ],
+   "correct": 1,
+   "explanation": "La angiosperme unul dintre gameții masculi fecundează oosfera, celălalt nucleul secundar al sacului embrionar.",
+   "wrong_why": [
+    "Gimnospermele au fecundație simplă.",
+    null,
+    "Ferigile au fecundație simplă, în prezența apei.",
+    "Mușchii au fecundație simplă, în prezența apei."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A20-SG02",
+   "chapter": "A20",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Fructul se formează din:",
+   "options": [
+    "ovul",
+    "ovar",
+    "antera",
+    "sepale, în toate cazurile"
+   ],
+   "correct": 1,
+   "explanation": "Ovarul fecundat se transformă în fruct, ovulul în sămânță.",
+   "wrong_why": [
+    "Ovulul devine sămânță.",
+    null,
+    "Antera produce polen.",
+    "Sepalele fac parte din caliciu."
+   ],
+   "level": "C",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A21-SG01",
+   "chapter": "A21",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Fecundația la om are loc în mod normal în:",
+   "options": [
+    "uter",
+    "trompa uterină",
+    "vagin",
+    "ovar"
+   ],
+   "correct": 1,
+   "explanation": "Ovulul fecundat în treimea externă a trompei uterine ajunge apoi în uter pentru nidare.",
+   "wrong_why": [
+    "În uter are loc nidarea și dezvoltarea.",
+    null,
+    "Vaginul este calea de acces a spermatozoizilor.",
+    "Ovarul produce ovule."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A21-SG02",
+   "chapter": "A21",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Care dintre următoarele boli se transmite pe cale sexuală?",
+   "options": [
+    "Gripa",
+    "Sifilisul",
+    "Tuberculoza",
+    "Hepatita A"
+   ],
+   "correct": 1,
+   "explanation": "Sifilisul este produs de Treponema pallidum, transmis prin contact sexual.",
+   "wrong_why": [
+    "Gripa se transmite pe cale respiratorie.",
+    null,
+    "Tuberculoza se transmite pe cale aeriană.",
+    "Hepatita A se transmite fecal-oral."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A22-SG01",
+   "chapter": "A22",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Din încrucișarea Aa × Aa raportul de segregare după fenotip este:",
+   "options": [
+    "1:1",
+    "3:1",
+    "1:2:1",
+    "9:3:3:1"
+   ],
+   "correct": 1,
+   "explanation": "Prin Aa × Aa rezultă AA, Aa, Aa, aa: 3 dominanți la 1 recesiv.",
+   "wrong_why": [
+    "1:1 rezultă din Aa × aa.",
+    null,
+    "1:2:1 este raportul genotipic.",
+    "9:3:3:1 este raportul dihibrid în F2."
+   ],
+   "level": "A",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A22-SG02",
+   "chapter": "A22",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Un individ AaBb formează, prin segregare independentă, gameți de tipuri:",
+   "options": [
+    "2",
+    "3",
+    "4",
+    "16"
+   ],
+   "correct": 2,
+   "explanation": "AB, Ab, aB, ab — patru tipuri, în proporții egale.",
+   "wrong_why": [
+    "2 tipuri ar forma un monohibrid.",
+    "Nu există 3 tipuri la două gene independente.",
+    null,
+    "16 este numărul de căsuțe din pătratul Punnett."
+   ],
+   "level": "A",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A22-SG03",
+   "chapter": "A22",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Un părinte cu grupa AB și unul cu grupa O pot avea copii cu grupele:",
+   "options": [
+    "AB și O",
+    "A și B",
+    "doar A",
+    "doar AB"
+   ],
+   "correct": 1,
+   "explanation": "Părinții AB (IAIB) și O (ii) dau copii IAi (A) sau IBi (B).",
+   "wrong_why": [
+    "AB și O nu pot apărea, copilul primește i de la părintele O și IA/IB de la AB.",
+    null,
+    "Și B este posibil.",
+    "AB ar necesita IA și IB de la același părinte O, imposibil."
+   ],
+   "level": "A",
+   "difficulty": 3,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A22-SG04",
+   "chapter": "A22",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Încrucișarea de testare se face cu un individ:",
+   "options": [
+    "heterozigot",
+    "homozigot dominant",
+    "homozigot recesiv",
+    "din altă specie"
+   ],
+   "correct": 2,
+   "explanation": "Individul homozigot recesiv formează un singur tip de gamet, deci fenotipul descendenților arată gameții testați.",
+   "wrong_why": [
+    "Heterozigotul ar complica interpretarea.",
+    "Homozigotul dominant ar masca alelele recesive.",
+    null,
+    "Încrucișarea e intraspecifică."
+   ],
+   "level": "U",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A22-SA01",
+   "chapter": "A22",
+   "type": "adevarat_fals",
+   "slot": "I.D",
+   "q": "Aa × aa dă un raport de segregare după fenotip de 1:1.",
+   "truth": true,
+   "explanation": "Descendenții sunt Aa și aa în proporții egale.",
+   "level": "U",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A22-SA02",
+   "chapter": "A22",
+   "type": "adevarat_fals",
+   "slot": "I.D",
+   "q": "Genele alele ocupă locusuri diferite pe cromozomi omologi.",
+   "truth": false,
+   "correction": "Genele alele ocupă același locus pe cromozomi omologi.",
+   "explanation": "Alelele sunt forme ale aceleiași gene.",
+   "level": "U",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A23-SG01",
+   "chapter": "A23",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "La om, sexul genetic masculin este determinat de gonozomii:",
+   "options": [
+    "XX",
+    "XY",
+    "XO",
+    "YY"
+   ],
+   "correct": 1,
+   "explanation": "Bărbatul are XY, femeia XX.",
+   "wrong_why": [
+    "XX este femeia.",
+    null,
+    "XO este sindromul Turner.",
+    "Nu apare în mod normal."
+   ],
+   "level": "C",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A23-SG02",
+   "chapter": "A23",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Trisomia 21 (sindromul Down) este o:",
+   "options": [
+    "mutație genică punctiformă",
+    "anomalie cromozomială numerică",
+    "anomalie cromozomială structurală",
+    "boală infecțioasă"
+   ],
+   "correct": 1,
+   "explanation": "Prezența unui cromozom 21 suplimentar (47 de cromozomi).",
+   "wrong_why": [
+    "Mutația genică modifică o genă, nu numărul de cromozomi.",
+    null,
+    "Structurală înseamnă deleții, translocații etc.",
+    "Nu este infecțioasă."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A23-SA01",
+   "chapter": "A23",
+   "type": "adevarat_fals",
+   "slot": "I.D",
+   "q": "Hemofilia este o boală determinată de o genă recesivă legată de cromozomul X.",
+   "truth": true,
+   "explanation": "De aceea este mai frecventă la bărbați (XY).",
+   "level": "U",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A04-SG01",
+   "chapter": "A04",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Țesutul vegetal format din celule care se divid activ este:",
+   "options": [
+    "parenchimul asimilator",
+    "meristemul",
+    "sclerenchimul",
+    "epiderma"
+   ],
+   "correct": 1,
+   "explanation": "Meristemele au celule nediferențiate care se divid.",
+   "wrong_why": [
+    "Parenchimul asimilator realizează fotosinteza.",
+    null,
+    "Sclerenchimul are rol de susținere.",
+    "Epiderma are rol de protecție."
+   ],
+   "level": "C",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A05-SG01",
+   "chapter": "A05",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Țesutul osos aparține categoriei:",
+   "options": [
+    "țesut epitelial",
+    "țesut conjunctiv",
+    "țesut muscular",
+    "țesut nervos"
+   ],
+   "correct": 1,
+   "explanation": "Țesutul osos este un țesut conjunctiv de susținere.",
+   "wrong_why": [
+    "Epiteliile acoperă suprafețe.",
+    null,
+    "Țesutul muscular se contractă.",
+    "Țesutul nervos conduce influxul nervos."
+   ],
+   "level": "C",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A03-SG01",
+   "chapter": "A03",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Taxonul de bază în clasificarea organismelor este:",
+   "options": [
+    "genul",
+    "specia",
+    "familia",
+    "clasa"
+   ],
+   "correct": 1,
+   "explanation": "Specia este unitatea fundamentală; numele ei este binomial.",
+   "wrong_why": [
+    "Genul reunește specii înrudite.",
+    null,
+    "Familia reunește genuri.",
+    "Clasa reunește ordine."
+   ],
+   "level": "C",
+   "difficulty": 1,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A07-SG01",
+   "chapter": "A07",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Micorizele sunt asocieri simbiotice între:",
+   "options": [
+    "bacterii și plante leguminoase",
+    "fungi și rădăcinile plantelor",
+    "alge și fungi",
+    "insecte și plante"
+   ],
+   "correct": 1,
+   "explanation": "Fungii ajută absorbția apei și a sărurilor minerale, iar planta le oferă substanțe organice.",
+   "wrong_why": [
+    "Aceasta este simbioza cu Rhizobium.",
+    null,
+    "Aceasta este lichenul.",
+    "Nu este micoriză."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A11-SG01",
+   "chapter": "A11",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Seva brută circulă prin:",
+   "options": [
+    "vasele liberiene",
+    "vasele lemnoase",
+    "stomate",
+    "parenchimul de depozit"
+   ],
+   "correct": 1,
+   "explanation": "Seva brută (apă și minerale) urcă prin xilem, vasele lemnoase.",
+   "wrong_why": [
+    "Seva elaborată circulă prin vasele liberiene.",
+    null,
+    "Stomatele sunt deschideri.",
+    "Parenchimul depozitează."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A16-SG01",
+   "chapter": "A16",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Articulațiile mobile (diartrozele) permit:",
+   "options": [
+    "fixitate completă",
+    "mișcări largi",
+    "doar mișcări reduse",
+    "creșterea oaselor"
+   ],
+   "correct": 1,
+   "explanation": "Diartrozele (umăr, șold, genunchi) permit mișcări variate.",
+   "wrong_why": [
+    "Fixitatea e caracteristică sinartrozelor.",
+    null,
+    "Amfiartrozele permit mișcări reduse.",
+    "Creșterea oaselor ține de cartilajul de creștere."
+   ],
+   "level": "C",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  },
+  {
+   "id": "A17-SG01",
+   "chapter": "A17",
+   "type": "grila",
+   "slot": "I.C",
+   "q": "Mișcarea de închidere a frunzelor de mimoză la atingere este o:",
+   "options": [
+    "tropism",
+    "nastie",
+    "tactism",
+    "fotosinteză"
+   ],
+   "correct": 1,
+   "explanation": "Nastiile sunt mișcări a căror direcție nu depinde de direcția stimulului.",
+   "wrong_why": [
+    "Tropismul depinde de direcția stimulului.",
+    null,
+    "Tactismul este o deplasare a organismului întreg.",
+    "Fotosinteza nu este o mișcare."
+   ],
+   "level": "U",
+   "difficulty": 2,
+   "source": "seed-autor",
+   "validated": false
+  }
+ ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "baclab",
+  "version": "0.1.0",
+  "private": true,
+  "description": "BacLab – Înveți cu sens. Pregătire pentru Bacalaureat la biologie.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --tsconfig tests/tsconfig.json --test \"tests/**/*.test.ts\" \"tests/**/*.test.tsx\"",
+    "content:check": "tsx scripts/validate-content.ts",
+    "brand": "node scripts/brand-assets.mjs",
+    "content:seed": "node scripts/seed-bank.mjs && node scripts/seed-exams.mjs",
+    "content:import": "tsx scripts/import-bank.ts",
+    "check:types": "tsc -p tests/tsconfig.check.json"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "sharp": "^0.33.5",
+    "tailwindcss": "^3.4.14",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
