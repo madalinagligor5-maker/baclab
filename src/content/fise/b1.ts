@@ -1,0 +1,570 @@
+import type { Fisa } from "./types";
+
+/**
+ * Modulul B (clasele XI–XII) — fișe B01–B06.
+ * Surse: „Noțiuni de anatomia și fiziologia omului” (Școala Postliceală Sanitară Iași, pentru admitere),
+ * culegerea Corint „Bac Biologie XI–XII” și manualul Corint pentru clasa a XI-a (A367).
+ * Conținut de recapitulare, nu itemi de examen. Programa pentru proba aleasă trebuie confirmată.
+ */
+export const FISE_B1: Fisa[] = [
+  {
+    code: "B01",
+    intro: "Organismul se citește de la mic la mare: celulă → țesut → organ → sistem. Planurile și axele sunt vocabularul comun al tuturor capitolelor.",
+    blocks: [
+      {
+        type: "flow",
+        title: "Nivelurile de organizare",
+        rows: [{ steps: ["Atomi și molecule||nivelul chimic", "Celulă||unitate structurală, funcțională și genetică", "Țesut||celule specializate pentru o funcție", "Organ||cel puțin două tipuri de țesut", "Sistem de organe||funcție comună", "Organism||tot unitar"] }],
+      },
+      {
+        type: "table",
+        title: "Axele corpului",
+        cols: ["Axul", "Dimensiunea", "Polii"],
+        rows: [
+          ["Longitudinal (vertical)", "lungimea", "superior (cranial) și inferior (caudal)"],
+          ["Sagital (antero-posterior)", "grosimea", "anterior și posterior"],
+          ["Transversal (orizontal)", "lățimea", "stâng și drept"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Planurile corpului",
+        cols: ["Planul", "Axele care îl formează", "Împarte corpul în", "Exemplu"],
+        rows: [
+          ["Sagital", "longitudinal + sagital", "dreapta și stânga", "ochii sunt lateral față de nas"],
+          ["Frontal", "longitudinal + transversal", "anterior (ventral) și posterior (dorsal)", "nasul este anterior, coloana vertebrală posterior"],
+          ["Transversal", "sagital + transversal", "superior (cranial) și inferior (caudal)", "nasul este cranial față de gură"],
+        ],
+        note: "Planul se formează cu două axe; al treilea ax îi este perpendicular.",
+      },
+      {
+        type: "table",
+        title: "Termeni de direcție",
+        cols: ["Termen", "Înseamnă", "Exemplu"],
+        rows: [
+          ["Anterior / ventral", "partea din față", "sternul față de coloană"],
+          ["Posterior / dorsal", "partea din spate", "coloana față de stern"],
+          ["Medial", "aproape de linia mediană", "sternul este medial față de coaste"],
+          ["Lateral", "departe de linia mediană", "brațele sunt laterale față de torace"],
+          ["Proximal", "aproape de locul de prindere al membrului", "cotul este proximal față de încheietura mâinii"],
+          ["Distal", "mai departe de locul de prindere", "mâna este distală față de cot"],
+          ["Superior / cranial", "mai aproape de cap", "toracele față de șold"],
+          ["Inferior / caudal", "mai aproape de picior", "gura față de nas"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Cele patru tipuri de țesuturi",
+        cols: ["Țesut", "Cum arată", "Exemple", "Regenerare"],
+        rows: [
+          ["Epitelial", "celule strâns unite, pe membrană bazală; de acoperire, glandular, senzorial", "epiderma, mucoasele, glandele", "se regenerează"],
+          ["Conjunctiv", "celule, fibre și substanță fundamentală; moale, semidur, dur", "dermul, cartilajele, oasele, sângele", "se regenerează"],
+          ["Muscular", "fibre cu miofibrile (actină și miozină); striat sau neted", "mușchii scheletici, miocardul, mușchii netezi", "puternic specializat"],
+          ["Nervos", "neuroni și celule gliale", "creierul, măduva, nervii", "puternic specializat"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Organitele celulei",
+        cols: ["Structură", "Rol"],
+        rows: [
+          ["Membrana celulară", "delimitează celula; transport pasiv și activ; endocitoză și exocitoză"],
+          ["Nucleul", "conține ADN; centrul de control al celulei"],
+          ["Reticul endoplasmatic rugos", "are ribozomi; proteinele sintetizate sunt transportate spre Golgi"],
+          ["Reticul endoplasmatic neted", "fără ribozomi; transport, unele reacții metabolice"],
+          ["Aparat Golgi", "procesează substanțele; formează lizozomi și vezicule de secreție"],
+          ["Ribozomi", "sinteza proteinelor"],
+          ["Lizozomi", "enzime pentru digestie intracelulară și fagocitoză"],
+          ["Mitocondrii", "respirație celulară; produc energie (ATP)"],
+          ["Centrozom", "formează fusul de diviziune; lipsește din neuron"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Mitoza și meioza",
+        cols: ["Caracter", "Mitoza", "Meioza"],
+        rows: [
+          ["Celula mamă", "diploidă (2n)", "diploidă (2n)"],
+          ["Rezultat", "2 celule fiice diploide, identice cu mama", "4 celule haploide (n)"],
+          ["Unde", "celule somatice", "celulele organelor sexuale"],
+          ["Rol", "creștere, înlocuirea celulelor uzate", "formarea gameților; numărul de cromozomi rămâne constant (23 + 23 = 46)"],
+        ],
+      },
+      {
+        type: "flow",
+        title: "Ciclul celular și fazele mitozei",
+        rows: [
+          { label: "Ciclul celular", steps: ["G1||biosinteză și creștere", "S||replicarea ADN; cromozomii devin bicromatidici", "G2||ultimele pregătiri", "M||mitoza și citokineza"] },
+          { label: "Mitoza", steps: ["Profaza||cromatina se condensează, dispare membrana nucleară", "Metafaza||cromozomii formează placa ecuatorială", "Anafaza||cromatidele se separă spre poli", "Telofaza||se refac nucleii fii"] },
+        ],
+        loop: true,
+        note: "G1, S și G2 formează interfaza.",
+      },
+    ],
+  },
+  {
+    code: "B02",
+    intro: "Sistemul nervos se învață pe două axe: unde este (central sau periferic) și ce face (somatic sau vegetativ).",
+    blocks: [
+      {
+        type: "tree",
+        title: "Clasificarea sistemului nervos",
+        root: {
+          label: "Sistemul nervos",
+          children: [
+            {
+              label: "Central (nevrax)",
+              children: [
+                { label: "Encefal", children: [{ label: "Trunchi cerebral (bulb, punte, mezencefal)" }, { label: "Cerebel" }, { label: "Diencefal" }, { label: "Emisfere cerebrale" }] },
+                { label: "Măduva spinării" },
+              ],
+            },
+            { label: "Periferic", children: [{ label: "12 perechi de nervi cranieni" }, { label: "31 de perechi de nervi spinali" }, { label: "Ganglioni nervoși" }] },
+          ],
+        },
+        note: "Funcțional: sistemul somatic (viața de relație) și sistemul vegetativ (organele interne).",
+      },
+      {
+        type: "flow",
+        title: "Arcul reflex",
+        rows: [{ steps: ["Receptor||transformă stimulul în impuls nervos", "Cale aferentă||senzitivă", "Centru nervos||analizează și dă comanda", "Cale eferentă||motorie", "Efector||execută comanda"] }],
+        note: "Efectori: mușchii striați (somatic); mușchii netezi, miocardul, glandele (vegetativ).",
+      },
+      {
+        type: "table",
+        title: "Substanța cenușie și substanța albă",
+        cols: ["Caracter", "Substanța cenușie", "Substanța albă"],
+        rows: [
+          ["Alcătuire", "corpii celulari ai neuronilor", "prelungirile neuronilor, mielinizate"],
+          ["Rol", "funcția reflexă", "funcția de conducere"],
+          ["În măduvă", "la interior, în formă de H (coarne anterioare, posterioare, laterale)", "la exterior, în cordoane"],
+          ["În emisfere", "la exterior (scoarța) și nucleii bazali", "la interior"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Coarnele măduvei spinării",
+        cols: ["Cornul", "Neuronii din el"],
+        rows: [
+          ["Anterior", "somatomotori"],
+          ["Posterior", "somatosenzitivi"],
+          ["Lateral", "vegetativi (visceromotori și viscerosenzitivi)"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Reflex monosinaptic și polisinaptic",
+        cols: ["Caracter", "Monosinaptic", "Polisinaptic"],
+        rows: [
+          ["Neuroni", "unul senzitiv și unul motor", "senzitiv, motor și cel puțin unul intercalar"],
+          ["Receptori", "proprioceptori", "exteroceptori și proprioceptori"],
+          ["Timp", "scurt", "lung"],
+          ["Iradiere", "nu iradiază", "iradiază"],
+          ["Exemple", "rotulian, ahilian, bicipital", "reflexul de apărare prin flexie"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Segmentele encefalului",
+        cols: ["Segment", "Componente", "Rol"],
+        rows: [
+          ["Trunchi cerebral", "bulb rahidian, puntea lui Varolio, mezencefal", "centri vegetativi (respirator, cardiovasomotor), reflexe necondiționate; legătură între segmente"],
+          ["Cerebel", "două emisfere și vermis", "echilibru, tonus muscular, precizia mișcărilor; nu comandă mișcarea"],
+          ["Diencefal", "talamus, metatalamus, epitalamus, subtalamus, hipotalamus", "releu al sensibilității; hipotalamusul reglează sistemul vegetativ și activitatea endocrină"],
+          ["Emisfere cerebrale", "scoarța și nucleii bazali", "integrare, mișcări voluntare, învățare"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Cei 12 nervi cranieni",
+        cols: ["Nr.", "Nervul", "Tipul"],
+        rows: [
+          ["I", "olfactiv", "senzitiv"],
+          ["II", "optic", "senzitiv"],
+          ["III", "oculomotor", "motor"],
+          ["IV", "trohlear", "motor"],
+          ["V", "trigemen", "mixt"],
+          ["VI", "abducens", "motor"],
+          ["VII", "facial", "mixt"],
+          ["VIII", "vestibulo-cohlear", "senzitiv"],
+          ["IX", "glosofaringian", "mixt"],
+          ["X", "vag", "mixt"],
+          ["XI", "accesor", "motor"],
+          ["XII", "hipoglos", "motor"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Căile sensibilității",
+        cols: ["Sensibilitatea", "Fasciculul", "Neuron II", "Proiecție"],
+        rows: [
+          ["Tactilă fină (epicritică)", "Goll și Burdach", "nucleii Goll și Burdach din bulb", "aria somestezică I"],
+          ["Tactilă grosieră (protopatică)", "spinotalamic anterior", "cornul posterior", "aria somestezică II"],
+          ["Termică și dureroasă", "spinotalamic lateral", "cornul posterior", "aria somestezică I"],
+          ["Proprioceptivă conștientă", "Goll și Burdach", "nucleii Goll și Burdach din bulb", "zona senzitivo-motorie"],
+          ["Proprioceptivă inconștientă", "spinocerebeloase (Flechsig și Gowers)", "cornul posterior", "cerebel"],
+        ],
+        note: "Primul neuron este în ganglionul spinal, iar al treilea în talamus (cu excepția căii inconștiente, care are doar doi neuroni).",
+      },
+      {
+        type: "table",
+        title: "Simpatic și parasimpatic",
+        cols: ["Organul", "Simpatic", "Parasimpatic"],
+        rows: [
+          ["Pupila", "dilatare (midriază)", "micșorare (mioză)"],
+          ["Inima", "accelerează", "încetinește"],
+          ["Bronhiile", "dilată", "îngustează"],
+          ["Tubul digestiv", "scade motilitatea și secreția", "crește motilitatea și secreția"],
+          ["Glandele salivare", "salivă vâscoasă", "salivă apoasă"],
+          ["Vezica urinară", "contractă sfincterul intern", "relaxează sfincterul intern"],
+          ["Când acționează", "frică, furie, efort", "repaus, situații obișnuite"],
+        ],
+      },
+      {
+        type: "flow",
+        title: "Meningele (de la os spre creier)",
+        rows: [{ steps: ["Dura mater||lângă oase", "Arahnoida||în spațiul de sub ea circulă LCR", "Pia mater||lipită de creier, hrănește țesutul nervos"] }],
+      },
+    ],
+  },
+  {
+    code: "B03",
+    intro: "Orice analizator are aceleași trei segmente. Diferă receptorul, calea și aria corticală.",
+    blocks: [
+      {
+        type: "flow",
+        title: "Cele trei segmente ale unui analizator",
+        rows: [{ steps: ["Segment receptor||celule specializate", "Segment de conducere||căi nervoase", "Segment central||aria corticală"] }],
+      },
+      {
+        type: "table",
+        title: "Clasificarea receptorilor",
+        cols: ["După", "Tipuri"],
+        rows: [
+          ["Localizare", "exteroceptori (piele), proprioceptori (mușchi, tendoane, articulații), interoceptori (organe interne)"],
+          ["Stimulul", "chemoreceptori (gust, miros), mecanoreceptori (tact, auz, echilibru), termoreceptori, fotoreceptori (retină), nociceptori (durere)"],
+          ["Adaptare", "fazici (se adaptează repede, ex. olfactivi) și tonici (ex. vizuali)"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Receptorii pielii",
+        cols: ["Receptorul", "Ce percepe"],
+        rows: [
+          ["Terminații nervoase libere", "tact și presiune"],
+          ["Discurile Merkel", "proprietățile fine ale obiectelor"],
+          ["Corpusculii Meissner", "atingeri fine, vibrații"],
+          ["Corpusculii Krause", "temperaturi scăzute (rece)"],
+          ["Corpusculii Ruffini", "cald"],
+          ["Corpusculii Vater-Pacini", "presiune"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Stratele pielii",
+        cols: ["Stratul", "Țesut", "Ce conține"],
+        rows: [
+          ["Epiderma", "epitelial stratificat cornos", "terminații libere; canale ale glandelor sudoripare"],
+          ["Derma", "conjunctiv", "receptori, vase, glande sebacee, mușchiul piloerector"],
+          ["Hipoderma", "conjunctiv lax cu celule adipoase", "rezervă nutritivă, izolator termic; receptorii Vater-Pacini"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Analizatorii pe scurt",
+        cols: ["Analizator", "Receptor", "Nervul", "Aria corticală"],
+        rows: [
+          ["Cutanat", "terminații și corpusculi din piele", "spinali", "lobul parietal (somestezică)"],
+          ["Olfactiv", "neuroni bipolari din mucoasa olfactivă", "I", "sistemul limbic (paleocortex)"],
+          ["Gustativ", "mugurii gustativi din papile", "VII, IX, X", "baza ariei somestezice, lob parietal"],
+          ["Vizual", "conuri și bastonașe din retină", "II", "lobul occipital"],
+          ["Auditiv", "organul Corti din melcul membranos", "VIII (ramul cohlear)", "lobul temporal"],
+          ["Vestibular", "creste ampulare, maculă", "VIII (ramul vestibular)", "lobul temporal"],
+        ],
+        note: "Gustul și mirosul sunt chemoreceptori. Papilele filiforme nu au muguri gustativi.",
+      },
+      {
+        type: "table",
+        title: "Tunicile globului ocular",
+        cols: ["Tunica", "Poziție", "Rol"],
+        rows: [
+          ["Sclerotica (devine cornee în față)", "externă", "protecție; se prind mușchii oculari"],
+          ["Coroida (cu corp ciliar și iris)", "mijlocie", "nutriție; irisul reglează cantitatea de lumină"],
+          ["Retina", "internă", "conține receptorii vizuali; pata galbenă și pata oarbă"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Conuri și bastonașe",
+        cols: ["Caracter", "Conuri", "Bastonașe"],
+        rows: [
+          ["Număr", "5–7 milioane", "125–130 milioane"],
+          ["Sensibilitate la lumină", "mică (prag înalt)", "mare"],
+          ["Rol", "vederea la lumină puternică și culorile", "vederea nocturnă; nu disting culorile"],
+          ["Unde se află", "în exclusivitate în fovea centralis", "la periferia retinei; lipsesc din fovea"],
+        ],
+        note: "Pata galbenă conține conuri și bastonașe; pata oarbă nu conține receptori.",
+      },
+      {
+        type: "flow",
+        title: "Drumul luminii prin ochi",
+        rows: [{ steps: ["Cornee", "Umoare apoasă", "Cristalin||lentilă biconvexă", "Corp vitros", "Retină||conuri și bastonașe"] }],
+        note: "La privitul de aproape, mușchii ciliari circulari se contractă și cristalinul se bombează. Presbitismul se corectează cu lentile convexe.",
+      },
+      {
+        type: "table",
+        title: "Urechea",
+        cols: ["Parte", "Alcătuire", "Rol"],
+        rows: [
+          ["Externă", "pavilion, conduct auditiv extern", "captează sunetele până la timpan"],
+          ["Medie", "timpan, oscioare (ciocan, nicovală, scăriță), trompa lui Eustachio", "transmit și amplifică vibrațiile; trompa egalizează presiunea"],
+          ["Internă", "labirint osos și membranos: vestibul, canale semicirculare, melc", "receptorii auzului și ai echilibrului"],
+        ],
+      },
+      {
+        type: "flow",
+        title: "Mecanismul auzului",
+        rows: [{ steps: ["Timpan", "Ciocan → nicovală → scăriță", "Fereastra ovală", "Perilimfă → endolimfă", "Membrana bazilară", "Celulele ciliate din organul Corti", "Nerv VIII → lob temporal"] }],
+      },
+    ],
+  },
+  {
+    code: "B04",
+    intro: "Glandele endocrine se învață ca un tabel: glandă → hormon → efect → boala din hipo- și hipersecreție.",
+    blocks: [
+      {
+        type: "table",
+        title: "Glandele endocrine și hormonii lor",
+        cols: ["Glanda", "Hormonul", "Efect principal"],
+        rows: [
+          ["Hipofiza anterioară", "STH (somatotrop)", "creșterea oaselor lungi, sinteza proteinelor"],
+          ["", "TSH, ACTH", "stimulează tiroida, respectiv corticosuprarenala"],
+          ["", "FSH, LH", "reglează gonadele (maturarea foliculului, ovulația, spermatogeneza)"],
+          ["", "Prolactina", "dezvoltă glandele mamare, menține secreția lactată"],
+          ["Hipofiza intermediară", "MSH", "melanogeneza (pigmentul pielii)"],
+          ["Neurohipofiza", "ADH (vasopresina)", "reabsorbția apei în tubii distali și colectori"],
+          ["", "Ocitocina", "ejecția laptelui, contracția uterului"],
+          ["Epifiza", "Melatonina", "somnul; mai multă la întuneric"],
+          ["Tiroida", "Tiroxina și triiodotironina", "metabolism bazal, creștere, efect calorigen"],
+          ["", "Calcitonina", "scade calcemia"],
+          ["Paratiroidele", "Parathormonul", "crește calcemia, scade fosfatemia"],
+          ["Pancreasul endocrin", "Insulina", "scade glicemia"],
+          ["", "Glucagonul", "crește glicemia"],
+          ["Corticosuprarenala", "Aldosteron, cortizol", "reabsorbția Na⁺ și apei; crește glicemia"],
+          ["Medulosuprarenala", "Adrenalina, noradrenalina", "efecte asemănătoare simpaticului; cresc glicemia"],
+          ["Timusul", "Hormon timic", "maturarea limfocitelor T"],
+          ["Testiculul", "Testosteronul (celule Leydig)", "organe genitale și caractere sexuale masculine"],
+          ["Ovarul", "Estrogeni, progesteron", "caractere sexuale feminine, pregătirea uterului"],
+        ],
+        note: "Hormonii hipofizei posterioare sunt secretați de hipotalamus și depozitați în neurohipofiză.",
+      },
+      {
+        type: "table",
+        title: "Hiposecreție și hipersecreție",
+        cols: ["Hormonul", "Hipo-", "Hiper-"],
+        rows: [
+          ["STH", "nanism hipofizar", "gigantism (copil); acromegalie (adult)"],
+          ["ADH", "diabet insipid: poliurie, polidipsie", "—"],
+          ["Hormoni tiroidieni", "cretinism guşogen (copil); mixedem (adult)", "boala Basedow-Graves (guşă exoftalmică)"],
+          ["Parathormon", "tetanie", "demineralizări osoase, calculi urinari"],
+          ["Insulină", "diabet zaharat", "hipoglicemie, până la comă"],
+        ],
+        note: "Diabetul zaharat și diabetul insipid au în comun poliuria și polidipsia.",
+      },
+      {
+        type: "table",
+        title: "Sistemul nervos și sistemul endocrin",
+        cols: ["Caracter", "Nervos", "Endocrin"],
+        rows: [
+          ["Mesagerul", "impulsul nervos, mediatorii chimici", "hormonii, prin sânge"],
+          ["Viteza", "rapidă", "lentă"],
+          ["Durata efectului", "scurtă", "de durată"],
+          ["Control", "—", "feedback negativ și sistemul vegetativ"],
+        ],
+      },
+      {
+        type: "tree",
+        title: "Glande exocrine, endocrine și mixte",
+        root: {
+          label: "Glandele",
+          children: [
+            { label: "Exocrine (canal)", children: [{ label: "sudoripare" }, { label: "sebacee" }, { label: "salivare" }] },
+            { label: "Endocrine (în sânge)", children: [{ label: "tiroida" }, { label: "hipofiza" }, { label: "epifiza" }] },
+            { label: "Mixte", children: [{ label: "pancreasul" }, { label: "ovarele" }, { label: "testiculele" }] },
+          ],
+        },
+      },
+    ],
+  },
+  {
+    code: "B05",
+    intro: "Oasele sunt partea pasivă, mușchii partea activă a aparatului locomotor.",
+    blocks: [
+      {
+        type: "table",
+        title: "Formele oaselor",
+        cols: ["Tipul", "Cum este", "Exemple"],
+        rows: [
+          ["Lungi", "predomină lungimea; diafiză și două epifize", "humerus, femur"],
+          ["Late", "două dimensiuni aproape egale; protejează sau oferă suprafață de inserție", "oasele craniului, coxalul, omoplatul"],
+          ["Scurte", "cele trei dimensiuni aproape egale", "carpiene, tarsiene"],
+          ["Neregulate", "forme variate", "vertebrele, mandibula"],
+          ["Sesamoide", "se dezvoltă în grosimea unui tendon", "rotula, pisiformul"],
+        ],
+      },
+      {
+        type: "tree",
+        title: "Scheletul",
+        root: {
+          label: "Scheletul (aproximativ 206 oase)",
+          children: [
+            {
+              label: "Axial",
+              children: [
+                { label: "Craniu: neurocraniu (8 oase) și viscerocraniu (14 oase)" },
+                { label: "Coloana vertebrală" },
+                { label: "Cutia toracică: stern, coaste" },
+              ],
+            },
+            {
+              label: "Apendicular",
+              children: [
+                { label: "Membrul superior: centura scapulară (omoplat, claviculă), humerus, radius, ulnă, mână" },
+                { label: "Membrul inferior: centura pelviană (coxal), femur, tibie, peroneu, picior" },
+              ],
+            },
+          ],
+        },
+      },
+      {
+        type: "table",
+        title: "Coloana vertebrală",
+        cols: ["Regiunea", "Vertebre"],
+        rows: [
+          ["Cervicală", "7 (prima este atlasul, a doua axisul)"],
+          ["Toracală", "12"],
+          ["Lombară", "5"],
+          ["Sacrală", "5, sudate"],
+          ["Coccigiană", "4–5, sudate"],
+        ],
+        note: "În total 33–34 de vertebre.",
+      },
+      {
+        type: "table",
+        title: "Oasele craniului și coastele",
+        cols: ["Grup", "Detalii"],
+        rows: [
+          ["Neurocraniu, oase nepereche", "frontal, etmoid, sfenoid, occipital"],
+          ["Neurocraniu, oase pereche", "parietale, temporale"],
+          ["Coaste adevărate", "primele 7 perechi, legate direct de stern"],
+          ["Coaste false", "perechile 8, 9 și 10"],
+          ["Coaste flotante", "perechile 11 și 12, cu capetele libere"],
+          ["Sternul", "manubriu, corp, apendice xifoid"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Cele trei tipuri de țesut muscular",
+        cols: ["Tip", "Aspect", "Unde", "Contracția"],
+        rows: [
+          ["Striat scheletic", "striat, fibre plurinucleate", "mușchii scheletici", "voluntară"],
+          ["Striat cardiac", "striat, cu discuri intercalare", "inima", "involuntară"],
+          ["Neted", "fără striuri", "organele interne, vase", "involuntară"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Tipurile de contracție musculară",
+        cols: ["Contracția", "Lungimea", "Tensiunea", "Exemplu"],
+        rows: [
+          ["Izometrică", "rămâne constantă", "crește", "menținerea posturii"],
+          ["Izotonică", "se modifică", "rămâne constantă", "majoritatea mișcărilor"],
+          ["Auxotonică", "se modifică", "se modifică", "ridicarea unei greutăți"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Grupe de mușchi scheletici",
+        cols: ["Regiunea", "Mușchi"],
+        rows: [
+          ["Capul", "mimicii, masticatori (maseteri, temporali), ai limbii, extrinseci ai globilor oculari (4 drepți și 2 oblici)"],
+          ["Gâtul", "pielosul gâtului, sternocleidomastoidieni"],
+          ["Spate și ceafă", "trapezi, dorsali"],
+          ["Torace", "pectorali, dințați, intercostali, diafragmul"],
+          ["Abdomen", "drepți abdominali, oblici interni și externi"],
+          ["Membrul superior", "deltoid, biceps și triceps brahial, flexori și extensori ai degetelor"],
+          ["Membrul inferior", "fesieri, croitor (cel mai lung), cvadriceps, biceps femural, triceps sural"],
+        ],
+      },
+    ],
+  },
+  {
+    code: "B06",
+    intro: "Digestia se învață pe traseu: ce se întâmplă în fiecare segment și ce enzimă lucrează.",
+    blocks: [
+      {
+        type: "flow",
+        title: "Tubul digestiv",
+        rows: [{ steps: ["Cavitate orală||masticație, amilaza salivară", "Faringe", "Esofag||peristaltism", "Stomac||pepsină, HCl", "Intestin subțire||bilă, suc pancreatic, suc intestinal", "Intestin gros||absorbția apei, flora bacteriană", "Rect și anus"] }],
+      },
+      {
+        type: "table",
+        title: "Enzimele digestive",
+        cols: ["Sucul", "Enzima", "Substratul", "Produsul"],
+        rows: [
+          ["Salivă", "amilaza salivară", "amidon", "produși glucidici mai simpli"],
+          ["Gastric", "pepsina (din pepsinogen, activat de HCl)", "proteine", "proteine mai simple"],
+          ["", "lipaza gastrică", "lipide din lapte", "acizi grași și glicerol"],
+          ["", "labfermentul", "cazeina", "paracazeina"],
+          ["Pancreatic", "amilaze, proteaze, lipaze", "glucide, proteine, lipide", "produși simpli"],
+          ["Intestinal", "proteaze, lipaze, enzime pentru glucide", "produșii ajunși în intestin", "nutrimentele"],
+          ["Bila", "nu conține enzime; sărurile biliare emulsionează lipidele", "lipide", "lipide emulsionate"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Produsele finale ale digestiei",
+        cols: ["Principiul alimentar", "Se descompune până la"],
+        rows: [
+          ["Glucide (amidon)", "glucoză"],
+          ["Proteine", "aminoacizi"],
+          ["Lipide", "acizi grași și glicerol"],
+        ],
+        note: "Apa, sărurile minerale și multe vitamine se absorb ca atare.",
+      },
+      {
+        type: "table",
+        title: "Absorbția nutrimentelor",
+        cols: ["Nutrimentul", "Calea", "Ajunge"],
+        rows: [
+          ["Glucoză, aminoacizi", "sânge, prin vena portă", "la ficat"],
+          ["Apă, săruri minerale, vitamine hidrosolubile", "sânge", "la ficat"],
+          ["Acizi grași și glicerol", "mai ales prin limfă", "apoi în sânge"],
+          ["Vitamine liposolubile (A, D, E, K)", "limfă, cu ajutorul sărurilor biliare", "apoi în sânge"],
+        ],
+        note: "Intestinul subțire are vilozități care mărese suprafața de absorbție. În intestinul gros se absoarbe apa.",
+      },
+      {
+        type: "table",
+        title: "Glandele anexe",
+        cols: ["Glanda", "Poziție", "Rol"],
+        rows: [
+          ["Glande salivare (parotide, sublinguale, submaxilare)", "în jurul cavității orale", "saliva umezește alimentele și începe digestia amidonului"],
+          ["Ficatul", "dreapta abdomenului, sub diafragm", "produce bila; depozitează glicogen; sintetizează uree și proteine; funcție antitoxică"],
+          ["Vezica biliară", "pe fața inferioară a ficatului", "depozitează bila"],
+          ["Pancreasul", "în spatele stomacului", "glandă mixtă; sucul pancreatic ajunge în duoden"],
+        ],
+      },
+      {
+        type: "table",
+        title: "Dentiția",
+        cols: ["Dentiția", "Număr de dinți", "Formula pe jumătate de arcadă"],
+        rows: [
+          ["De lapte (temporară)", "20", "I 2/2, C 1/1, M 2/2"],
+          ["Definitivă", "32", "I 2/2, C 1/1, PM 2/2, M 3/3"],
+        ],
+        note: "Omul este heterodont (dinți diferiți ca formă) și difiodont (două dentiții).",
+      },
+    ],
+  },
+];

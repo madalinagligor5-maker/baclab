@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { renderToString } from "react-dom/server";
-import { FISE } from "../src/content/fise";
+import { FISE, FISE_B } from "../src/content/fise";
 import { CHAPTERS_A } from "../src/content/chapters";
 import { BlockView } from "../src/components/FisaBlocks";
 import { lociCount } from "../src/lib/lab/genetics";
@@ -11,6 +11,11 @@ test("fiecare capitol A01–A23 are fișă + fișa probei", () => {
   for (const c of CHAPTERS_A) assert.ok(codes.has(c.code), `lipsește fișa ${c.code}`);
   assert.ok(codes.has("proba"));
   assert.equal(codes.size, FISE.length, "coduri duplicate");
+});
+
+test("Modulul B: B01–B14 au fișe", () => {
+  const codes = new Set(FISE_B.map((f) => f.code));
+  for (let i = 1; i <= 14; i++) assert.ok(codes.has(`B${String(i).padStart(2, "0")}`), `lipsește B${i}`);
 });
 
 test("structura blocurilor este coerentă", () => {
