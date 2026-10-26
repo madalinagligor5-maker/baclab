@@ -51,3 +51,14 @@ test("pagina de index a fișelor se randează", () => {
   assert.match(html, /Structura probei E\.d/);
   assert.match(html, /\/fise\/a22/);
 });
+
+test("fiecare capitol A01–A23 are lecție, cu secțiuni, de reținut și capcane", async () => {
+  const { LECTIE_BY_CODE } = await import("../src/content/lectii");
+  for (const c of CHAPTERS_A) {
+    const l = LECTIE_BY_CODE[c.code];
+    assert.ok(l, `lipsește lecția ${c.code}`);
+    assert.ok(l.intro.length > 40 && l.sectiuni.length >= 2, c.code);
+    assert.ok(l.retine.length >= 3 && l.capcane.length >= 2, c.code);
+    for (const s of l.sectiuni) assert.ok((s.text?.length ?? 0) + (s.puncte?.length ?? 0) > 0, `${c.code} / ${s.titlu}`);
+  }
+});

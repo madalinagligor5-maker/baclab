@@ -37,6 +37,9 @@ export function AppShell({ children }: { children: ReactNode }) {
                 {t.label}
               </Link>
             ))}
+            <Link href="/lectii" aria-current={active("/lectii") ? "page" : undefined} className={cx("rounded-full px-4 py-2 text-sm font-bold", active("/lectii") ? "bg-brand text-on-brand" : "text-muted hover:text-ink")}>
+              Lecții
+            </Link>
             <Link href="/fise" aria-current={active("/fise") ? "page" : undefined} className={cx("rounded-full px-4 py-2 text-sm font-bold", active("/fise") ? "bg-brand text-on-brand" : "text-muted hover:text-ink")}>
               Fișe
             </Link>
@@ -49,7 +52,7 @@ export function AppShell({ children }: { children: ReactNode }) {
       <main className="mx-auto max-w-5xl px-4 py-6">
         <p className="mb-5 rounded-xl border border-line p-3 text-sm text-muted">Beta · Biologie vegetală și animală IX–X. Banca de exersare necesită validare de specialitate. <Link href="/surse" className="font-bold underline">Programa, sursele și verificările</Link></p>
         {ready ? children : <Loading />}
-        <nav aria-label="Resurse suplimentare" className="mt-8 flex flex-wrap gap-4 border-t border-line pt-5 text-sm font-bold"><Link href="/diagnostic">Diagnostic</Link><Link href="/greseli">Greșelile mele</Link><Link href="/fise">Fișe</Link><Link href="/surse">Programa și sursele</Link><Link href="/setari">Setări</Link></nav>
+        <nav aria-label="Resurse suplimentare" className="mt-8 flex flex-wrap gap-4 border-t border-line pt-5 text-sm font-bold"><Link href="/lectii">Lecții</Link><Link href="/diagnostic">Diagnostic</Link><Link href="/greseli">Greșelile mele</Link><Link href="/fise">Fișe</Link><Link href="/surse">Programa și sursele</Link><Link href="/setari">Setări</Link></nav>
       </main>
       <nav aria-label="Principal" className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-bg/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
         <ul className="mx-auto grid max-w-md grid-cols-5">

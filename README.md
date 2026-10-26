@@ -8,7 +8,7 @@ Aplicație web (PWA) în beta pentru pregătirea la Bacalaureat, biologie vegeta
 
 **Ce face**
 - **Azi** – plan zilnic de 10–30 de minute: recapitulări scadente (repetiție spațiată) + întrebări noi din capitolele deschise, cu accent pe capitolul slab.
-- **Diagnostic** – evaluare inițială pe 23 de capitole; după o greșeală adaugă un item diferit din capitol, dacă există, maximum trei per capitol. Coada se păstrează local; rezultatul adaptează prioritățile și recapitulările. Este un screening după reguli, nu o evaluare psihometrică validată.
+- **Diagnostic** – evaluare inițială pe 23 de capitole; după o greșeală adaugă un item diferit din capitol, dacă există, maximum trei per capitol. Coada se păstrează local; rezultatul adaptează prioritățile și recapitulările. Este un screening după reguli, nu o evaluare psihometrică validată. **Lecții**: 23 de lecții scrise (A01–A23), în `src/content/lectii/`, la `/lectii`: teorie pe secțiuni, „de reținut” și capcane de examen, după ghidul Nominatrix și fișele de sinteză 2012.
 - **Greșelile mele** – întrebările cu ultimul răspuns automat greșit, care pot fi reluate într-o sesiune separată.
 - **Capitole** – 23 de capitole (clasele IX–X) cu fișă de recapitulare și sesiuni de exersare.
 - **Exersare** – grile (cu explicația confuziei din spatele fiecărei variante greșite), adevărat/fals cu corectare, itemi autoevaluați.

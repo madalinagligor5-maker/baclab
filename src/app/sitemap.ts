@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["/", 1],
     ["/start", 0.8],
     ["/capitole", 0.8],
+    ["/lectii", 0.9],
     ["/fise", 0.8],
     ["/fise/proba", 0.7],
     ["/laborator", 0.6],
@@ -24,6 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const paths: [string, number][] = [
     ...fixed,
     ...CHAPTERS_A.map((c): [string, number] => [`/capitole/${c.slug}`, 0.6]),
+    ...CHAPTERS_A.map((c): [string, number] => [`/lectii/${c.slug}`, 0.8]),
     ...CHAPTERS_A.map((c): [string, number] => [`/fise/${c.slug}`, 0.6]),
     ["/simulari/bac-2026-simulare", 0.5],
     ["/simulari/bac-2025-var01", 0.5],

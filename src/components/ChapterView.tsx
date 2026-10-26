@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { CHAPTER_BY_CODE } from "@/content/chapters";
 import { FISA_BY_CODE } from "@/content/fise";
+import { LECTIE_BY_CODE } from "@/content/lectii";
 import { Card, Chip, Eyebrow, H1, LinkButton, Progress } from "./ui";
 import { canOpenChapter } from "@/lib/access";
 import { useBank } from "@/lib/client/content";
@@ -53,6 +54,18 @@ export function ChapterView({ code }: { code: string }) {
           <p className="text-muted">Întrebările pentru acest capitol se adaugă în curând.</p>
         )}
       </Card>
+
+      {LECTIE_BY_CODE[code] && (
+        <Link href={`/lectii/${ch.slug}`} className="block">
+          <Card className="flex items-center justify-between gap-3 bg-accent text-on-accent hover:brightness-95">
+            <div>
+              <p className="font-extrabold">Lecția</p>
+              <p className="text-sm">Teoria capitolului, pe înțeles, cu ce reții și capcanele de la examen.</p>
+            </div>
+            <span aria-hidden className="text-2xl font-extrabold">→</span>
+          </Card>
+        </Link>
+      )}
 
       {FISA_BY_CODE[code] && (
         <Link href={`/fise/${ch.slug}`} className="block">

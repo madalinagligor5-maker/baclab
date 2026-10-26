@@ -22,6 +22,15 @@ export default function Capitole() {
         <Eyebrow>Modulul A · clasele IX–X</Eyebrow>
         <H1>Capitole</H1>
       </div>
+      <Link href="/lectii" className="block">
+        <Card className="flex items-center justify-between gap-3 hover:border-ink/40">
+          <div>
+            <p className="text-lg font-extrabold">Lecții</p>
+            <p className="text-muted">Teoria fiecărui capitol, explicată pe înțeles.</p>
+          </div>
+          <span aria-hidden className="text-2xl font-extrabold">→</span>
+        </Card>
+      </Link>
       <Link href="/fise" className="block">
         <Card className="flex items-center justify-between gap-3 bg-accent text-on-accent hover:brightness-95">
           <div>
