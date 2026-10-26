@@ -5,7 +5,7 @@ import { SwRegister } from "@/components/SwRegister";
 
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin", "latin-ext"], variable: "--font-jakarta", display: "swap" });
 
-const site = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const site = process.env.NEXT_PUBLIC_SITE_URL ?? "https://baclab.ro";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site),

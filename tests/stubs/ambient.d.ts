@@ -23,7 +23,7 @@ declare module "react" {
   export const Fragment: any;
 }
 declare module "react/jsx-runtime" { export const jsx: any; export const jsxs: any; export const Fragment: any; }
-declare module "next" { export type Metadata = any; export type Viewport = any; }
+declare module "next" { export type Metadata = any; export type Viewport = any; export namespace MetadataRoute { type Sitemap = any[]; type Robots = any; } }
 declare module "next/link" { const L: (p: { href: string; className?: string; children?: any; [k: string]: any }) => any; export default L; }
 declare module "next/navigation" {
   export function useRouter(): { push(h: string): void; replace(h: string): void };
