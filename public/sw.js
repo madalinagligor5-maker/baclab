@@ -1,5 +1,5 @@
 /* BacLab – service worker simplu: funcționează offline după prima încărcare. */
-const VERSION = "baclab-v1";
+const VERSION = "baclab-v3";
 const STATIC = `${VERSION}-static`;
 const CONTENT = `${VERSION}-content`;
 const PAGES = `${VERSION}-pages`;

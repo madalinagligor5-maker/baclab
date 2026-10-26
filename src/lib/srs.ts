@@ -98,8 +98,9 @@ export function gradeFromAnswer(opts: { correct: boolean; easy: boolean; prev?: 
 }
 
 /** O măsură simplă a cât de durabil e fixat un item: 0..1 (intervalul de 21 de zile = fixat). */
-export function retention(card: Card | undefined): number {
+export function retention(card: Card | undefined, today?: DayStr): number {
   if (!card) return 0;
   if (card.last === 0) return 0.1;
-  return clamp(card.interval / 21, 0.1, 1);
+  const overdue = today ? Math.max(0, diffDays(card.due, today)) : 0;
+  return clamp(card.interval / 21, 0.1, 1) * Math.exp(-overdue / Math.max(1, card.interval));
 }

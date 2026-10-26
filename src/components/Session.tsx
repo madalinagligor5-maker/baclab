@@ -159,6 +159,7 @@ export function Session({ items, title, backHref }: { items: Item[]; title: stri
               </p>
             )}
             {item.explanation && <p className="text-muted">{item.explanation}</p>}
+            {item.sourceRefs && item.sourceRefs.length > 0 && <details className="text-sm"><summary className="font-bold">Programa și sursele de documentare</summary><p className="mt-2">{item.syllabusRef}</p><ul className="mt-2 list-disc space-y-1 pl-5">{item.sourceRefs.map((url, index) => <li key={url}><a href={url} target="_blank" rel="noreferrer" className="underline">OpenStax Biology 2e · referința {index + 1}</a></li>)}</ul><p className="mt-2 text-muted">Item original de antrenament, în revizie didactică.</p></details>}
           </div>
         )}
 

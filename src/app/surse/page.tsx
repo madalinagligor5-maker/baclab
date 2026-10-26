@@ -1,0 +1,12 @@
+import { CHAPTERS_A } from "@/content/chapters";
+import { SOURCES, SYLLABUS_A, VERIFIED_AT } from "@/content/syllabus";
+import { Card, H1 } from "@/components/ui";
+export const metadata = { title: "Programa și sursele verificate" };
+export default function Surse() {
+  return <div className="mx-auto max-w-4xl space-y-6 px-4 py-8"><a href="/" className="font-bold underline">← BacLab</a><H1>Programa, sursele și verificările</H1><p>Verificare documentară: {VERIFIED_AT}. Pentru Bac 2027, art. 3 alin. (10) din OMEC 5211/2026 trimite la programele aprobate prin OMECTS 4800/2010. Biologia are două variante distincte. Exersarea BacLab acoperă în prezent B1, clasele IX–X.</p>
+    <Card className="space-y-2"><h2 className="text-xl font-bold">Ce înseamnă „verificat” aici</h2><p>Am identificat programa aplicabilă și am confruntat punctajele simulării 2026 cu baremul publicat. Aceasta nu înseamnă că întreaga bancă, fișele sau recomandările au fost validate de un profesor.</p><p>Procentele din aplicație descriu răspunsurile date. Repetiția este programată printr-o regulă de estimare. Nu oferim o prognoză de notă validată și nu garantăm rezultatul la examen.</p></Card>
+    <section className="space-y-3"><h2 className="text-xl font-extrabold">Documente și cercetări</h2>{SOURCES.map((s) => <Card key={s.id}><a href={s.url} className="font-bold underline" target="_blank" rel="noreferrer">{s.title}</a><p className="mt-2 text-sm text-muted">{s.note}</p></Card>)}</section>
+    <section className="space-y-3"><h2 className="text-xl font-extrabold">Legătura dintre capitole și programa B1</h2><p className="text-sm text-muted">Ordinea capitolelor este didactică; numerotarea A01–A23 aparține aplicației, nu Ministerului. Legătura cu programa nu certifică acoperirea completă prin întrebări.</p>{CHAPTERS_A.map((ch) => { const s = SYLLABUS_A[ch.code]; return <Card key={ch.code}><h3 className="font-bold">{ch.code} · {ch.short}</h3><p className="text-sm">{s.section} · PDF p. {s.pages}</p><p className="mt-2 text-sm text-muted">{s.limit}</p></Card>; })}</section>
+    <Card className="space-y-2"><h2 className="text-xl font-bold">Varianta B2 · clasele XI–XII</h2><p>Programa include alcătuirea corpului, funcții de relație, nutriție și reproducere, genetică moleculară și umană, ecologie umană. Fișele B2 din aplicație sunt materiale în pregătire; nu sunt un parcurs complet de exersare. Ecologia este în programa B2.</p></Card>
+  </div>;
+}

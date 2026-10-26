@@ -3,7 +3,8 @@
  * Subiectul I (30 p) A 4 + B 6 + C 10 + D 10; II (30 p) A 18 + B 12; III (30 p) 1 → 14 + 2 → 16.
  * 90 de puncte + 10 din oficiu = 100; nota = total / 10; promovare de la 5.
  *
- * Baremul oficial nu a fost furnizat: distribuția punctelor în interiorul unei cerințe este orientativă.
+ * rubricVerified se setează numai după confruntarea criteriilor cu baremul pereche.
+ * Fără rubricVerified, distribuția punctelor poate fi orientativă.
  */
 
 export interface McqQuestion {
@@ -40,6 +41,8 @@ export interface OpenSub {
   /** răspunsul model (liniile pe care le poate bifa elevul) */
   model: string[];
   chain?: ChainSpec;
+  /** Discrete criteria transcribed from the paired official rubric. */
+  rubric?: { id: string; label: string; points: number; allowed?: number[] }[];
 }
 
 interface PartBase {
@@ -77,6 +80,8 @@ export interface Paper {
   kind: "oficial" | "generat";
   durationMin: number;
   note?: string;
+  rubricSource?: string;
+  rubricVerified?: boolean;
   parts: Part[];
 }
 

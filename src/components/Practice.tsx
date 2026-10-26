@@ -7,6 +7,7 @@ import { useStore } from "@/lib/client/store";
 import { todayStr } from "@/lib/dates";
 import { buildChapterSession, buildMixedSession, buildPlan, buildReviewSession } from "@/lib/plan";
 import { canOpenChapter } from "@/lib/access";
+import { wrongItems } from "@/lib/diagnostic";
 import type { Item } from "@/lib/content/types";
 import { ErrorBox, Loading, LinkButton, Card } from "./ui";
 import { Session } from "./Session";
@@ -28,6 +29,7 @@ export function Practice() {
       return { list: buildChapterSession(cap, items, state.cards, today), title: ch.short, back: `/capitole/${ch.slug}` };
     }
     if (mode === "mixt") return { list: buildMixedSession(items, today), title: "Mix ca la Bac", back: "/azi" };
+    if (mode === "greseli") return { list: wrongItems(items, state.attempts).slice(0, 15), title: "Greșelile mele", back: "/greseli" };
     if (mode === "recap") return { list: buildReviewSession(items, state.cards, today), title: "Recapitulare", back: "/azi" };
     const plan = buildPlan({
       items,

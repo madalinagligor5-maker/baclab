@@ -477,7 +477,7 @@ export const CHAPTERS_B_PLANNED: PlannedChapter[] = [
   { code: "B12", title: "Organismul – un tot unitar" },
   { code: "B13", title: "Genetică moleculară" },
   { code: "B14", title: "Genetică umană" },
-  { code: "B15", title: "Ecologie", note: "de confirmat dacă intră în proba aleasă" },
+  { code: "B15", title: "Ecologie umană", note: "În programa oficială B2; conținutul aplicației este în pregătire." },
 ];
 
 export const CHAPTER_BY_CODE: Record<string, Chapter> = Object.fromEntries(CHAPTERS_A.map((c) => [c.code, c]));

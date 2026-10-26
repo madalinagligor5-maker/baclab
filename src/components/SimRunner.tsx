@@ -7,7 +7,7 @@ import { canOpenExam } from "@/lib/access";
 import { loadPaper, usePromise } from "@/lib/client/content";
 import { useStore } from "@/lib/client/store";
 import type { Paper, Part } from "@/lib/exam/types";
-import { afKey, afTextKey, mcqKey, scorePaper, subKey, weakestChapters } from "@/lib/exam/scoring";
+import { afKey, afTextKey, mcqKey, scorePaper, subKey, criterionKey, weakestChapters } from "@/lib/exam/scoring";
 import { finishSim, startSim, updateSim, type SimRun } from "@/lib/state";
 import { solveChain } from "@/lib/lab/chain";
 import { fmt } from "@/lib/frac";
@@ -57,19 +57,29 @@ export function SimRunner({ id }: { id: string }) {
     );
   }
 
-  const setAnswer = (key: string, v: string | number) => update((s) => updateSim(s, (a) => ({ ...a, answers: { ...a.answers, [key]: v } })));
+  const submitPaper = () => update((s) => updateSim(s, (a) => {
+    if (a.paperId !== id || a.phase !== "run") return a;
+    const deadline = new Date(a.startedAt).getTime() + paper.durationMin * 60_000;
+    return { ...a, phase: "grade", submittedAt: new Date(Math.min(Date.now(), deadline)).toISOString() };
+  }));
+  const setAnswer = (key: string, v: string | number) => update((s) => updateSim(s, (a) => {
+    if (a.phase !== "run" || a.paperId !== id) return a;
+    const deadline = new Date(a.startedAt).getTime() + paper.durationMin * 60_000;
+    if (Date.now() >= deadline) return { ...a, phase: "grade", submittedAt: new Date(deadline).toISOString() };
+    return { ...a, answers: { ...a.answers, [key]: v } };
+  }));
   const setGrade = (key: string, v: number) => update((s) => updateSim(s, (a) => ({ ...a, grades: { ...a.grades, [key]: v } })));
 
   if (active.phase === "run") {
     return (
       <div className="space-y-6">
-        <TimerBar startedAt={active.startedAt} minutes={paper.durationMin} />
+        <TimerBar startedAt={active.startedAt} minutes={paper.durationMin} onExpire={submitPaper} />
         <H1>{paper.title}</H1>
         {paper.parts.map((p) => (
           <PartRun key={p.id} part={p} answers={active.answers} onAnswer={setAnswer} />
         ))}
         <div className="flex flex-wrap gap-3">
-          <Button variant="accent" onClick={() => update((s) => updateSim(s, (a) => ({ ...a, phase: "grade" })))}>
+          <Button variant="accent" onClick={submitPaper}>
             Predau lucrarea
           </Button>
           <Button variant="ghost" onClick={() => update((s) => ({ ...s, activeSim: null }))}>
@@ -93,6 +103,8 @@ export function SimRunner({ id }: { id: string }) {
       max: sc.max,
       nota: sc.nota,
       passed: sc.passed,
+      rubricVerified: paper.rubricVerified === true,
+      timed: Boolean(active.submittedAt),
       bySubject: sc.bySubject,
       byChapter: sc.byChapter,
     };
@@ -104,7 +116,7 @@ export function SimRunner({ id }: { id: string }) {
     <div className="space-y-6">
       <Eyebrow>Autoevaluare</Eyebrow>
       <H1>Compară cu răspunsul model</H1>
-      <p className="max-w-xl text-muted">Fii sincer: nota ți-e de folos doar dacă e reală. Pentru fiecare cerință alege cât din răspunsul model ai acoperit.</p>
+      <p className="max-w-xl text-muted">Compară răspunsul tău cu fiecare criteriu. Nota este de antrenament, bazată parțial pe autoevaluare. {paper.rubricVerified ? "Criteriile și punctajele au fost confruntate cu baremul oficial." : "Acest subiect are încă punctaje orientative."}</p>
       {paper.parts.map((p) => (
         <PartGrade key={p.id} part={p} answers={active.answers} grades={active.grades} onGrade={setGrade} />
       ))}
@@ -115,13 +127,18 @@ export function SimRunner({ id }: { id: string }) {
   );
 }
 
-function TimerBar({ startedAt, minutes }: { startedAt: string; minutes: number }) {
+function TimerBar({ startedAt, minutes, onExpire }: { startedAt: string; minutes: number; onExpire: () => void }) {
   const [now, setNow] = useState<number | null>(null);
   useEffect(() => {
-    setNow(Date.now());
-    const t = setInterval(() => setNow(Date.now()), 30_000);
+    const tick = () => {
+      const current = Date.now();
+      setNow(current);
+      if (current >= new Date(startedAt).getTime() + minutes * 60_000) onExpire();
+    };
+    tick();
+    const t = setInterval(tick, 1000);
     return () => clearInterval(t);
-  }, []);
+  }, [startedAt, minutes, onExpire]);
   if (now === null) return null;
   const left = Math.max(0, minutes * 60_000 - (now - new Date(startedAt).getTime()));
   const h = Math.floor(left / 3_600_000);
@@ -198,7 +215,7 @@ function PartRun({ part, answers, onAnswer }: { part: Part; answers: Record<stri
   );
 }
 
-function GradeButtons({ value, onChange, label }: { value: number | undefined; onChange: (v: number) => void; label: string }) {
+function GradeButtons({ value, onChange, label, binary = false }: { value: number | undefined; onChange: (v: number) => void; label: string; binary?: boolean }) {
   const opts = [
     { v: 0, t: "Nu" },
     { v: 0.5, t: "Parțial" },
@@ -206,7 +223,7 @@ function GradeButtons({ value, onChange, label }: { value: number | undefined; o
   ];
   return (
     <div role="group" aria-label={label} className="flex gap-2">
-      {opts.map((o) => (
+      {opts.filter((o) => !binary || o.v !== 0.5).map((o) => (
         <button key={o.v} type="button" aria-pressed={value === o.v} onClick={() => onChange(o.v)} className={cx("min-h-11 rounded-full border-2 px-4 text-sm font-bold", value === o.v ? "border-ink bg-accent text-on-accent" : "border-line")}>
           {o.t}
         </button>
@@ -261,7 +278,7 @@ function PartGrade({ part, answers, grades, onGrade }: { part: Part; answers: Re
                         <p className="text-sm">
                           Corectarea ta: <i>{String(answers[afTextKey(part, i)] ?? "—")}</i>
                         </p>
-                        <GradeButtons label={`Corectarea afirmației ${i + 1}`} value={grades[afKey(part, i)]} onChange={(v) => onGrade(afKey(part, i), v)} />
+                        <GradeButtons binary label={`Corectarea afirmației ${i + 1}`} value={grades[afKey(part, i)]} onChange={(v) => onGrade(afKey(part, i), v)} />
                       </>
                     )}
                   </>
@@ -292,7 +309,7 @@ function PartGrade({ part, answers, grades, onGrade }: { part: Part; answers: Re
                 </ul>
               </div>
               {sol && <p className="text-sm text-muted">Verificat în cod: {sol.steps.map((x) => fmt(x.after)).join(" → ")} {sol.unit}.</p>}
-              <GradeButtons label={`Cât ai acoperit la ${s.id}`} value={grades[subKey(part, s.id)]} onChange={(v) => onGrade(subKey(part, s.id), v)} />
+              {s.rubric ? s.rubric.map((c) => <fieldset key={c.id} className="space-y-2 border-t border-line pt-3"><legend className="text-sm font-bold">{c.label} · {c.points} p</legend><div className="flex flex-wrap gap-2">{(c.allowed ?? [0, c.points]).map((points) => <button type="button" key={points} aria-pressed={grades[criterionKey(part, s.id, c.id)] === points} onClick={() => onGrade(criterionKey(part, s.id, c.id), points)} className={cx("min-h-11 rounded-full border-2 px-4 text-sm font-bold", grades[criterionKey(part, s.id, c.id)] === points ? "border-ink bg-accent text-on-accent" : "border-line")}>{points} p</button>)}</div></fieldset>) : <GradeButtons label={`Cât ai acoperit la ${s.id}`} value={grades[subKey(part, s.id)]} onChange={(v) => onGrade(subKey(part, s.id), v)} />}
             </div>
           );
         })}

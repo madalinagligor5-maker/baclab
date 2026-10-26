@@ -56,7 +56,7 @@ export default function Fise() {
           Modulul B — în pregătire
         </h2>
         <p className="mb-3 max-w-2xl text-sm text-muted">
-          Recapitulare pentru clasele a XI-a – a XII-a (anatomie, fiziologie, genetică). Nu am confirmat încă dacă și cum apare la proba ta, iar exersarea cu itemi nu este disponibilă. Verifică programa oficială și, dacă poți, conținutul cu profesorul.
+          Materiale în pregătire pentru varianta B2: anatomie și fiziologie umană, genetică și ecologie umană (XI–XII), distinctă de varianta B1 (IX–X). Programa B2 a fost identificată; fișele nu constituie un parcurs complet, iar exersarea cu itemi B2 nu este disponibilă.
         </p>
         <ul className="grid gap-3 sm:grid-cols-2">
           {CHAPTERS_B_PLANNED.filter((c) => FISE_B.some((f) => f.code === c.code)).map((c) => {

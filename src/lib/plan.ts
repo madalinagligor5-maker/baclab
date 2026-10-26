@@ -17,6 +17,7 @@ export interface Plan {
   fresh: Item[];
   budget: number;
   minutes: number;
+  availableMinutes: number;
   /** capitolul în care se învață lucruri noi azi */
   focusChapter: string | null;
   /** capitolul cu cele mai slabe rezultate recente */
@@ -109,6 +110,9 @@ export function buildPlan(input: PlanInput): Plan {
     for (const it of unseenIn(weakChapter).slice(0, weakQuota)) add(it);
   }
   for (const code of eligible) for (const it of unseenIn(code)) add(it);
+  // Fill unused new-item slots with pending reviews, never repeat an item in the same plan.
+  const unused = budget - reviews.length - fresh.length;
+  if (unused > 0) reviews.push(...due.slice(reviews.length, reviews.length + unused));
 
   const examDays = profile.examDate ? diffDays(today, profile.examDate) : null;
   const lastSim = sims.length ? (sims[sims.length - 1] as SimRun).finishedAt.slice(0, 10) : null;
@@ -121,7 +125,8 @@ export function buildPlan(input: PlanInput): Plan {
     reviews,
     fresh,
     budget,
-    minutes: profile.minutes,
+    minutes: Math.ceil(((reviews.length + fresh.length) * PRODUCT.secondsPerItem) / 60),
+    availableMinutes: profile.minutes,
     focusChapter: fresh.length > 0 ? (fresh[0] as Item).chapter : null,
     weakChapter,
     examDays,

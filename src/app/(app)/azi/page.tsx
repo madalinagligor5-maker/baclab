@@ -33,6 +33,8 @@ export default function Azi() {
         <H1>Planul de azi</H1>
       </div>
 
+      {!state.diagnostic?.finishedAt && <Card className="space-y-3"><h2 className="text-xl font-bold">Cu ce merită să începi?</h2><p>Testul diagnostic caută confuziile tale și adaptează prioritățile planului.</p><LinkButton href="/diagnostic" variant="accent">{state.diagnostic ? "Continuă diagnosticul" : "Descoperă ce ai de reluat"}</LinkButton></Card>}
+
       <Card className="space-y-4">
         <div className="grid grid-cols-3 gap-4">
           <Stat value={plan.reviews.length} label="de recapitulat" />
@@ -58,6 +60,8 @@ export default function Azi() {
           <p className="rounded-xl bg-good-soft p-3 font-bold text-good">Ești la zi. Poți face un mix sau o simulare.</p>
         )}
       </Card>
+
+      <p className="text-sm text-muted">Timp estimat din numărul întrebărilor disponibile; buget ales: {plan.availableMinutes} min. Recapitulările au prioritate. <a href="/greseli" className="font-bold underline">Vezi greșelile mele</a></p>
 
       <div className="grid gap-4 sm:grid-cols-3">
         <Card>

@@ -1,0 +1,41 @@
+{
+  "documents": [
+    {
+      "file": "programa-biologie.pdf",
+      "url": "https://www.edu.ro/sites/default/files/Programa_Bac_2011_E%20d%29_Biologie.pdf",
+      "sha256": "4bbd750d37003fdf921d8608b5b5bcc6aa8e9e0782fd5c00654e0ec117997de1",
+      "bytes": 238323,
+      "retrievedAt": "2026-10-26",
+      "primaryDocumentMirror": false
+    },
+    {
+      "file": "ordin-bac-2027.pdf",
+      "url": "https://cdn.edupedu.ro/wp-content/uploads/2026/09/ORDIN-Nr.-5.211-2025-Calendar-Bacalaureat-2027-organizarea-si-sefasurarea-examnului-de-bacalaureat-2027-Monitorul-Oficial-Partea-I-nr.-758.pdf",
+      "sha256": "867091d85588193e8ccb01aaf98c376b62f0f81e770aab828df15b0b9a3fcc2f",
+      "bytes": 40534,
+      "retrievedAt": "2026-10-26",
+      "primaryDocumentMirror": true
+    },
+    {
+      "file": "subiect-simulare-2026.pdf",
+      "url": "https://cdn.edupedu.ro/wp-content/uploads/2026/03/E_d_bio_veg_anim_2026_var_simulare_LRO.pdf",
+      "sha256": "36cdde02f45a6c41f88e76622c83e83dfc0be38aebbe33ef3be0d23591eb05dd",
+      "bytes": 157346,
+      "retrievedAt": "2026-10-26",
+      "primaryDocumentMirror": true
+    },
+    {
+      "file": "barem-simulare-2026.pdf",
+      "url": "https://cdn.edupedu.ro/wp-content/uploads/2026/03/E_d_bio_veg_anim_2026_bar_simulare_LRO.pdf",
+      "sha256": "39f26d062b430f1d03a4d5c4b7381b18ccdcf9358575cb1f32dea828e9be8f93",
+      "bytes": 154664,
+      "retrievedAt": "2026-10-26",
+      "primaryDocumentMirror": true
+    }
+  ],
+  "notes": [
+    "PDF files are not committed; download the exact URL and compare the SHA-256.",
+    "2027 law checked in the official-document mirror; legislative portal unavailable.",
+    "Official programme scope does not validate all app content."
+  ]
+}

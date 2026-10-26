@@ -59,6 +59,12 @@ export function normalizeItem(raw: unknown): { item?: Item; errors: string[] } {
   if (explanation) item.explanation = explanation;
   const source = str(r.source ?? r.sursa);
   if (source) item.source = source;
+  const sourceRefs = strArr(r.source_refs ?? r.sourceRefs);
+  if (sourceRefs) item.sourceRefs = sourceRefs.filter((url) => /^https:\/\//.test(url));
+  const syllabusRef = str(r.syllabus_ref ?? r.syllabusRef);
+  if (syllabusRef) item.syllabusRef = syllabusRef;
+  const reviewStatus = str(r.review_status ?? r.reviewStatus);
+  if (reviewStatus) item.reviewStatus = reviewStatus;
   const level = str(r.level)?.toUpperCase() as Level | undefined;
   if (level && LEVELS.includes(level)) item.level = level;
   const d = Number(r.difficulty);

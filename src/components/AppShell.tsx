@@ -46,7 +46,11 @@ export function AppShell({ children }: { children: ReactNode }) {
           </nav>
         </div>
       </header>
-      <main className="mx-auto max-w-5xl px-4 py-6">{ready ? children : <Loading />}</main>
+      <main className="mx-auto max-w-5xl px-4 py-6">
+        <p className="mb-5 rounded-xl border border-line p-3 text-sm text-muted">Beta · Biologie vegetală și animală IX–X. Banca de exersare necesită validare de specialitate. <Link href="/surse" className="font-bold underline">Programa, sursele și verificările</Link></p>
+        {ready ? children : <Loading />}
+        <nav aria-label="Resurse suplimentare" className="mt-8 flex flex-wrap gap-4 border-t border-line pt-5 text-sm font-bold"><Link href="/diagnostic">Diagnostic</Link><Link href="/greseli">Greșelile mele</Link><Link href="/fise">Fișe</Link><Link href="/surse">Programa și sursele</Link><Link href="/setari">Setări</Link></nav>
+      </main>
       <nav aria-label="Principal" className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-bg/95 pb-[env(safe-area-inset-bottom)] backdrop-blur md:hidden">
         <ul className="mx-auto grid max-w-md grid-cols-5">
           {TABS.map((t) => (

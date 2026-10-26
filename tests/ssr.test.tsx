@@ -11,6 +11,9 @@ import Calcul from "../src/app/(app)/laborator/calcul/page";
 import Genetica from "../src/app/(app)/laborator/genetica/page";
 import Azi from "../src/app/(app)/azi/page";
 import Setari from "../src/app/(app)/setari/page";
+import DiagnosticPage from "../src/app/(app)/diagnostic/page";
+import Greseli from "../src/app/(app)/greseli/page";
+import Surse from "../src/app/surse/page";
 import { parseBank } from "../src/lib/content/normalize";
 import { readFileSync } from "node:fs";
 
@@ -21,10 +24,11 @@ test("pagini statice se randează", () => {
   assert.match(renderToString(<Start />), /Începem/);
   assert.match(renderToString(<ChapterView code="A06" />), /Fotosinteza|fotosinteza/i);
   assert.match(renderToString(<Laborator />), /Calcul în lanț/);
+  assert.match(renderToString(<Surse />), /5211\/2026/);
 });
 
 test("pagini cu stare se randează în starea inițială (fără erori de hidratare)", () => {
-  for (const C of [Calcul, Genetica, Azi, Setari]) assert.ok(renderToString(<C />).length > 0);
+  for (const C of [Calcul, Genetica, Azi, Setari, DiagnosticPage, Greseli]) assert.ok(renderToString(<C />).length > 0);
   assert.ok(renderToString(<AppShell><p>x</p></AppShell>).length > 0);
 });
 

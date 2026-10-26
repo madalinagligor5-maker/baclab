@@ -4,7 +4,7 @@
  "year": 2026,
  "kind": "oficial",
  "durationMin": 180,
- "note": "Enunțurile sunt cele oficiale. Răspunsurile model sunt scrise de autorii aplicației (baremul oficial nu a fost furnizat) și trebuie verificate de un profesor.",
+ "note": "Criteriile și punctajele au fost confruntate cu baremul oficial al simulării naționale 2026 (copie a documentului CNCE). Răspunsurile model sunt exemple redactate de autori; răspunsurile deschise se autoevaluează. Rezultatul este o notă de antrenament.",
  "parts": [
   {
    "id": "I.A",
@@ -23,6 +23,13 @@
      ],
      "model": [
       "carpele (pistil)"
+     ],
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Prima noțiune corectă",
+       "points": 2
+      }
      ]
     },
     {
@@ -34,6 +41,13 @@
      ],
      "model": [
       "stamine"
+     ],
+     "rubric": [
+      {
+       "id": "1",
+       "label": "A doua noțiune corectă",
+       "points": 2
+      }
      ]
     }
    ]
@@ -55,6 +69,18 @@
      ],
      "model": [
       "Vasele lemnoase (xilemul) — conduc seva brută (apa cu săruri minerale) de la rădăcină spre frunze."
+     ],
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Primul vas conducător corect",
+       "points": 1
+      },
+      {
+       "id": "2",
+       "label": "Rolul corect al primului vas",
+       "points": 2
+      }
      ]
     },
     {
@@ -66,6 +92,18 @@
      ],
      "model": [
       "Vasele liberiene (floemul) — conduc seva elaborată (substanțe organice) de la frunze spre restul plantei."
+     ],
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Al doilea vas conducător corect, diferit de primul",
+       "points": 1
+      },
+      {
+       "id": "2",
+       "label": "Rolul corect al celui de-al doilea vas",
+       "points": 2
+      }
      ]
     }
    ]
@@ -146,9 +184,9 @@
    "points": 10,
    "kind": "af",
    "weights": [
-    3,
-    3,
-    4
+    4,
+    4,
+    2
    ],
    "intro": "Dacă afirmația este falsă, modificați-o parțial, fără negație, pentru a deveni adevărată.",
    "items": [
@@ -185,7 +223,7 @@
     {
      "id": "a",
      "prompt": "Numiți o boală a sistemului circulator la om, precizând: o cauză, o manifestare, două măsuri de prevenire.",
-     "points": 6,
+     "points": 5,
      "chapters": [
       "A13"
      ],
@@ -194,12 +232,39 @@
       "Cauză: stresul cronic, alimentația bogată în sare și grăsimi, sedentarismul.",
       "Manifestare: cefalee, amețeli, valori ale tensiunii arteriale peste valorile normale.",
       "Prevenire: alimentație echilibrată cu puțină sare; exerciții fizice regulate; evitarea fumatului."
+     ],
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Boala numită corect",
+       "points": 1
+      },
+      {
+       "id": "2",
+       "label": "O cauză corectă",
+       "points": 1
+      },
+      {
+       "id": "3",
+       "label": "O manifestare corectă",
+       "points": 1
+      },
+      {
+       "id": "4",
+       "label": "Prima măsură de prevenire",
+       "points": 1
+      },
+      {
+       "id": "5",
+       "label": "A doua măsură de prevenire, diferită",
+       "points": 1
+      }
      ]
     },
     {
      "id": "b",
      "prompt": "Explicați numărul mare de mitocondrii din celulele țesutului muscular cardiac.",
-     "points": 4,
+     "points": 3,
      "chapters": [
       "A01",
       "A05"
@@ -207,12 +272,19 @@
      "model": [
       "Mușchiul cardiac se contractă continuu, toată viața, deci consumă multă energie.",
       "Mitocondriile produc ATP prin respirație aerobă, de aceea celulele miocardice au multe mitocondrii."
+     ],
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Explicarea corectă a numărului mare de mitocondrii",
+       "points": 3
+      }
      ]
     },
     {
      "id": "c",
      "prompt": "Calculați masa apei din plasma sângelui unui adult (corp: 87 kg; sânge 7%; plasmă 55%; apă 90%). Scrieți toate etapele.",
-     "points": 5,
+     "points": 6,
      "chapters": [
       "A12"
      ],
@@ -242,12 +314,44 @@
         "of": "masa plasmei sangvine"
        }
       ]
-     }
+     },
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Calcularea masei sângelui; 1 p doar pentru raționament corect fără calcule",
+       "points": 2,
+       "allowed": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "id": "2",
+       "label": "Calcularea masei plasmei; 1 p doar pentru raționament corect fără calcule",
+       "points": 2,
+       "allowed": [
+        0,
+        1,
+        2
+       ]
+      },
+      {
+       "id": "3",
+       "label": "Calcularea masei apei; 1 p doar pentru raționament corect fără calcule",
+       "points": 2,
+       "allowed": [
+        0,
+        1,
+        2
+       ]
+      }
+     ]
     },
     {
      "id": "d",
      "prompt": "Completați problema cu o altă cerință și rezolvați-o.",
-     "points": 3,
+     "points": 4,
      "chapters": [
       "A12"
      ],
@@ -271,7 +375,19 @@
         "of": "masa sângelui"
        }
       ]
-     }
+     },
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Formularea unei cerințe noi corecte",
+       "points": 2
+      },
+      {
+       "id": "2",
+       "label": "Rezolvarea corectă a cerinței noi",
+       "points": 2
+      }
+     ]
     }
    ]
   },
@@ -286,30 +402,54 @@
     {
      "id": "a",
      "prompt": "Genotipurile celor doi părinți.",
-     "points": 3,
+     "points": 2,
      "chapters": [
       "A22"
      ],
      "model": [
       "Părintele 1: ooVv (cilindric, verde-închis, heterozigot pentru culoare).",
       "Părintele 2: Oovv (oval, crem-gălbui, heterozigot pentru formă)."
+     ],
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Primul genotip: ooVv",
+       "points": 1
+      },
+      {
+       "id": "2",
+       "label": "Al doilea genotip: Oovv",
+       "points": 1
+      }
      ]
     },
     {
      "id": "b",
      "prompt": "Tipurile de gameți formați de părintele cu fructe ovale, crem-gălbui.",
-     "points": 3,
+     "points": 2,
      "chapters": [
       "A22"
      ],
      "model": [
       "Oovv formează două tipuri de gameți: Ov și ov (câte 50%)."
+     ],
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Primul tip de gameți: Ov",
+       "points": 1
+      },
+      {
+       "id": "2",
+       "label": "Al doilea tip de gameți: ov",
+       "points": 1
+      }
      ]
     },
     {
      "id": "c",
      "prompt": "Procentul descendenților din F1 cu fructe verde-închis și genotipul lor.",
-     "points": 3,
+     "points": 4,
      "chapters": [
       "A22"
      ],
@@ -317,17 +457,46 @@
       "ooVv formează gameții oV și ov; Oovv formează Ov și ov.",
       "Descendenți: OoVv, Oovv, ooVv, oovv (câte 25%).",
       "Verde-închis (V-): OoVv și ooVv = 50%."
+     ],
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Procentul corect: 50%",
+       "points": 2
+      },
+      {
+       "id": "2",
+       "label": "Primul genotip: OoVv",
+       "points": 1
+      },
+      {
+       "id": "3",
+       "label": "Al doilea genotip: ooVv",
+       "points": 1
+      }
      ]
     },
     {
      "id": "d",
      "prompt": "Completați problema cu o altă cerință și rezolvați-o.",
-     "points": 3,
+     "points": 4,
      "chapters": [
       "A22"
      ],
      "model": [
       "Exemplu: raportul de segregare după fenotip în F1 = 1 : 1 : 1 : 1 (oval verde, oval crem, cilindric verde, cilindric crem)."
+     ],
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Formularea unei cerințe noi corecte",
+       "points": 2
+      },
+      {
+       "id": "2",
+       "label": "Rezolvarea corectă a cerinței noi",
+       "points": 2
+      }
      ]
     }
    ]
@@ -350,6 +519,23 @@
      "model": [
       "Localizare: în regiunea lombară, de o parte și de alta a coloanei vertebrale (retroperitoneal).",
       "Caracteristici: formă de bob de fasole; învelit într-o capsulă fibroasă; are zonă corticală și zonă medulară."
+     ],
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Localizarea corectă a rinichilor",
+       "points": 1
+      },
+      {
+       "id": "2",
+       "label": "Prima caracteristică structurală",
+       "points": 1
+      },
+      {
+       "id": "3",
+       "label": "A doua caracteristică structurală, diferită",
+       "points": 1
+      }
      ]
     },
     {
@@ -362,6 +548,13 @@
      "model": [
       "Stomatele sunt formate din două celule stomatice care delimitează ostiola.",
       "Prin ostiolă ies vaporii de apă din frunză. Celulele stomatice reglează deschiderea și astfel intensitatea transpirației."
+     ],
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Explicarea corectă a rolului stomatelor în transpirație",
+       "points": 3
+      }
      ]
     },
     {
@@ -376,6 +569,28 @@
       "Uretra elimină urina din vezica urinară în exterior.",
       "Litiaza urinară se manifestă prin colică renală, durere lombară și hematurie.",
       "Litiaza poate fi prevenită prin hidratare corespunzătoare și alimentație echilibrată."
+     ],
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Primul enunț corect despre căile urinare",
+       "points": 2
+      },
+      {
+       "id": "2",
+       "label": "Al doilea enunț corect despre căile urinare",
+       "points": 2
+      },
+      {
+       "id": "3",
+       "label": "Primul enunț corect despre litiaza urinară",
+       "points": 2
+      },
+      {
+       "id": "4",
+       "label": "Al doilea enunț corect despre litiaza urinară",
+       "points": 2
+      }
      ]
     }
    ]
@@ -397,6 +612,23 @@
      ],
      "model": [
       "Mutația genică (punctiformă), mutația cromozomială structurală (deleția), mutația cromozomială numerică (trisomia 21)."
+     ],
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Primul exemplu corect de mutație",
+       "points": 1
+      },
+      {
+       "id": "2",
+       "label": "Al doilea exemplu corect, diferit",
+       "points": 1
+      },
+      {
+       "id": "3",
+       "label": "Al treilea exemplu corect, diferit",
+       "points": 1
+      }
      ]
     },
     {
@@ -408,6 +640,13 @@
      ],
      "model": [
       "La codominanță ambele alele se exprimă simultan în heterozigot (de exemplu IA și IB la grupa AB), fără ca una să o domine pe cealaltă, spre deosebire de dominanța completă din legile lui Mendel."
+     ],
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Argumentul corect despre codominanță",
+       "points": 3
+      }
      ]
     },
     {
@@ -420,9 +659,53 @@
      "model": [
       "Noțiuni: mutație, factori mutageni, radiații ultraviolete, raze X, substanțe chimice, ADN.",
       "Text: Factorii mutageni sunt agenți fizici, chimici sau biologici care produc mutații la nivelul ADN-ului. Radiațiile ultraviolete și razele X sunt factori fizici, iar unele substanțe chimice, precum pesticidele sau fumul de țigară, sunt factori chimici. Mutațiile pot duce la boli genetice sau la cancer."
+     ],
+     "rubric": [
+      {
+       "id": "1",
+       "label": "Noțiunea 1 enumerată, specifică temei",
+       "points": 1
+      },
+      {
+       "id": "2",
+       "label": "Noțiunea 2 enumerată, specifică temei",
+       "points": 1
+      },
+      {
+       "id": "3",
+       "label": "Noțiunea 3 enumerată, specifică temei",
+       "points": 1
+      },
+      {
+       "id": "4",
+       "label": "Noțiunea 4 enumerată, specifică temei",
+       "points": 1
+      },
+      {
+       "id": "5",
+       "label": "Noțiunea 5 enumerată, specifică temei",
+       "points": 1
+      },
+      {
+       "id": "6",
+       "label": "Noțiunea 6 enumerată, specifică temei",
+       "points": 1
+      },
+      {
+       "id": "7",
+       "label": "Coerența textului și folosirea corectă în corelație a fiecărei noțiuni",
+       "points": 2
+      },
+      {
+       "id": "8",
+       "label": "Respectarea lungimii: maximum trei-patru fraze",
+       "points": 2
+      }
      ]
     }
    ]
   }
- ]
+ ],
+ "rubricSource": "https://cdn.edupedu.ro/wp-content/uploads/2026/03/E_d_bio_veg_anim_2026_bar_simulare_LRO.pdf",
+ "rubricVerified": true
 }

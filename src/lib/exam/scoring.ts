@@ -30,6 +30,7 @@ export const mcqKey = (part: Pick<Part, "id">, i: number) => `${part.id}.${i}`;
 export const afKey = (part: Pick<Part, "id">, i: number) => `${part.id}.${i}`;
 export const afTextKey = (part: Pick<Part, "id">, i: number) => `${part.id}.${i}.c`;
 export const subKey = (part: Pick<Part, "id">, subId: string) => `${part.id}.${subId}`;
+export const criterionKey = (part: Pick<Part, "id">, subId: string, criterionId: string) => `${part.id}.${subId}.rubric.${criterionId}`;
 
 /** Valoarea unei autoevaluări: doar 0, 0.5 sau 1 */
 export function clampGrade(g: unknown): number {
@@ -58,13 +59,17 @@ export function scoreAf(part: AfPart, answers: Answers, grades: Grades): { got: 
     const letterOk = it.truth ? ans === "A" : ans === "F";
     if (!letterOk) return 0;
     if (it.truth) return w;
-    return w / 2 + (w / 2) * clampGrade(grades[afKey(part, i)]);
+    // Correction is all-or-nothing; "half correct" is not an official criterion.
+    return w / 2 + (w / 2) * (grades[afKey(part, i)] === 1 ? 1 : 0);
   });
   return { got: byItem.reduce((a, b) => a + b, 0), byItem };
 }
 
 export function scoreOpen(part: OpenPart, grades: Grades): { got: number; byItem: number[] } {
-  const byItem = part.subs.map((s) => s.points * clampGrade(grades[subKey(part, s.id)]));
+  const byItem = part.subs.map((s) => s.rubric ? s.rubric.reduce((sum, c) => {
+    const value = grades[criterionKey(part, s.id, c.id)] ?? 0;
+    return sum + ((c.allowed ?? [0, c.points]).includes(value) ? value : 0);
+  }, 0) : s.points * clampGrade(grades[subKey(part, s.id)]));
   return { got: byItem.reduce((a, b) => a + b, 0), byItem };
 }
 
@@ -143,11 +148,22 @@ export function validatePaper(paper: Paper): string[] {
       const w = p.weights.reduce((a, b) => a + b, 0);
       if (Math.abs(w - p.points) > 1e-9) errs.push(`${p.id}: ponderile (${w}) != punctaj (${p.points})`);
       for (const [i, it] of p.items.entries()) if (!it.truth && !it.correction) errs.push(`${p.id}.${i}: afirmație falsă fără corectare`);
+      if (paper.rubricVerified) p.items.forEach((it, i) => {
+        if (p.weights[i] !== (it.truth ? 2 : 4)) errs.push(`${p.id}.${i}: punctaj A/F diferit de baremul verificat`);
+      });
     } else {
       const s = p.subs.reduce((a, b) => a + b.points, 0);
       if (Math.abs(s - p.points) > 1e-9) errs.push(`${p.id}: subcerințele (${s}) != punctaj (${p.points})`);
       const ids = p.subs.map((x) => x.id);
       if (new Set(ids).size !== ids.length) errs.push(`${p.id}: id-uri de subcerințe duplicate`);
+      for (const sub of p.subs) {
+        if (paper.rubricVerified && !sub.rubric?.length) errs.push(`${p.id}.${sub.id}: lipsesc criteriile oficiale`);
+        if (sub.rubric) {
+          if (sub.rubric.reduce((n, c) => n + c.points, 0) !== sub.points) errs.push(`${p.id}.${sub.id}: criteriile nu însumează punctajul`);
+          if (new Set(sub.rubric.map((c) => c.id)).size !== sub.rubric.length) errs.push(`${p.id}.${sub.id}: criterii duplicate`);
+          for (const c of sub.rubric) if ((c.allowed ?? [0, c.points]).some((n) => !Number.isInteger(n) || n < 0 || n > c.points)) errs.push(`${p.id}.${sub.id}: punctaj nevalid în criteriu`);
+        }
+      }
     }
   }
   if (total !== 90) errs.push(`total ${total} != 90 de puncte (fără oficiu)`);

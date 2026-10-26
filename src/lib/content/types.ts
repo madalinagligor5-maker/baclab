@@ -71,6 +71,9 @@ export interface Item {
   level?: Level;
   difficulty?: 1 | 2 | 3;
   source?: string;
+  sourceRefs?: string[];
+  syllabusRef?: string;
+  reviewStatus?: string;
   /** a fost verificat de un specialist? */
   validated?: boolean;
 }

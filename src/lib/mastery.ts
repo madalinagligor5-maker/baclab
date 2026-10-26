@@ -2,7 +2,8 @@ import type { Chapter, Item } from "./content/types";
 import type { Card } from "./srs";
 import { retention } from "./srs";
 import type { Attempt } from "./state";
-import { addDays, type DayStr } from "./dates";
+import type { DayStr } from "./dates";
+import { observedChapter } from "./diagnostic";
 
 export interface ChapterStats {
   code: string;
@@ -30,7 +31,7 @@ export function chapterStats(
   today: DayStr,
 ): Record<string, ChapterStats> {
   const by = itemsByChapter(items);
-  const since = addDays(today, -30);
+  const currentIds = new Set(items.map((i) => i.id));
   const out: Record<string, ChapterStats> = {};
   for (const ch of chapters) {
     const list = by[ch.code] ?? [];
@@ -41,24 +42,18 @@ export function chapterStats(
       const c = cards[it.id];
       if (c) {
         seen++;
-        sum += retention(c);
+        sum += retention(c, today);
         if (c.due <= today) due++;
       }
     }
-    let ok = 0;
-    let n = 0;
-    for (const a of attempts) {
-      if (a.ch !== ch.code || a.ok === null || a.day < since) continue;
-      n++;
-      if (a.ok) ok++;
-    }
+    const observed = observedChapter(ch.code, attempts, today, currentIds);
     out[ch.code] = {
       code: ch.code,
       total: list.length,
       seen,
       mastery: list.length ? sum / list.length : 0,
-      accuracy: n >= 5 ? ok / n : null,
-      attempts30: n,
+      accuracy: observed.sufficient ? observed.accuracy : null,
+      attempts30: observed.n,
       due,
     };
   }

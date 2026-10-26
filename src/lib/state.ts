@@ -1,5 +1,6 @@
 import { addDays, diffDays, isDayStr, toDayStr, type DayStr } from "./dates";
 import { review, type Card, type Grade } from "./srs";
+import type { DiagnosticRun } from "./diagnostic";
 import type { Item, ItemType } from "./content/types";
 
 /** Starea aplicației (se păstrează local, pe dispozitiv; sincronizarea cu un cont vine în Faza 2). */
@@ -37,6 +38,8 @@ export interface SimRun {
   /** nota (cu cele 10 puncte din oficiu) */
   nota: number;
   passed: boolean;
+  rubricVerified?: boolean;
+  timed?: boolean;
   bySubject: Record<string, { got: number; max: number }>;
   byChapter: Record<string, { got: number; max: number }>;
 }
@@ -45,6 +48,7 @@ export interface ActiveSim {
   paperId: string;
   startedAt: string;
   phase: "run" | "grade";
+  submittedAt?: string;
   /** răspunsurile elevului, pe chei de forma "I.C.0" / "II.A.a" */
   answers: Record<string, string | number>;
   /** autoevaluări: 0, 0.5 sau 1 */
@@ -58,6 +62,7 @@ export interface AppState {
   attempts: Attempt[];
   sims: SimRun[];
   activeSim: ActiveSim | null;
+  diagnostic: DiagnosticRun | null;
   /** capitole de accentuat în plan (din rezultatele simulărilor) */
   focus: string[];
   /** contor pentru problemele generate din Laborator, pe zi */
@@ -67,7 +72,7 @@ export interface AppState {
 export const MAX_ATTEMPTS = 3000;
 
 export function emptyState(): AppState {
-  return { v: 1, profile: null, cards: {}, attempts: [], sims: [], activeSim: null, focus: [], lab: { day: "1970-01-01", count: 0 } };
+  return { v: 1, profile: null, cards: {}, attempts: [], sims: [], activeSim: null, diagnostic: null, focus: [], lab: { day: "1970-01-01", count: 0 } };
 }
 
 const isObj = (x: unknown): x is Record<string, unknown> => typeof x === "object" && x !== null && !Array.isArray(x);
@@ -120,11 +125,24 @@ export function migrate(raw: unknown): AppState {
       paperId: a.paperId as string,
       startedAt: a.startedAt as string,
       phase: a.phase === "grade" ? "grade" : "run",
+      submittedAt: typeof a.submittedAt === "string" ? a.submittedAt : undefined,
       answers: isObj(a.answers) ? (a.answers as Record<string, string | number>) : {},
       grades: isObj(a.grades) ? (a.grades as Record<string, number>) : {},
     };
   }
   if (Array.isArray(raw.focus)) s.focus = (raw.focus as unknown[]).filter((x): x is string => typeof x === "string").slice(0, 6);
+  if (isObj(raw.diagnostic)) {
+    const d = raw.diagnostic;
+    if (typeof d.id === "string" && typeof d.startedAt === "string" && Array.isArray(d.itemIds) && isObj(d.answers)) {
+      const itemIds = [...new Set(d.itemIds.filter((x): x is string => typeof x === "string"))].slice(0, 100);
+      const answers: DiagnosticRun["answers"] = {};
+      for (const id of itemIds) {
+        const a = d.answers[id];
+        if (typeof a === "boolean" || (typeof a === "number" && Number.isInteger(a) && a >= 0 && a <= 3)) answers[id] = a;
+      }
+      s.diagnostic = { id: d.id, startedAt: d.startedAt, finishedAt: typeof d.finishedAt === "string" ? d.finishedAt : null, itemIds, answers };
+    }
+  }
   if (isObj(raw.lab) && isDayStr(raw.lab.day) && typeof raw.lab.count === "number") s.lab = { day: raw.lab.day, count: raw.lab.count };
   return s;
 }

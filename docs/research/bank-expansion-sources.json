@@ -1,0 +1,174 @@
+{
+  "date": "2026-10-26",
+  "attribution": "OpenStax, Biology 2e (Rice University), utilizat ca referință factuală. Enunțurile și explicațiile noi sunt redactări originale BacLab.",
+  "scope": "Programa oficială B1, OMECTS 4800/2010, paginile 4–6. Sursele academice nu extind programa.",
+  "status": "Drafturi documentate; nu se pretinde validare independentă de specialitate.",
+  "chapters": {
+    "A01": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/4-3-eukaryotic-cells",
+        "https://openstax.org/books/biology-2e/pages/4-2-prokaryotic-cells",
+        "https://openstax.org/books/biology-2e/pages/5-1-components-and-structure"
+      ],
+      "newItems": 12
+    },
+    "A02": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/10-2-the-cell-cycle",
+        "https://openstax.org/books/biology-2e/pages/11-1-the-process-of-meiosis"
+      ],
+      "newItems": 12
+    },
+    "A03": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/20-1-organizing-life-on-earth",
+        "https://openstax.org/books/biology-2e/pages/21-1-viral-evolution-morphology-and-classification",
+        "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+        "https://openstax.org/books/biology-2e/pages/26-2-gymnosperms",
+        "https://openstax.org/books/biology-2e/pages/28-6-superphylum-ecdysozoa-arthropods",
+        "https://openstax.org/books/biology-2e/pages/29-2-fishes"
+      ],
+      "newItems": 12
+    },
+    "A04": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/30-1-the-plant-body"
+      ],
+      "newItems": 12
+    },
+    "A05": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/33-2-animal-primary-tissues"
+      ],
+      "newItems": 12
+    },
+    "A06": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis",
+        "https://openstax.org/books/biology-2e/pages/8-2-the-light-dependent-reactions-of-photosynthesis"
+      ],
+      "newItems": 12
+    },
+    "A07": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/24-3-ecology-of-fungi",
+        "https://openstax.org/books/biology-2e/pages/24-1-characteristics-of-fungi",
+        "https://openstax.org/books/biology-2e/pages/31-3-nutritional-adaptations-of-plants"
+      ],
+      "newItems": 12
+    },
+    "A08": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/34-1-digestive-systems",
+        "https://openstax.org/books/biology-2e/pages/34-3-digestive-system-processes"
+      ],
+      "newItems": 12
+    },
+    "A09": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/7-1-energy-in-living-systems",
+        "https://openstax.org/books/biology-2e/pages/7-5-metabolism-without-oxygen",
+        "https://openstax.org/books/biology-2e/pages/8-1-overview-of-photosynthesis"
+      ],
+      "newItems": 12
+    },
+    "A10": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/39-1-systems-of-gas-exchange",
+        "https://openstax.org/books/biology-2e/pages/39-2-gas-exchange-across-respiratory-surfaces",
+        "https://openstax.org/books/biology-2e/pages/39-3-breathing"
+      ],
+      "newItems": 12
+    },
+    "A11": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants"
+      ],
+      "newItems": 12
+    },
+    "A12": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/40-2-components-of-the-blood"
+      ],
+      "newItems": 12
+    },
+    "A13": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/40-3-mammalian-heart-and-blood-vessels",
+        "https://openstax.org/books/biology-2e/pages/40-1-overview-of-the-circulatory-system"
+      ],
+      "newItems": 12
+    },
+    "A14": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/30-5-transport-of-water-and-solutes-in-plants",
+        "https://openstax.org/books/biology-2e/pages/30-4-leaves"
+      ],
+      "newItems": 12
+    },
+    "A15": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/41-2-the-kidneys-and-osmoregulatory-organs"
+      ],
+      "newItems": 12
+    },
+    "A16": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/38-1-types-of-skeletal-systems",
+        "https://openstax.org/books/biology-2e/pages/38-4-muscle-contraction-and-locomotion"
+      ],
+      "newItems": 12
+    },
+    "A17": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/30-6-plant-sensory-systems-and-responses"
+      ],
+      "newItems": 12
+    },
+    "A18": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/35-3-the-central-nervous-system"
+      ],
+      "newItems": 12
+    },
+    "A19": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/36-5-vision",
+        "https://openstax.org/books/biology-2e/pages/36-4-hearing-and-vestibular-sensation",
+        "https://openstax.org/books/biology-2e/pages/36-3-taste-and-smell",
+        "https://openstax.org/books/biology-2e/pages/36-2-somatosensation"
+      ],
+      "newItems": 12
+    },
+    "A20": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/32-1-reproductive-development-and-structure",
+        "https://openstax.org/books/biology-2e/pages/32-2-pollination-and-fertilization",
+        "https://openstax.org/books/biology-2e/pages/32-3-asexual-reproduction"
+      ],
+      "newItems": 12
+    },
+    "A21": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/43-3-human-reproductive-anatomy-and-gametogenesis",
+        "https://openstax.org/books/biology-2e/pages/43-6-fertilization-and-early-embryonic-development"
+      ],
+      "newItems": 12
+    },
+    "A22": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/12-3-laws-of-inheritance",
+        "https://openstax.org/books/biology-2e/pages/12-2-characteristics-and-traits"
+      ],
+      "newItems": 12
+    },
+    "A23": {
+      "sources": [
+        "https://openstax.org/books/biology-2e/pages/13-1-chromosomal-theory-and-genetic-linkage",
+        "https://openstax.org/books/biology-2e/pages/13-2-chromosomal-basis-of-inherited-disorders",
+        "https://openstax.org/books/biology-2e/pages/14-6-dna-repair"
+      ],
+      "newItems": 12
+    }
+  }
+}
