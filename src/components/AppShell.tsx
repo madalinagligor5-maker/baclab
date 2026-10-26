@@ -37,6 +37,9 @@ export function AppShell({ children }: { children: ReactNode }) {
                 {t.label}
               </Link>
             ))}
+            <Link href="/fise" aria-current={active("/fise") ? "page" : undefined} className={cx("rounded-full px-4 py-2 text-sm font-bold", active("/fise") ? "bg-brand text-on-brand" : "text-muted hover:text-ink")}>
+              Fișe
+            </Link>
             <Link href="/setari" className="rounded-full px-4 py-2 text-sm font-bold text-muted hover:text-ink">
               Setări
             </Link>

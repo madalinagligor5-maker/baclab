@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { CHAPTER_BY_CODE } from "@/content/chapters";
+import { FISA_BY_CODE } from "@/content/fise";
 import { Card, Chip, Eyebrow, H1, LinkButton, Progress } from "./ui";
 import { canOpenChapter } from "@/lib/access";
 import { useBank } from "@/lib/client/content";
@@ -52,6 +53,18 @@ export function ChapterView({ code }: { code: string }) {
           <p className="text-muted">Întrebările pentru acest capitol se adaugă în curând.</p>
         )}
       </Card>
+
+      {FISA_BY_CODE[code] && (
+        <Link href={`/fise/${ch.slug}`} className="block">
+          <Card className="flex items-center justify-between gap-3 hover:border-ink/40">
+            <div>
+              <p className="font-extrabold">Tabele și scheme</p>
+              <p className="text-sm text-muted">Comparații și scheme pentru acest capitol.</p>
+            </div>
+            <span aria-hidden className="text-2xl font-extrabold">→</span>
+          </Card>
+        </Link>
+      )}
 
       <section>
         <h2 className="mb-2 text-lg font-extrabold">Ideile mari</h2>

@@ -22,6 +22,15 @@ export default function Capitole() {
         <Eyebrow>Modulul A · clasele IX–X</Eyebrow>
         <H1>Capitole</H1>
       </div>
+      <Link href="/fise" className="block">
+        <Card className="flex items-center justify-between gap-3 bg-accent text-on-accent hover:brightness-95">
+          <div>
+            <p className="text-lg font-extrabold">Fișe, tabele și scheme</p>
+            <p>Recapitulare vizuală pe fiecare capitol.</p>
+          </div>
+          <span aria-hidden className="text-2xl font-extrabold">→</span>
+        </Card>
+      </Link>
       {chapterGroups().map((g) => (
         <section key={g.group} aria-labelledby={`g-${g.group}`}>
           <h2 id={`g-${g.group}`} className="mb-3 text-sm font-bold uppercase tracking-widest text-muted">

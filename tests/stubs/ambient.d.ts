@@ -20,6 +20,7 @@ declare module "react" {
   export function useRef<T>(init: T | null): { current: T | null };
   export function useSyncExternalStore<T>(sub: (cb: () => void) => () => void, get: () => T, server?: () => T): T;
   export function Suspense(p: any): any;
+  export const Fragment: any;
 }
 declare module "react/jsx-runtime" { export const jsx: any; export const jsxs: any; export const Fragment: any; }
 declare module "next" { export type Metadata = any; export type Viewport = any; }
