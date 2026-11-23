@@ -1,0 +1,363 @@
+{
+  "stomata": {
+    "commons": "Tomato leaf stomate 1-color.jpg",
+    "legenda": "O stomată pe frunza de tomată, la microscopul electronic: cele două celule stomatice delimitează ostiola, prin care intră CO₂ și ies vaporii de apă.",
+    "alt": "Fotografie la microscopul electronic a unei stomate de pe o frunză"
+  },
+  "tesut-muscular": {
+    "commons": "Illu muscle tissues.jpg",
+    "legenda": "Cele trei tipuri de țesut muscular la microscop: striat scheletic (Skeletal), neted (Smooth) și striat cardiac (Cardiac).",
+    "alt": "Trei fotografii la microscop: mușchi scheletic, neted și cardiac"
+  },
+  "tesut-epitelial": {
+    "commons": "Illu epithelium.jpg",
+    "legenda": "Tipuri de epitelii de acoperire: unistratificate (Simple: pavimentos, cubic, cilindric) și pluristratificate (Stratified). Squamous = pavimentos, cuboidal = cubic, columnar = cilindric.",
+    "alt": "Desene ale tipurilor de epitelii unistratificate și pluristratificate"
+  },
+  "neuron": {
+    "commons": "Neuron ro.svg",
+    "legenda": "Neuronul: dendritele, corpul celular cu nucleu și axonul, învelit de teaca de mielină formată de celulele Schwann; între ele, nodurile Ranvier.",
+    "alt": "Schema unui neuron, cu părțile etichetate în română",
+    "png": true,
+    "autor": "LadyofHats, Dhp1080, KenyaSong (versiunea în română)"
+  },
+  "licheni": {
+    "commons": "Lichen 3 types.jpg",
+    "legenda": "Licheni pe scoarța unui copac. Fiecare lichen este o asociație dintre o ciupercă și o algă verde.",
+    "alt": "Fotografie cu licheni cenușii-verzui pe trunchiul unui copac"
+  },
+  "cuscuta": {
+    "commons": "Dodder (Cuscuta sp.).jpg",
+    "legenda": "Torțelul (Cuscuta): tulpini subțiri, gălbui, fără frunze și fără clorofilă, încolăcite pe planta-gazdă, din care absorb hrana prin haustori.",
+    "alt": "Fotografie cu tulpini filiforme gălbui de torțel încolăcite pe o plantă verde"
+  },
+  "sistem-digestiv": {
+    "commons": "Digestive system diagram ro.svg",
+    "legenda": "Sistemul digestiv la om: tubul digestiv (gură, faringe, esofag, stomac, intestin subțire și gros) și glandele anexe (glandele salivare, ficatul, pancreasul).",
+    "alt": "Schema sistemului digestiv uman, cu organele etichetate în română",
+    "png": true
+  },
+  "stomac-rumegatoare": {
+    "commons": "Ruminant digestive system.png",
+    "legenda": "Stomacul tetracameral al rumegătoarelor: Rumen = burduf, Reticulum = ciur, Omasum = foios, Abomasum = cheag. Săgețile arată drumul hranei, de la esofag (Oesophagus) la intestin (Intestine).",
+    "alt": "Schema stomacului cu patru camere al rumegătoarelor"
+  },
+  "alveola": {
+    "commons": "Alveolus diagram ro.svg",
+    "legenda": "Capătul arborelui bronșic: ductul alveolar se termină cu saci alveolari, formați din alveole învelite de o rețea de capilare. Aici are loc schimbul de gaze.",
+    "alt": "Schema sacilor alveolari și a capilarelor din jurul alveolelor",
+    "png": true
+  },
+  "celule-sange": {
+    "commons": "Red White Blood cells.jpg",
+    "legenda": "Elementele figurate ale sângelui la microscopul electronic, de la stânga la dreapta: un eritrocit, un trombocit și un leucocit.",
+    "alt": "Fotografie colorată la microscopul electronic cu o hematie, o plachetă și o globulă albă"
+  },
+  "sistem-circulator": {
+    "commons": "Circulatory System ro.svg",
+    "legenda": "Principalele artere (roșu) și vene (albastru) ale corpului uman, cu inima în centru.",
+    "alt": "Schema sistemului circulator uman, cu vasele etichetate în română",
+    "png": true
+  },
+  "rinichi": {
+    "commons": "Blausen 0592 KidneyAnatomy 01.png",
+    "legenda": "Secțiune prin rinichi: Renal cortex = zona corticală, Renal medulla = zona medulară, Renal pyramids = piramidele Malpighi, Renal pelvis = bazinet, Ureter = ureter, Renal artery / vein = artera / vena renală, Fibrous capsule = capsula.",
+    "alt": "Secțiune prin rinichi, cu localizarea rinichilor în corp",
+    "autor": "Blausen.com staff"
+  },
+  "schelet": {
+    "commons": "Human skeleton front ro.svg",
+    "legenda": "Scheletul uman, văzut din față: oasele capului, coloana vertebrală, cutia toracică, centurile și oasele membrelor.",
+    "alt": "Scheletul uman din față, cu oasele etichetate în română",
+    "png": true
+  },
+  "muschi": {
+    "commons": "1105 Anterior and Posterior Views of Muscles.jpg",
+    "legenda": "Principalii mușchi scheletici, din față (sus) și din spate (jos). Câteva corespondențe: Deltoid = deltoid, Pectoralis major = marele pectoral, Biceps / Triceps brachii = biceps / triceps, Rectus abdominis = dreptul abdominal, Sartorius = croitor, Trapezius = trapez, Latissimus dorsi = marele dorsal, Gastrocnemius = gastrocnemian.",
+    "alt": "Desen cu mușchii corpului uman văzuți din față și din spate",
+    "autor": "OpenStax"
+  },
+  "mimoza": {
+    "commons": "Mimosa pudica leaves close up.jpg",
+    "legenda": "Frunzele de mimoză (Mimosa pudica) se strâng la atingere: un exemplu de seismonastie.",
+    "alt": "Fotografie de aproape cu frunzele compuse ale mimozei"
+  },
+  "ureche": {
+    "commons": "Anatomy of the Human Ear ro.svg",
+    "legenda": "Urechea externă (pavilion, canal auditiv, timpan), urechea medie (ciocan, nicovală, scăriță, trompa lui Eustachio) și urechea internă (cohleea și canalele semicirculare).",
+    "alt": "Secțiune prin ureche, cu părțile etichetate în română",
+    "png": true
+  },
+  "aparat-genital-feminin": {
+    "commons": "Scheme female reproductive system-ro.svg",
+    "legenda": "Sistemul reproducător feminin: ovarele, trompele uterine, uterul, colul uterin și vaginul.",
+    "alt": "Schema sistemului reproducător feminin, etichetată în română",
+    "png": true,
+    "autor": "CDC, Mysid, Спас Колев"
+  },
+  "cariotip": {
+    "commons": "Human karyotype diagram showing autosomes and sex chromosomes - NHGRI.jpg",
+    "legenda": "Cariotipul uman: 22 de perechi de autozomi (Autosomes) și perechea de heterozomi (Sex chromosomes): XY la bărbat (Male), XX la femeie (Female).",
+    "alt": "Schema celor 23 de perechi de cromozomi umani",
+    "autor": "National Human Genome Research Institute (NHGRI)"
+  },
+  "sindrom-down": {
+    "commons": "Down Syndrome Karyotype.png",
+    "legenda": "Cariotipul din sindromul Down: cromozomul 21 apare de trei ori (trisomia 21), deci celulele au 47 de cromozomi.",
+    "alt": "Schema cariotipului cu trei cromozomi 21",
+    "autor": "National Human Genome Research Institute (NHGRI)"
+  },
+  "encefal": {
+    "commons": "Encephalon human sagittal section multilingual.svg",
+    "legenda": "Encefalul în secțiune: 1 – creierul mare, format din 2 – emisferele cerebrale și 3 – diencefal; 4 – trunchiul cerebral, format din 5 – mezencefal, 6 – punte și 7 – bulb rahidian; 8 – cerebelul; 9 – măduva spinării.",
+    "alt": "Secțiune prin encefal, cu părțile numerotate de la 1 la 9",
+    "png": true,
+    "limba": "ro"
+  },
+  "mitoza-faze": {
+    "commons": "Mitosis Stages.svg",
+    "legenda": "Fazele mitozei, de la stânga la dreapta: interfaza, profaza, prometafaza, metafaza (cromozomii în planul ecuatorial), anafaza (cromatidele migrează spre poli), telofaza și citochineza.",
+    "alt": "Șase celule desenate succesiv, care arată fazele mitozei",
+    "png": true,
+    "autor": "Ali Zifan"
+  },
+  "cloroplast": {
+    "commons": "Chloroplast diagram.svg",
+    "legenda": "Structura cloroplastului: membrana externă și internă (Outer / Inner membrane), stroma, tilacoidele (Thylakoid) suprapuse în grana (Granum) și lamelele (Lamella) care leagă granele.",
+    "alt": "Schema unui cloroplast cu membrană dublă, grana și stromă",
+    "png": true,
+    "autor": "Smartse, după Ollin"
+  },
+  "sistem-respirator": {
+    "commons": "Respiratory system complete en.svg",
+    "legenda": "Sistemul respirator: fosele nazale (Nasal cavity), faringele (Pharynx), laringele (Larynx), traheea (Trachea), bronhiile principale (Main bronchi), plămânul drept cu 3 lobi și plămânul stâng cu 2 lobi, diafragmul (Diaphragm). În dreapta sus: alveolele (Alveoli) cu capilarele din jur.",
+    "alt": "Schema sistemului respirator uman, cu plămânii, traheea și un detaliu cu alveolele",
+    "png": true,
+    "limba": "ro",
+    "autor": "LadyofHats, Jmarchn"
+  },
+  "inima": {
+    "commons": "Diagram of the human heart (cropped).svg",
+    "legenda": "Inima în secțiune: Right / Left Atrium = atriul drept / stâng, Right / Left Ventricle = ventriculul drept / stâng, Tricuspid Valve = valvula tricuspidă, Mitral Valve = valvula bicuspidă, Aortic / Pulmonary Valve = valvulele semilunare, Superior / Inferior Vena Cava = venele cave, Pulmonary Artery / Vein = artera / vena pulmonară. Săgețile arată sensul sângelui.",
+    "alt": "Secțiune prin inimă, cu cele patru camere, valvulele și vasele mari",
+    "png": true,
+    "limba": "ro",
+    "autor": "Wapcaplet"
+  },
+  "nefron": {
+    "commons": "Physiology of Nephron.svg",
+    "legenda": "Formarea urinei în nefron: 1 – filtrarea (din glomerul în capsula Bowman), 2 – reabsorbția (din tub înapoi în sânge), 3 – secreția (din sânge în tub), 4 – eliminarea urinei. Afferent / Efferent arteriole = arteriola aferentă / eferentă.",
+    "alt": "Schema nefronului cu săgeți pentru filtrare, reabsorbție și secreție",
+    "png": true,
+    "limba": "ro",
+    "autor": "Madhero88"
+  },
+  "fototropism": {
+    "commons": "Phototropism Diagram.svg",
+    "legenda": "Fototropismul: lumina vine din dreapta, auxina (punctele roz) se adună pe partea umbrită, care crește mai repede, așa că vârful tulpinii se curbează spre lumină.",
+    "alt": "Patru etape în care un vârf de tulpină se curbează treptat spre soare",
+    "png": true,
+    "limba": "ro",
+    "autor": "MacKhayman"
+  },
+  "arc-reflex": {
+    "commons": "Reflex Arc.svg",
+    "legenda": "Arcul reflex: A – stimulul, B – receptorul și neuronul senzitiv (calea aferentă), C – coloana vertebrală, D – neuronul intercalar din măduvă (centrul nervos), E – neuronul motor (calea eferentă), F – mușchiul (efectorul), G – osul.",
+    "alt": "Schema unui arc reflex de la deget la măduva spinării și înapoi la mușchi",
+    "png": true,
+    "limba": "ro",
+    "autor": "Verona Dethran"
+  },
+  "maduva": {
+    "commons": "Spinal cord - Cervical cross section.svg",
+    "legenda": "Secțiune transversală prin măduva spinării: substanța cenușie (deschisă la culoare), în formă de H, la interior, și substanța albă (închisă la culoare), la exterior.",
+    "alt": "Secțiune prin măduva spinării, cu substanța cenușie în formă de H",
+    "png": true,
+    "limba": "ro",
+    "autor": "Kevin Dufendach"
+  },
+  "ochi": {
+    "commons": "Schematic diagram of the human eye en.svg",
+    "legenda": "Secțiune prin globul ocular: corneea, irisul și pupila, cristalinul, umoarea vitroasă, retina cu pata galbenă (macula) și fovea, coroida, sclerotica și nervul optic.",
+    "alt": "Secțiune prin ochi, cu componentele etichetate în română",
+    "png": true,
+    "limba": "ro",
+    "autor": "Rhcastilhos, Jmarchn"
+  },
+  "piele": {
+    "commons": "Skin layers.svg",
+    "legenda": "Structura pielii: epiderma (Epidermis), dermul (Dermis) cu glandele sudoripare (Sweat gland) și sebacee (Sebaceous gland), foliculii de păr (Hair follicle), receptorii (Meissner's / Pacinian corpuscle) și hipodermul cu țesut adipos (Subcutaneous fat).",
+    "alt": "Secțiune prin piele, cu straturile și anexele ei",
+    "png": true,
+    "limba": "ro",
+    "autor": "Madhero88, M. Komorniczak"
+  },
+  "floare": {
+    "commons": "Mature flower diagram.svg",
+    "legenda": "Părțile florii: Sepal/calyx = sepale/caliciu, Petal/corolla = petale/corolă, Stamen = stamina, cu Filament = filament și Anther = anteră, Pistil = pistil, cu Stigma = stigmat, Style = stil, Ovary = ovar și Ovules = ovule; Pedicel = peduncul.",
+    "alt": "Schema unei flori mature, cu un pistil și o stamină mărite",
+    "png": true,
+    "limba": "ro",
+    "autor": "LadyofHats (Mariana Ruiz)"
+  },
+  "punnett": {
+    "commons": "Punnett square mendel flowers.svg",
+    "legenda": "Pătratul lui Punnett pentru monohibridare: doi părinți Bb (floare violet, B dominant) dau în F2 1 BB : 2 Bb : 1 bb, adică 3 violete : 1 albă. Pollen = polen (♂), pistil (♀).",
+    "alt": "Pătratul lui Punnett cu flori violete și albe",
+    "png": true,
+    "limba": "ro",
+    "autor": "Madprime"
+  },
+  "crossing-over": {
+    "commons": "Chromosomal Crossover.svg",
+    "legenda": "Crossing-over-ul: cromatidele nesurori ale cromozomilor omologi (roz și albastru) se încrucișează și fac schimb de segmente. Rezultă cromatide recombinate (Recombinants): Ab, AB, ab, aB.",
+    "alt": "Doi cromozomi omologi care schimbă segmente, cu cele patru cromatide rezultate",
+    "png": true,
+    "limba": "ro",
+    "autor": "Abbyprovenzano"
+  },
+  "virus": {
+    "commons": "Simple diagram of virus (en).svg",
+    "legenda": "Structura unui virus: acidul nucleic (DNA or RNA = ADN sau ARN) înconjurat de capsida proteică (Protein coat) și, la unele virusuri, de un înveliș extern (Envelope).",
+    "alt": "Schema simplă a unui virus, cu acidul nucleic și capsida",
+    "png": true,
+    "limba": "ro",
+    "autor": "domdomegg"
+  },
+  "celula-animala": {
+    "commons": "Animal cell structure en.svg",
+    "legenda": "Celula animală: nucleul (cu nucleol, cromatină și pori nucleari), mitocondriile, reticulul endoplasmatic rugos și neted, aparatul Golgi, lizozomii, ribozomii și centrozomul.",
+    "alt": "Schema unei celule animale, cu organitele etichetate în română",
+    "traduceri": {
+      "Nucleus": "Nucleu",
+      "Nuclear pore": "Por nuclear",
+      "Chromatin": "Cromatină",
+      "Nuclear envelope": "Membrană nucleară",
+      "Nucleolus": "Nucleol",
+      "Peroxisome": "Peroxizom",
+      "Microtubule": "Microtubul",
+      "Lysosome": "Lizozom",
+      "Free Ribosomes": "Ribozomi liberi",
+      "Mitochondrion": "Mitocondrie",
+      "Intermediate Filaments": "Filamente intermediare",
+      "Cytoplasm": "Citoplasmă",
+      "Secretory vesicle": "Veziculă de secreție",
+      "Centrosome": "Centrozom",
+      "(with 2 centrioles)": "(cu 2 centrioli)",
+      "Flagellum": "Flagel",
+      "Plasma membrane": "Membrană celulară",
+      "Golgi vesicles": "Vezicule Golgi",
+      "(golgi apparatus)": "(aparatul Golgi)",
+      "Ribosomes": "Ribozomi",
+      "Rough endoplasmic reticulum": "Reticul endoplasmatic rugos",
+      "Smooth endoplasmic reticulum": "Reticul endoplasmatic neted",
+      "Actin Filaments": "Filamente de actină"
+    }
+  },
+  "celula-vegetala": {
+    "commons": "Plant cell structure-en.svg",
+    "legenda": "Celula vegetală. Etichetele sunt în engleză: Cell wall = perete celular, Plasma membrane = membrană, Chloroplast = cloroplast, Vacuole / Tonoplast = vacuolă / tonoplast, Mitochondrion = mitocondrie, Nucleus = nucleu, Ribosomes = ribozomi, Golgi body = aparat Golgi, Rough / Smooth endoplasmic reticulum = reticul endoplasmatic rugos / neted, Starch grain = grăunte de amidon.",
+    "alt": "Schema unei celule vegetale, cu perete celular, cloroplaste, vacuolă mare și nucleu"
+  },
+  "celula-procariota": {
+    "commons": "Average prokaryote cell- en.svg",
+    "legenda": "Celula procariotă (o bacterie): perete celular, membrană, citoplasmă cu ribozomi, nucleoid cu ADN circular, plasmide și flagel.",
+    "alt": "Schema unei bacterii, cu componentele etichetate în română"
+  },
+  "mitoza-etape": {
+    "commons": "Major events in mitosis.svg",
+    "legenda": "Mitoza pe scurt: ADN-ul se dublează în interfază, apoi diviziunea produce două celule diploide, identice cu celula-mamă.",
+    "alt": "Schema simplă a mitozei, de la o celulă la două celule diploide",
+    "traduceri": {
+      "Mitosis": "Mitoză",
+      "Two diploid": "Două celule",
+      "cells": "diploide",
+      "DNA": "Dublarea",
+      "replication": "ADN-ului"
+    }
+  },
+  "meioza": {
+    "commons": "Meiosis Overview new.svg",
+    "legenda": "Meioza: în meioza I cromozomii omologi se separă, iar în meioza II se separă cromatidele. Din o celulă diploidă rezultă patru celule haploide, cu combinații noi de segmente (roșu și albastru) după crossing-over.",
+    "alt": "Schema meiozei, de la o celulă diploidă la patru celule haploide"
+  },
+  "clasificare": {
+    "commons": "Biological classification L Pengo vflip.svg",
+    "legenda": "Taxonii, de la cel mai cuprinzător la cel mai restrâns. În programa de bac pornești de la regn: regn, încrengătură, clasă, ordin, familie, gen, specie.",
+    "alt": "Ierarhia taxonilor, de la viață și domeniu până la specie",
+    "traduceri": {
+      "Life": "Viață",
+      "Domain": "Domeniu",
+      "Kingdom": "Regn",
+      "Phylum": "Încrengătură",
+      "Class": "Clasă",
+      "Order": "Ordin",
+      "Family": "Familie",
+      "Genus": "Gen",
+      "Species": "Specie"
+    }
+  },
+  "frunza-tesuturi": {
+    "commons": "Leaf Tissue Structure.svg",
+    "legenda": "Secțiune prin frunză: epiderma superioară și inferioară acoperite de cuticulă, țesutul palisadic și țesutul lacunos (mezofilul) și o stomată în epiderma inferioară.",
+    "alt": "Secțiune tridimensională prin frunză, cu țesuturile etichetate în română",
+    "traduceri": {
+      "cuticle": "cuticulă",
+      "upper epidermis": "epidermă superioară",
+      "palisade": "țesut palisadic",
+      "spongy": "țesut lacunos",
+      "mesophyll": "mezofil",
+      "chloroplast": "cloroplast",
+      "vacuole": "vacuolă",
+      "nucleus": "nucleu",
+      "cell wall": "perete celular",
+      "cytoplasm": "citoplasmă",
+      "lower epidermis": "epidermă inferioară",
+      "guard cell": "celulă stomatică",
+      "stoma": "stomată"
+    },
+    "margini": [
+      6,
+      4
+    ]
+  },
+  "xilem-floem": {
+    "commons": "Xylem and phloem diagram.svg",
+    "legenda": "Seva brută (albastru) urcă prin vasele lemnoase (lemn), de la rădăcină spre frunze. Seva elaborată (portocaliu) pleacă din frunze prin vasele liberiene (liber) spre flori, fructe și tuberculi.",
+    "alt": "Plantă de cartof cu săgeți care arată circulația sevei brute și a sevei elaborate",
+    "traduceri": {
+      "water": "apă",
+      "and minerals": "și săruri minerale",
+      "(→ xylem)": "(→ lemn)",
+      "photosynthesis": "produși ai",
+      "products": "fotosintezei",
+      "(→ phloem)": "(→ liber)"
+    },
+    "afiseaza": {
+      "g6679": true,
+      "g8705": false
+    }
+  },
+  "fotosinteza": {
+    "commons": "Photosynthesis en.svg",
+    "legenda": "Fotosinteza pe scurt: planta folosește lumina, apa din sol și dioxidul de carbon din aer, produce glucide și eliberează oxigen.",
+    "alt": "Floarea-soarelui cu săgeți care arată ce intră și ce iese în fotosinteză",
+    "traduceri": {
+      "light": "lumină",
+      "oxygen": "oxigen",
+      "carbon": "dioxid de",
+      "dioxide": "carbon",
+      "water": "apă",
+      "carbohydrates": "glucide"
+    },
+    "autor": "At09kg, Wattcle, Nefronus"
+  },
+  "mitocondrie": {
+    "commons": "Animal mitochondrion diagram en.svg",
+    "legenda": "Mitocondria, sediul respirației celulare: membrana externă și internă (Outer / Inner membrane), crestele (cristae) formate de membrana internă, matricea (Matrix) cu ADN (DNA) și ribozomi (Ribosome) proprii.",
+    "alt": "Schema tridimensională a unei mitocondrii secționate",
+    "png": true,
+    "limba": "ro",
+    "autor": "LadyofHats (Mariana Ruiz Villarreal)"
+  }
+}

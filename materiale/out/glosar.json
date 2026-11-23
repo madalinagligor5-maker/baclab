@@ -1,0 +1,1472 @@
+[
+ {
+  "chapter": "A01",
+  "term": "celulă",
+  "definition": "Unitatea structurală, funcțională și genetică a organismelor vii."
+ },
+ {
+  "chapter": "A01",
+  "term": "celulă procariotă",
+  "definition": "Celulă fără nucleu delimitat de membrană, cu nucleoid; caracteristică bacteriilor și cianobacteriilor."
+ },
+ {
+  "chapter": "A01",
+  "term": "celulă eucariotă",
+  "definition": "Celulă cu nucleu delimitat de membrană dublă și organite; întâlnită la protiste, fungi, plante, animale."
+ },
+ {
+  "chapter": "A01",
+  "term": "nucleoid",
+  "definition": "Zonă a citoplasmei procariotelor în care se află ADN-ul circular, fără membrană nucleară."
+ },
+ {
+  "chapter": "A01",
+  "term": "mureină",
+  "definition": "Substanță din peretele celulei procariote."
+ },
+ {
+  "chapter": "A01",
+  "term": "mozaic fluid",
+  "definition": "Model al membranei: două straturi fosfolipidice străbătute de proteine."
+ },
+ {
+  "chapter": "A01",
+  "term": "hialoplasmă",
+  "definition": "Citoplasma fundamentală, nestructurată, mediul proceselor metabolice."
+ },
+ {
+  "chapter": "A01",
+  "term": "organit celular",
+  "definition": "Component al citoplasmei cu structură și rol specific."
+ },
+ {
+  "chapter": "A01",
+  "term": "mitocondrie",
+  "definition": "Organit cu membrană dublă, sediul respirației celulare, cu ADN propriu."
+ },
+ {
+  "chapter": "A01",
+  "term": "criste mitocondriale",
+  "definition": "Pliuri ale membranei mitocondriale interne, cu enzime oxido-reducătoare."
+ },
+ {
+  "chapter": "A01",
+  "term": "reticul endoplasmatic",
+  "definition": "Rețea de tubuli și vezicule cu membrană simplă; neted sau rugos (granular)."
+ },
+ {
+  "chapter": "A01",
+  "term": "ribozom",
+  "definition": "Organit fără membrană, din ARN și proteine, sediul sintezei proteinelor."
+ },
+ {
+  "chapter": "A01",
+  "term": "aparat Golgi",
+  "definition": "Totalitatea dictiozomilor; rol în secreție și formarea membranelor."
+ },
+ {
+  "chapter": "A01",
+  "term": "dictiozom",
+  "definition": "Formațiune discoidală, aplatizată, cu membrană simplă, componentă a aparatului Golgi."
+ },
+ {
+  "chapter": "A01",
+  "term": "lizozom",
+  "definition": "Organit cu membrană simplă și enzime hidrolitice; digestie intracelulară."
+ },
+ {
+  "chapter": "A01",
+  "term": "centrozom",
+  "definition": "Centrul celular, format din doi centrioli; dă naștere fusului de diviziune."
+ },
+ {
+  "chapter": "A01",
+  "term": "vacuolă",
+  "definition": "Veziculă cu membrană simplă (tonoplast) și suc vacuolar."
+ },
+ {
+  "chapter": "A01",
+  "term": "tonoplast",
+  "definition": "Membrana vacuolei."
+ },
+ {
+  "chapter": "A01",
+  "term": "plastidă",
+  "definition": "Organit specific celulei vegetale, cu membrană dublă și ADN propriu."
+ },
+ {
+  "chapter": "A01",
+  "term": "cloroplast",
+  "definition": "Plastidă cu pigmenți clorofilieni, sediul fotosintezei."
+ },
+ {
+  "chapter": "A01",
+  "term": "grana",
+  "definition": "Grămezi de tilacoide din cloroplast, unde se desfășoară faza de lumină."
+ },
+ {
+  "chapter": "A01",
+  "term": "stromă",
+  "definition": "Substanța fundamentală a cloroplastului; faza de întuneric."
+ },
+ {
+  "chapter": "A01",
+  "term": "cromoplast",
+  "definition": "Plastidă cu pigmenți roșii-portocalii (colorează fructe, petale)."
+ },
+ {
+  "chapter": "A01",
+  "term": "leucoplast",
+  "definition": "Plastidă incoloră de depozitare: amiloplast, oleoplast, proteoplast."
+ },
+ {
+  "chapter": "A01",
+  "term": "cromatină",
+  "definition": "ADN + ARN + proteine din nucleu; formează cromozomii."
+ },
+ {
+  "chapter": "A01",
+  "term": "nucleol",
+  "definition": "Corpuscul din nucleu cu ARN; biogeneza ribozomilor."
+ },
+ {
+  "chapter": "A01",
+  "term": "carioplasmă",
+  "definition": "Substanța fundamentală a nucleului (nucleoplasma)."
+ },
+ {
+  "chapter": "A02",
+  "term": "ciclu celular",
+  "definition": "Succesiunea proceselor care asigură creșterea și diviziunea celulei: interfază + diviziune."
+ },
+ {
+  "chapter": "A02",
+  "term": "interfază",
+  "definition": "Perioada dintre două diviziuni; sinteză de ARN, proteine și dublarea ADN."
+ },
+ {
+  "chapter": "A02",
+  "term": "amitoză",
+  "definition": "Diviziune directă, prin strangulare, la procariote și protiste; fără fus."
+ },
+ {
+  "chapter": "A02",
+  "term": "cariochineză",
+  "definition": "Diviziunea nucleului (profază, metafază, anafază, telofază)."
+ },
+ {
+  "chapter": "A02",
+  "term": "citochineză",
+  "definition": "Diviziunea citoplasmei."
+ },
+ {
+  "chapter": "A02",
+  "term": "fus de diviziune",
+  "definition": "Structură de filamente între cei doi centrozomi; orientează cromozomii."
+ },
+ {
+  "chapter": "A02",
+  "term": "cromozom bicromatidic",
+  "definition": "Cromozom format din două cromatide unite prin centromer."
+ },
+ {
+  "chapter": "A02",
+  "term": "cromozom monocromatidic",
+  "definition": "Cromozom cu o singură cromatidă."
+ },
+ {
+  "chapter": "A02",
+  "term": "celulă diploidă (2n)",
+  "definition": "Celulă cu două seturi de cromozomi (matern și patern), de exemplu celula somatică."
+ },
+ {
+  "chapter": "A02",
+  "term": "celulă haploidă (n)",
+  "definition": "Celulă cu un singur set de cromozomi, de exemplu gametul."
+ },
+ {
+  "chapter": "A02",
+  "term": "autozomi",
+  "definition": "Cromozomi identici la cele două sexe; la om 44."
+ },
+ {
+  "chapter": "A02",
+  "term": "heterozomi",
+  "definition": "Cromozomi sexului (X și Y); la om 2."
+ },
+ {
+  "chapter": "A02",
+  "term": "cariotip",
+  "definition": "Totalitatea cromozomilor unei specii; la om 2n = 46."
+ },
+ {
+  "chapter": "A02",
+  "term": "etapă reducțională",
+  "definition": "Meioza I; reduce numărul de cromozomi la jumătate."
+ },
+ {
+  "chapter": "A02",
+  "term": "etapă ecvațională",
+  "definition": "Meioza II; de tip mitotic."
+ },
+ {
+  "chapter": "A02",
+  "term": "bivalent (tetradă)",
+  "definition": "Pereche de cromozomi omologi alipiți în profaza I."
+ },
+ {
+  "chapter": "A02",
+  "term": "chiasmă",
+  "definition": "Punct de contact între cromatide nesurori ale omologilor."
+ },
+ {
+  "chapter": "A02",
+  "term": "crossing-over",
+  "definition": "Schimb de material genetic între cromatide nesurori; recombinare intracromozomală."
+ },
+ {
+  "chapter": "A02",
+  "term": "dansul cromozomilor",
+  "definition": "Distribuirea întâmplătoare a omologilor; recombinare intercromozomală."
+ },
+ {
+  "chapter": "A03",
+  "term": "taxon",
+  "definition": "Unitate de clasificare: specie, gen, familie, ordin, clasă, încrengătură, regn."
+ },
+ {
+  "chapter": "A03",
+  "term": "specie",
+  "definition": "Unitatea de bază a clasificării; indivizi înrudiți care se încrucișează dând descendenți fertili."
+ },
+ {
+  "chapter": "A03",
+  "term": "nomenclatură binară",
+  "definition": "Denumirea organismelor prin două cuvinte latine: gen + specie (Carl Linné)."
+ },
+ {
+  "chapter": "A03",
+  "term": "virus",
+  "definition": "Entitate infecțioasă acelulară, cu ADN sau ARN, parazit intracelular."
+ },
+ {
+  "chapter": "A03",
+  "term": "adenovirus (dezoxiribovirus)",
+  "definition": "Virus cu ADN: variola, herpesul, varicela."
+ },
+ {
+  "chapter": "A03",
+  "term": "ribovirus",
+  "definition": "Virus cu ARN: gripa, HIV, turbarea."
+ },
+ {
+  "chapter": "A03",
+  "term": "viroză",
+  "definition": "Boală produsă de virusuri."
+ },
+ {
+  "chapter": "A03",
+  "term": "bacterioză",
+  "definition": "Boală produsă de bacterii: sifilis, tuberculoză, holeră."
+ },
+ {
+  "chapter": "A03",
+  "term": "micoză",
+  "definition": "Boală produsă de ciuperci."
+ },
+ {
+  "chapter": "A03",
+  "term": "micoriză",
+  "definition": "Simbioză între o ciupercă și rădăcina unei plante."
+ },
+ {
+  "chapter": "A03",
+  "term": "lichen",
+  "definition": "Simbioză între o algă verde (sau cianobacterie) și o ciupercă."
+ },
+ {
+  "chapter": "A03",
+  "term": "tal",
+  "definition": "Corp neîmpărțit în rădăcină, tulpină și frunze, la plantele avasculare."
+ },
+ {
+  "chapter": "A03",
+  "term": "cormofite",
+  "definition": "Plante vasculare cu rădăcină, tulpină și frunze (corm)."
+ },
+ {
+  "chapter": "A03",
+  "term": "briofite",
+  "definition": "Mușchi; plante avasculare evoluate."
+ },
+ {
+  "chapter": "A03",
+  "term": "pteridofite",
+  "definition": "Ferigi; plante vasculare fără flori și semințe, care se înmulțesc prin spori."
+ },
+ {
+  "chapter": "A03",
+  "term": "gimnosperme",
+  "definition": "Conifere, cu semințe golașe, fără ovar."
+ },
+ {
+  "chapter": "A03",
+  "term": "angiosperme",
+  "definition": "Plante cu flori complete, cu semințe închise în fruct."
+ },
+ {
+  "chapter": "A03",
+  "term": "dicotiledonate",
+  "definition": "Angiosperme cu două cotiledoane."
+ },
+ {
+  "chapter": "A03",
+  "term": "monocotiledonate",
+  "definition": "Angiosperme cu un singur cotiledon."
+ },
+ {
+  "chapter": "A03",
+  "term": "homeoterm",
+  "definition": "Organism cu temperatura corpului constantă (păsări, mamifere)."
+ },
+ {
+  "chapter": "A03",
+  "term": "poichiloterm",
+  "definition": "Organism cu temperatura corpului variabilă."
+ },
+ {
+  "chapter": "A03",
+  "term": "carenate / acarenate",
+  "definition": "Păsări cu / fără carenă pe stern."
+ },
+ {
+  "chapter": "A03",
+  "term": "biodiversitate",
+  "definition": "Varietatea speciilor și a ecosistemelor; conservată prin specii ocrotite, rezervații, parcuri naționale."
+ },
+ {
+  "chapter": "A04",
+  "term": "țesut",
+  "definition": "Complex celular interdependent, format din celule asemănătoare ca formă, structură și funcție."
+ },
+ {
+  "chapter": "A04",
+  "term": "histogeneză",
+  "definition": "Proces de diferențiere celulară prin care iau naștere țesuturile."
+ },
+ {
+  "chapter": "A04",
+  "term": "meristem",
+  "definition": "Țesut embrionar format din celule nediferențiate, cu capacitate de diviziune."
+ },
+ {
+  "chapter": "A04",
+  "term": "meristem apical",
+  "definition": "Meristem din vârfurile de creștere; creștere în lungime."
+ },
+ {
+  "chapter": "A04",
+  "term": "meristem intercalar",
+  "definition": "Meristem de la nivelul nodurilor plantelor cu tulpini articulate."
+ },
+ {
+  "chapter": "A04",
+  "term": "epidermă",
+  "definition": "Țesut de apărare, un strat de celule aplatizate acoperite de cuticulă."
+ },
+ {
+  "chapter": "A04",
+  "term": "vas lemnos",
+  "definition": "Vas din celule moarte cu pereți îngroșați; conduce seva brută."
+ },
+ {
+  "chapter": "A04",
+  "term": "vas liberian",
+  "definition": "Vas din celule vii, alungite, cu tuburi ciuruite; conduce seva elaborată."
+ },
+ {
+  "chapter": "A04",
+  "term": "parenchim asimilator",
+  "definition": "Țesut cu cloroplaste din frunză, de exemplu palisadic."
+ },
+ {
+  "chapter": "A04",
+  "term": "parenchim de depozitare",
+  "definition": "Țesut care depozitează substanțe de rezervă (rizomi, tuberculi, morcov)."
+ },
+ {
+  "chapter": "A04",
+  "term": "țesut secretor",
+  "definition": "Țesut care produce mucilagii, latex, uleiuri volatile, nectar, rășini."
+ },
+ {
+  "chapter": "A05",
+  "term": "epiteliu",
+  "definition": "Țesut nevascularizat de acoperire, secreție sau recepție."
+ },
+ {
+  "chapter": "A05",
+  "term": "glandă exocrină",
+  "definition": "Varsă secreția printr-un canal (sebacee, sudoripare, salivare)."
+ },
+ {
+  "chapter": "A05",
+  "term": "glandă endocrină",
+  "definition": "Varsă hormonii direct în sânge (tiroida, hipofiza)."
+ },
+ {
+  "chapter": "A05",
+  "term": "glandă mixtă",
+  "definition": "Secreție externă și internă: pancreas, gonade."
+ },
+ {
+  "chapter": "A05",
+  "term": "țesut conjunctiv",
+  "definition": "Țesut cu celule, fibre și substanță fundamentală; legătură, susținere."
+ },
+ {
+  "chapter": "A05",
+  "term": "colagen",
+  "definition": "Tip de fibră a țesutului conjunctiv."
+ },
+ {
+  "chapter": "A05",
+  "term": "țesut osos compact",
+  "definition": "Lamele osoase concentrice; diafiza oaselor lungi."
+ },
+ {
+  "chapter": "A05",
+  "term": "țesut osos spongios",
+  "definition": "Lamele dezordonate; epifize, oase scurte și late."
+ },
+ {
+  "chapter": "A05",
+  "term": "fibră musculară",
+  "definition": "Celulă alungită, contractilă."
+ },
+ {
+  "chapter": "A05",
+  "term": "neuron",
+  "definition": "Unitatea structurală și funcțională a sistemului nervos; fără diviziune."
+ },
+ {
+  "chapter": "A05",
+  "term": "dendrită",
+  "definition": "Prelungire scurtă, ramificată; conduce impulsul spre corpul celular."
+ },
+ {
+  "chapter": "A05",
+  "term": "axon",
+  "definition": "Prelungire lungă, unică; conduce impulsul de la corpul celular spre periferie."
+ },
+ {
+  "chapter": "A05",
+  "term": "sinapsă",
+  "definition": "Legătura morfofuncțională dintre neuroni sau între neuron și celula inervată."
+ },
+ {
+  "chapter": "A05",
+  "term": "celule gliale",
+  "definition": "Celule ale nevrogliei; nutriție, susținere, izolare, mielină (Schwann); se divid."
+ },
+ {
+  "chapter": "A06",
+  "term": "fotosinteză",
+  "definition": "Proces de sinteză a substanțelor organice din apă, CO2 și săruri minerale, folosind energia luminoasă."
+ },
+ {
+  "chapter": "A06",
+  "term": "clorofilă",
+  "definition": "Pigment verde din cloroplaste; clorofila a convertește energia luminoasă, clorofila b doar o absoarbe."
+ },
+ {
+  "chapter": "A06",
+  "term": "tilacoid",
+  "definition": "Vezicule aplatizate din cloroplast; suprapuse formează grana."
+ },
+ {
+  "chapter": "A06",
+  "term": "fotoliză",
+  "definition": "Descompunerea apei în faza de lumină, cu eliberare de O2."
+ },
+ {
+  "chapter": "A06",
+  "term": "ATP",
+  "definition": "Adenozintrifosfat; substanță macroergică ce înmagazinează energie."
+ },
+ {
+  "chapter": "A06",
+  "term": "chemosinteză",
+  "definition": "Nutriție autotrofă la unele bacterii, în care energia provine din reacții chimice."
+ },
+ {
+  "chapter": "A06",
+  "term": "autotrof",
+  "definition": "Organism care își sintetizează substanțele organice din substanțe minerale."
+ },
+ {
+  "chapter": "A07",
+  "term": "heterotrofie",
+  "definition": "Obținerea carbonului din substanțe organice produse de alte organisme."
+ },
+ {
+  "chapter": "A07",
+  "term": "saprofitism",
+  "definition": "Hrănire pe resturi organice, cu substanțe dizolvate."
+ },
+ {
+  "chapter": "A07",
+  "term": "parazitism",
+  "definition": "Hrănire pe seama unui organism viu (gazdă), pe care îl îmbolnăvește."
+ },
+ {
+  "chapter": "A07",
+  "term": "simbioză (mutualism)",
+  "definition": "Relație între două organisme bazată pe ajutor reciproc."
+ },
+ {
+  "chapter": "A07",
+  "term": "haustor",
+  "definition": "Prelungire a plantelor parazite care pătrunde în vasele gazdei."
+ },
+ {
+  "chapter": "A07",
+  "term": "fermentație acetică",
+  "definition": "Transformarea alcoolului etilic în acid acetic, de către bacterii acetice (proces aerob)."
+ },
+ {
+  "chapter": "A08",
+  "term": "digestie",
+  "definition": "Transformările mecanice, fizice și chimice ale substanțelor organice complexe în nutrimente absorbabile."
+ },
+ {
+  "chapter": "A08",
+  "term": "nutriment",
+  "definition": "Substanță organică simplă, absorbabilă: glucoză, acizi grași, glicerol, aminoacizi."
+ },
+ {
+  "chapter": "A08",
+  "term": "fagocitoză",
+  "definition": "Înglobarea particulelor solide de către celulă; digestie intracelulară."
+ },
+ {
+  "chapter": "A08",
+  "term": "masticație",
+  "definition": "Mărunțirea hranei cu dinții, limba, saliva; formează bolul alimentar."
+ },
+ {
+  "chapter": "A08",
+  "term": "deglutiție",
+  "definition": "Înghițirea; transportul bolului din cavitatea bucală în stomac."
+ },
+ {
+  "chapter": "A08",
+  "term": "amilază salivară (ptialină)",
+  "definition": "Enzimă din salivă; descompune glucidele până la dextrine și maltoză."
+ },
+ {
+  "chapter": "A08",
+  "term": "pepsină",
+  "definition": "Enzimă proteolitică din sucul gastric."
+ },
+ {
+  "chapter": "A08",
+  "term": "duoden",
+  "definition": "Porțiunea fixă a intestinului subțire, în formă de potcoavă; primește bila și sucul pancreatic."
+ },
+ {
+  "chapter": "A08",
+  "term": "bilă",
+  "definition": "Secreția ficatului; săruri biliare, fără enzime; emulsionează grăsimile."
+ },
+ {
+  "chapter": "A08",
+  "term": "suc pancreatic",
+  "definition": "Conține tripsină, lipază și amilază pancreatice."
+ },
+ {
+  "chapter": "A08",
+  "term": "apendice vermiform",
+  "definition": "Organ rudimentar la om, atașat cecumului."
+ },
+ {
+  "chapter": "A08",
+  "term": "gastrită",
+  "definition": "Inflamația mucoasei gastrice."
+ },
+ {
+  "chapter": "A08",
+  "term": "ulcer gastroduodenal",
+  "definition": "Leziuni ale mucoasei gastrice sau duodenale; HCl, Helicobacter pylori."
+ },
+ {
+  "chapter": "A08",
+  "term": "toxiinfecție alimentară",
+  "definition": "Îmbolnăvire prin alimente alterate sau manipulate defectuos."
+ },
+ {
+  "chapter": "A09",
+  "term": "respirație",
+  "definition": "Oxidarea substanțelor organice la nivel celular, cu eliberare de energie (ATP)."
+ },
+ {
+  "chapter": "A09",
+  "term": "respirație aerobă",
+  "definition": "Oxidare completă cu O2; produși CO2 și apă; mitocondrii."
+ },
+ {
+  "chapter": "A09",
+  "term": "respirație anaerobă",
+  "definition": "Oxidare parțială, fără O2; energie mică."
+ },
+ {
+  "chapter": "A09",
+  "term": "fermentație",
+  "definition": "Respirație anaerobă la microorganisme."
+ },
+ {
+  "chapter": "A09",
+  "term": "fermentație alcoolică",
+  "definition": "Glucoză → alcool etilic; drojdii."
+ },
+ {
+  "chapter": "A09",
+  "term": "fermentație lactică",
+  "definition": "Glucoză → acid lactic; bacterii lactice."
+ },
+ {
+  "chapter": "A09",
+  "term": "fermentație acetică",
+  "definition": "Alcool etilic → acid acetic; aerob; bacterii acetice."
+ },
+ {
+  "chapter": "A09",
+  "term": "oxihemoglobină",
+  "definition": "Compus instabil al hemoglobinei cu oxigenul."
+ },
+ {
+  "chapter": "A10",
+  "term": "fose nazale",
+  "definition": "Căi respiratorii căptușite cu mucoasă; comunică cu exteriorul prin nări și cu faringele prin coane."
+ },
+ {
+  "chapter": "A10",
+  "term": "laringe",
+  "definition": "Organ cartilaginos cu coarde vocale; glota."
+ },
+ {
+  "chapter": "A10",
+  "term": "glotă",
+  "definition": "Orificiul laringian dintre coardele vocale."
+ },
+ {
+  "chapter": "A10",
+  "term": "trahee",
+  "definition": "Inele cartilaginoase incomplete posterior; cili."
+ },
+ {
+  "chapter": "A10",
+  "term": "arbore bronșic",
+  "definition": "Căile intrapulmonare, de la bronhiile principale la acini."
+ },
+ {
+  "chapter": "A10",
+  "term": "alveolă pulmonară",
+  "definition": "Suprafață de schimb; epiteliu pavimentos unistratificat."
+ },
+ {
+  "chapter": "A10",
+  "term": "membrană alveolo-capilară",
+  "definition": "Membrana alveolară + endoteliul capilar; schimb de gaze."
+ },
+ {
+  "chapter": "A10",
+  "term": "pleură",
+  "definition": "Seroasă cu foiță parietală și viscerală; lichid pleural."
+ },
+ {
+  "chapter": "A10",
+  "term": "ventilație pulmonară",
+  "definition": "Respirație externă: inspirație și expirație."
+ },
+ {
+  "chapter": "A10",
+  "term": "diafragm",
+  "definition": "Mușchi inspirator, între torace și abdomen."
+ },
+ {
+  "chapter": "A10",
+  "term": "lobul pulmonar",
+  "definition": "Unitate structurală și funcțională a plămânului."
+ },
+ {
+  "chapter": "A11",
+  "term": "rizodermă",
+  "definition": "Epiderma rădăcinii; celulele ei modificate formează perii absorbanți."
+ },
+ {
+  "chapter": "A11",
+  "term": "osmoză",
+  "definition": "Trecerea apei printr-o membrană semipermeabilă spre soluția mai concentrată."
+ },
+ {
+  "chapter": "A11",
+  "term": "presiune radiculară",
+  "definition": "Forță activă, cu consum de energie, care contribuie la ascensiunea sevei."
+ },
+ {
+  "chapter": "A11",
+  "term": "forță de sucțiune",
+  "definition": "Forță pasivă creată de transpirație; se transmite prin vasele lemnoase."
+ },
+ {
+  "chapter": "A11",
+  "term": "seva brută",
+  "definition": "Apă cu săruri minerale; vase lemnoase."
+ },
+ {
+  "chapter": "A11",
+  "term": "seva elaborată",
+  "definition": "Apă cu substanțe organice; vase liberiene."
+ },
+ {
+  "chapter": "A12",
+  "term": "mediu intern",
+  "definition": "Totalitatea lichidelor extracelulare: sânge, limfă, lichid interstițial."
+ },
+ {
+  "chapter": "A12",
+  "term": "homeostazie",
+  "definition": "Constanța parametrilor mediului intern în limite fiziologice."
+ },
+ {
+  "chapter": "A12",
+  "term": "plasmă",
+  "definition": "Componenta lichidă a sângelui (55%); 90% apă."
+ },
+ {
+  "chapter": "A12",
+  "term": "hematocrit",
+  "definition": "Elementele figurate ale sângelui (45% din volumul sanguin)."
+ },
+ {
+  "chapter": "A12",
+  "term": "eritrocit (hematie)",
+  "definition": "Celulă anucleată, discoidală biconcavă, cu hemoglobină."
+ },
+ {
+  "chapter": "A12",
+  "term": "leucocit",
+  "definition": "Celulă nucleată fără pigmenți; apărare prin fagocitoză și anticorpi."
+ },
+ {
+  "chapter": "A12",
+  "term": "trombocit",
+  "definition": "Fragment celular anucleat; hemostază."
+ },
+ {
+  "chapter": "A12",
+  "term": "hemoglobină",
+  "definition": "Pigment respirator din eritrocite; fixează și transportă gazele respiratorii."
+ },
+ {
+  "chapter": "A12",
+  "term": "hemostază",
+  "definition": "Oprirea hemoragiei."
+ },
+ {
+  "chapter": "A13",
+  "term": "pericard",
+  "definition": "Membrană care acoperă inima."
+ },
+ {
+  "chapter": "A13",
+  "term": "miocard",
+  "definition": "Mușchiul inimii; țesut muscular striat cardiac."
+ },
+ {
+  "chapter": "A13",
+  "term": "endocard",
+  "definition": "Foița internă a peretelui inimii."
+ },
+ {
+  "chapter": "A13",
+  "term": "atriu",
+  "definition": "Cameră cardiacă de la baza inimii, cu pereți subțiri."
+ },
+ {
+  "chapter": "A13",
+  "term": "ventricul",
+  "definition": "Cameră cardiacă de la vârf, cu pereți groși."
+ },
+ {
+  "chapter": "A13",
+  "term": "valvulă tricuspidă",
+  "definition": "Între atriul drept și ventriculul drept."
+ },
+ {
+  "chapter": "A13",
+  "term": "valvulă bicuspidă",
+  "definition": "Între atriul stâng și ventriculul stâng."
+ },
+ {
+  "chapter": "A13",
+  "term": "valvule semilunare",
+  "definition": "La originea aortei și a arterei pulmonare; împiedică refluxul."
+ },
+ {
+  "chapter": "A13",
+  "term": "arteră",
+  "definition": "Vas prin care sângele pleacă de la inimă."
+ },
+ {
+  "chapter": "A13",
+  "term": "venă",
+  "definition": "Vas prin care sângele se întoarce la inimă."
+ },
+ {
+  "chapter": "A13",
+  "term": "capilar",
+  "definition": "Cel mai mic vas; schimb de substanțe."
+ },
+ {
+  "chapter": "A13",
+  "term": "marea circulație",
+  "definition": "Circulația sistemică: ventricul stâng → aortă → țesuturi → vene cave → atriu drept."
+ },
+ {
+  "chapter": "A13",
+  "term": "mica circulație",
+  "definition": "Circulația pulmonară: ventricul drept → artera pulmonară → plămâni → vene pulmonare → atriu stâng."
+ },
+ {
+  "chapter": "A13",
+  "term": "ateroscleroză",
+  "definition": "Infiltrarea arterelor cu lipide și colesterol."
+ },
+ {
+  "chapter": "A13",
+  "term": "hipertensiune arterială",
+  "definition": "Creșterea presiunii sângelui în artere peste valorile normale."
+ },
+ {
+  "chapter": "A13",
+  "term": "infarct miocardic",
+  "definition": "Necroza miocardului prin astuparea vaselor coronare."
+ },
+ {
+  "chapter": "A14",
+  "term": "excreție",
+  "definition": "Eliminarea din organism a produșilor de dezasimilație și a substanțelor în exces."
+ },
+ {
+  "chapter": "A14",
+  "term": "transpirație (la plante)",
+  "definition": "Eliminarea apei sub formă de vapori, în special prin stomate."
+ },
+ {
+  "chapter": "A14",
+  "term": "gutație",
+  "definition": "Cale de excreție la plante, alături de transpirație (definiție standard, eliminarea apei sub formă de picături)."
+ },
+ {
+  "chapter": "A14",
+  "term": "stomată",
+  "definition": "Structură din două celule reniforme care delimitează ostiola."
+ },
+ {
+  "chapter": "A14",
+  "term": "ostiolă",
+  "definition": "Orificiul stomatei prin care circulă gazele și vaporii."
+ },
+ {
+  "chapter": "A14",
+  "term": "lenticelă",
+  "definition": "Structură a tulpinii prin care se elimină apa în cantitate redusă."
+ },
+ {
+  "chapter": "A14",
+  "term": "cuticulă",
+  "definition": "Strat protector al epidermei; transpirație redusă."
+ },
+ {
+  "chapter": "A15",
+  "term": "nefron",
+  "definition": "Unitatea structurală și funcțională a rinichiului."
+ },
+ {
+  "chapter": "A15",
+  "term": "corpuscul Malpighi (renal)",
+  "definition": "Glomerul vascular + capsula Bowman; în zona corticală."
+ },
+ {
+  "chapter": "A15",
+  "term": "ansa Henle",
+  "definition": "Segment intermediar al tubului urinifer; în zona medulară."
+ },
+ {
+  "chapter": "A15",
+  "term": "piramidă Malpighi",
+  "definition": "Formațiune triunghiulară a medularei, cu baza spre exterior."
+ },
+ {
+  "chapter": "A15",
+  "term": "uretră",
+  "definition": "Canal de eliminare a urinei; la bărbat și a spermei."
+ },
+ {
+  "chapter": "A15",
+  "term": "vezică urinară",
+  "definition": "Organ cavitar din pelvis, capacitate 300–350 ml."
+ },
+ {
+  "chapter": "A15",
+  "term": "litiază urinară",
+  "definition": "Formarea calculilor renali."
+ },
+ {
+  "chapter": "A15",
+  "term": "anurie",
+  "definition": "Oprirea eliminării de urină."
+ },
+ {
+  "chapter": "A16",
+  "term": "neurocraniu",
+  "definition": "Cutia craniană."
+ },
+ {
+  "chapter": "A16",
+  "term": "viscerocraniu",
+  "definition": "Oasele feței."
+ },
+ {
+  "chapter": "A16",
+  "term": "humerus",
+  "definition": "Osul brațului."
+ },
+ {
+  "chapter": "A16",
+  "term": "radius și ulnă",
+  "definition": "Oasele antebrațului."
+ },
+ {
+  "chapter": "A16",
+  "term": "femur",
+  "definition": "Osul coapsei."
+ },
+ {
+  "chapter": "A16",
+  "term": "tibia și fibula",
+  "definition": "Oasele gambei."
+ },
+ {
+  "chapter": "A16",
+  "term": "coxal",
+  "definition": "Os al bazinului; împreună cu sacrul formează bazinul."
+ },
+ {
+  "chapter": "A16",
+  "term": "digitigrad",
+  "definition": "Se sprijină pe degete (pisica, tigrul)."
+ },
+ {
+  "chapter": "A16",
+  "term": "unguligrad",
+  "definition": "Se sprijină pe copite."
+ },
+ {
+  "chapter": "A16",
+  "term": "plantigrad",
+  "definition": "Se sprijină pe toată talpa (urs, maimuță, om)."
+ },
+ {
+  "chapter": "A17",
+  "term": "sensibilitate",
+  "definition": "Proprietatea organismelor de a reacționa la stimuli din mediu."
+ },
+ {
+  "chapter": "A17",
+  "term": "tactism",
+  "definition": "Mișcare a celulelor mobile ca răspuns la un stimul."
+ },
+ {
+  "chapter": "A17",
+  "term": "tropism",
+  "definition": "Mișcare orientată a organelor plantei, pozitivă sau negativă."
+ },
+ {
+  "chapter": "A17",
+  "term": "nastie",
+  "definition": "Mișcare neorientată, determinată de intensitatea stimulului."
+ },
+ {
+  "chapter": "A17",
+  "term": "geotropism",
+  "definition": "Tropism determinat de gravitație: rădăcina +, tulpina −."
+ },
+ {
+  "chapter": "A17",
+  "term": "fototropism",
+  "definition": "Tropism determinat de lumină: tulpina +, rădăcina −."
+ },
+ {
+  "chapter": "A17",
+  "term": "fotonastie",
+  "definition": "Nastie la lumină (regina nopții, zorele)."
+ },
+ {
+  "chapter": "A17",
+  "term": "termonastie",
+  "definition": "Nastie la temperatură (lalea)."
+ },
+ {
+  "chapter": "A17",
+  "term": "seismonastie",
+  "definition": "Nastie la stimul mecanic (Mimosa pudica)."
+ },
+ {
+  "chapter": "A18",
+  "term": "SNC",
+  "definition": "Sistem nervos central: măduva spinării și encefalul."
+ },
+ {
+  "chapter": "A18",
+  "term": "substanță cenușie",
+  "definition": "Corpii neuronilor; centri nervoși; în măduvă are forma H."
+ },
+ {
+  "chapter": "A18",
+  "term": "substanță albă",
+  "definition": "Axonii mielinici; căi de conducere; cordoane."
+ },
+ {
+  "chapter": "A18",
+  "term": "canal ependimar",
+  "definition": "Canal central al măduvei, străbate substanța cenușie."
+ },
+ {
+  "chapter": "A18",
+  "term": "act reflex",
+  "definition": "Răspunsul organismului la un stimul prin arc reflex."
+ },
+ {
+  "chapter": "A18",
+  "term": "arc reflex",
+  "definition": "Receptor – cale aferentă – centru nervos – cale eferentă – efector."
+ },
+ {
+  "chapter": "A18",
+  "term": "trunchi cerebral",
+  "definition": "Bulb rahidian, punte, mezencefal."
+ },
+ {
+  "chapter": "A18",
+  "term": "cerebel",
+  "definition": "Echilibru, tonus muscular, precizia mișcărilor."
+ },
+ {
+  "chapter": "A18",
+  "term": "diencefal",
+  "definition": "Talamus, epitalamus, metatalamus, hipotalamus."
+ },
+ {
+  "chapter": "A18",
+  "term": "hipotalamus",
+  "definition": "Centru vegetativ; homeotermie; controlează sistemul endocrin."
+ },
+ {
+  "chapter": "A18",
+  "term": "scizură",
+  "definition": "Șanț adânc care delimitează lobii cerebrali."
+ },
+ {
+  "chapter": "A18",
+  "term": "scoarță cerebrală",
+  "definition": "Etajul superior de integrare; substanță cenușie la exterior."
+ },
+ {
+  "chapter": "A18",
+  "term": "boala Parkinson",
+  "definition": "Degenerare progresivă; rigiditate și tremurături."
+ },
+ {
+  "chapter": "A18",
+  "term": "epilepsie",
+  "definition": "Descărcări bioelectrice anormale; convulsii."
+ },
+ {
+  "chapter": "A18",
+  "term": "scleroză în plăci",
+  "definition": "Distrugerea tecii de mielină, cu plăci în substanța albă."
+ },
+ {
+  "chapter": "A19",
+  "term": "analizator",
+  "definition": "Receptor + cale de conducere + centru cortical."
+ },
+ {
+  "chapter": "A19",
+  "term": "retină",
+  "definition": "Tunica internă a ochiului; conține fotoreceptorii."
+ },
+ {
+  "chapter": "A19",
+  "term": "con",
+  "definition": "Celulă fotoreceptoare pentru vederea diurnă, cromatică."
+ },
+ {
+  "chapter": "A19",
+  "term": "bastonaș",
+  "definition": "Celulă fotoreceptoare pentru vederea nocturnă, acromatică."
+ },
+ {
+  "chapter": "A19",
+  "term": "pata galbenă (macula lutea)",
+  "definition": "Zona cu conuri; foveea centralis are acuitate maximă."
+ },
+ {
+  "chapter": "A19",
+  "term": "cristalin",
+  "definition": "Lentilă biconvexă transparentă din spatele irisului."
+ },
+ {
+  "chapter": "A19",
+  "term": "corp vitros",
+  "definition": "Gel transparent din camera posterioară."
+ },
+ {
+  "chapter": "A19",
+  "term": "organul Corti",
+  "definition": "Receptorul auzului din melcul membranos."
+ },
+ {
+  "chapter": "A19",
+  "term": "trompa lui Eustachio",
+  "definition": "Leagă urechea medie de faringe."
+ },
+ {
+  "chapter": "A19",
+  "term": "miopie",
+  "definition": "Imagine în fața retinei; lentile divergente."
+ },
+ {
+  "chapter": "A19",
+  "term": "hipermetropie",
+  "definition": "Imagine în spatele retinei; lentile convergente."
+ },
+ {
+  "chapter": "A19",
+  "term": "astigmatism",
+  "definition": "Curbură neuniformă; lentile cilindrice."
+ },
+ {
+  "chapter": "A19",
+  "term": "strabism",
+  "definition": "Axe optice neparalele; slăbirea unui mușchi extern."
+ },
+ {
+  "chapter": "A20",
+  "term": "androceu",
+  "definition": "Totalitatea staminelor."
+ },
+ {
+  "chapter": "A20",
+  "term": "gineceu",
+  "definition": "Totalitatea carpelelor; pistil: ovar, stil, stigmat."
+ },
+ {
+  "chapter": "A20",
+  "term": "stamină",
+  "definition": "Filament + anteră (cu polen)."
+ },
+ {
+  "chapter": "A20",
+  "term": "spermatie",
+  "definition": "Gamet bărbătesc din grăuncior de polen."
+ },
+ {
+  "chapter": "A20",
+  "term": "oosferă",
+  "definition": "Gametul femeiesc din sacul embrionar."
+ },
+ {
+  "chapter": "A20",
+  "term": "sac embrionar",
+  "definition": "Structură din ovul cu 7 nuclee."
+ },
+ {
+  "chapter": "A20",
+  "term": "zigot principal",
+  "definition": "Celulă 2n din care se dezvoltă embrionul."
+ },
+ {
+  "chapter": "A20",
+  "term": "zigot accesoriu",
+  "definition": "Celulă 3n din care se formează endospermul."
+ },
+ {
+  "chapter": "A20",
+  "term": "endosperm (albumen)",
+  "definition": "Țesut nutritiv al seminței."
+ },
+ {
+  "chapter": "A20",
+  "term": "cotiledon",
+  "definition": "Frunză embrionară cu substanțe de rezervă; 1 sau 2."
+ },
+ {
+  "chapter": "A20",
+  "term": "drupă / baca / poamă",
+  "definition": "Fructe cărnoase: prună; tomată; măr."
+ },
+ {
+  "chapter": "A20",
+  "term": "achenă / cariopsă / nucă",
+  "definition": "Fructe uscate indehiscente."
+ },
+ {
+  "chapter": "A20",
+  "term": "păstaie / capsulă",
+  "definition": "Fructe uscate dehiscente."
+ },
+ {
+  "chapter": "A20",
+  "term": "stolon",
+  "definition": "Tulpină târâtoare (căpșun)."
+ },
+ {
+  "chapter": "A20",
+  "term": "rizom",
+  "definition": "Tulpină subterană (iris)."
+ },
+ {
+  "chapter": "A20",
+  "term": "altoi",
+  "definition": "Fragment de ramură atașat unui portaltoi."
+ },
+ {
+  "chapter": "A21",
+  "term": "spermatogeneză",
+  "definition": "Formarea spermatozoizilor prin meioză, în testicule."
+ },
+ {
+  "chapter": "A21",
+  "term": "ovogeneză",
+  "definition": "Formarea ovulelor prin meioză, în ovare."
+ },
+ {
+  "chapter": "A21",
+  "term": "tub seminifer",
+  "definition": "Structură din testicul unde se formează spermatozoizii."
+ },
+ {
+  "chapter": "A21",
+  "term": "epididim",
+  "definition": "Cale genitală masculină."
+ },
+ {
+  "chapter": "A21",
+  "term": "prostată",
+  "definition": "Glandă anexă care hrănește spermatozoizii; traversată de uretră."
+ },
+ {
+  "chapter": "A21",
+  "term": "folicul ovarian",
+  "definition": "Structură ovariană care formează ovule."
+ },
+ {
+  "chapter": "A21",
+  "term": "ovulație",
+  "definition": "Expulzia ovulului din ovar."
+ },
+ {
+  "chapter": "A21",
+  "term": "trompă uterină",
+  "definition": "Cale genitală feminină."
+ },
+ {
+  "chapter": "A21",
+  "term": "uter",
+  "definition": "Implantarea embrionului, dezvoltarea fătului, nașterea."
+ },
+ {
+  "chapter": "A21",
+  "term": "BTS",
+  "definition": "Boală cu transmitere sexuală: sifilis, gonoree, candidoză, SIDA."
+ },
+ {
+  "chapter": "A21",
+  "term": "șancru sifilitic",
+  "definition": "Rană în zona genitală în sifilisul primar."
+ },
+ {
+  "chapter": "A21",
+  "term": "HIV",
+  "definition": "Virus care produce SIDA."
+ },
+ {
+  "chapter": "A22",
+  "term": "ereditate",
+  "definition": "Însușirea organismelor de a transmite informația genetică descendenților."
+ },
+ {
+  "chapter": "A22",
+  "term": "variabilitate",
+  "definition": "Însușirea organismelor de a se deosebi prin caractere ereditare și neereditare."
+ },
+ {
+  "chapter": "A22",
+  "term": "gene alele",
+  "definition": "Factori ereditari care determină manifestări contrastante ale aceluiași caracter."
+ },
+ {
+  "chapter": "A22",
+  "term": "homozigot",
+  "definition": "Organism cu alele identice (AA sau aa)."
+ },
+ {
+  "chapter": "A22",
+  "term": "heterozigot",
+  "definition": "Organism cu alele diferite (Aa)."
+ },
+ {
+  "chapter": "A22",
+  "term": "genotip",
+  "definition": "Totalitatea factorilor ereditari ai unui organism."
+ },
+ {
+  "chapter": "A22",
+  "term": "fenotip",
+  "definition": "Totalitatea însușirilor rezultate din interacțiunea genotip – mediu."
+ },
+ {
+  "chapter": "A22",
+  "term": "monohibridare",
+  "definition": "Încrucișare între organisme care diferă printr-o pereche de caractere."
+ },
+ {
+  "chapter": "A22",
+  "term": "dihibridare",
+  "definition": "Încrucișare între organisme care diferă prin două perechi de caractere."
+ },
+ {
+  "chapter": "A22",
+  "term": "legea purității gameților",
+  "definition": "Gameții conțin un singur factor ereditar din fiecare pereche."
+ },
+ {
+  "chapter": "A22",
+  "term": "legea segregării independente",
+  "definition": "Fiecare pereche de gene alele segregă independent de celelalte."
+ },
+ {
+  "chapter": "A22",
+  "term": "codominanță",
+  "definition": "Două alele dominante care se manifestă împreună (grupa AB)."
+ },
+ {
+  "chapter": "A22",
+  "term": "aglutinogen",
+  "definition": "Antigen (A, B) de pe membrana hematiilor."
+ },
+ {
+  "chapter": "A22",
+  "term": "aglutinină",
+  "definition": "Anticorp (alfa, beta) din plasmă."
+ },
+ {
+  "chapter": "A22",
+  "term": "autogamă",
+  "definition": "Plantă care se reproduce prin autopolenizare."
+ },
+ {
+  "chapter": "A23",
+  "term": "recombinare genetică",
+  "definition": "Reunirea elementelor genetice din surse independente într-o singură unitate."
+ },
+ {
+  "chapter": "A23",
+  "term": "crossing-over",
+  "definition": "Schimb reciproc de gene între cromatidele nesurori ale omologilor, în profaza I."
+ },
+ {
+  "chapter": "A23",
+  "term": "chiasmă",
+  "definition": "Punct de contact între cromatidele nesurori ale cromozomilor omologi."
+ },
+ {
+  "chapter": "A23",
+  "term": "bivalent (tetradă)",
+  "definition": "Pereche de cromozomi omologi, unită în profaza I."
+ },
+ {
+  "chapter": "A23",
+  "term": "heterozom",
+  "definition": "Cromozom sexual (X sau Y)."
+ },
+ {
+  "chapter": "A23",
+  "term": "sex homogametic",
+  "definition": "Sex cu heterozomi identici (XX în tipul A), formează un singur tip de gameți."
+ },
+ {
+  "chapter": "A23",
+  "term": "sex heterogametic",
+  "definition": "Sex cu heterozomi diferiți (XY în tipul A), formează două tipuri de gameți."
+ },
+ {
+  "chapter": "A23",
+  "term": "mutație",
+  "definition": "Modificare a materialului genetic care nu este consecința recombinării."
+ },
+ {
+  "chapter": "A23",
+  "term": "mutație punctiformă",
+  "definition": "Mutație care afectează o pereche de nucleotide."
+ },
+ {
+  "chapter": "A23",
+  "term": "poliploidie",
+  "definition": "Multiplicarea seturilor de cromozomi (3n, 4n)."
+ },
+ {
+  "chapter": "A23",
+  "term": "aneuploidie",
+  "definition": "Variația numărului de cromozomi fără modificarea setului de bază (2n±1)."
+ },
+ {
+  "chapter": "A23",
+  "term": "factor mutagen",
+  "definition": "Agent fizic, chimic sau biologic care produce mutații."
+ },
+ {
+  "chapter": "A23",
+  "term": "teratogen",
+  "definition": "Care produce malformații în dezvoltarea intrauterină."
+ },
+ {
+  "chapter": "A23",
+  "term": "cariotip",
+  "definition": "Totalitatea cromozomilor unei specii; la om 46."
+ },
+ {
+  "chapter": "A23",
+  "term": "hemizigoție",
+  "definition": "Prezența unei singure alele pentru o genă de pe X, la bărbat."
+ },
+ {
+  "chapter": "A23",
+  "term": "sindrom Down",
+  "definition": "Trisomia 21."
+ },
+ {
+  "chapter": "A23",
+  "term": "sindrom Turner",
+  "definition": "Monosomia XO, la femei."
+ },
+ {
+  "chapter": "A23",
+  "term": "sindrom Klinefelter",
+  "definition": "Trisomia XXY, la bărbați."
+ }
+]

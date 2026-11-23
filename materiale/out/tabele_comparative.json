@@ -1,0 +1,879 @@
+[
+ {
+  "chapter": "A01",
+  "title": "Celula procariotă vs eucariotă",
+  "cols": [
+   "Criteriu",
+   "Procariotă",
+   "Eucariotă"
+  ],
+  "rows": [
+   [
+    "Nucleu",
+    "nucleoid, fără membrană",
+    "nucleu delimitat de membrană dublă cu pori"
+   ],
+   [
+    "Material genetic",
+    "cromozom circular",
+    "cromozomi (ADN + proteine)"
+   ],
+   [
+    "Organite cu membrană",
+    "absente",
+    "prezente"
+   ],
+   [
+    "Perete celular",
+    "mureină",
+    "celuloză (plante), chitină (fungi), absent (animale)"
+   ],
+   [
+    "Exemple",
+    "bacterii, cianobacterii",
+    "protiste, fungi, plante, animale"
+   ]
+  ]
+ },
+ {
+  "chapter": "A01",
+  "title": "Organite după tipul de membrană",
+  "cols": [
+   "Dublă",
+   "Simplă",
+   "Fără membrană"
+  ],
+  "rows": [
+   [
+    "mitocondrii",
+    "reticul endoplasmatic",
+    "ribozomi"
+   ],
+   [
+    "plastide",
+    "aparat Golgi",
+    "centrozom"
+   ],
+   [
+    "",
+    "lizozomi, vacuole",
+    ""
+   ]
+  ]
+ },
+ {
+  "chapter": "A02",
+  "title": "Mitoză vs meioză",
+  "cols": [
+   "Criteriu",
+   "Mitoză",
+   "Meioză"
+  ],
+  "rows": [
+   [
+    "Tip de celule",
+    "somatice",
+    "din organele reproducătoare"
+   ],
+   [
+    "Celula-mamă",
+    "2n",
+    "2n"
+   ],
+   [
+    "Nr. celule-fiice",
+    "2",
+    "4"
+   ],
+   [
+    "Ploidia celulelor-fiice",
+    "2n",
+    "n"
+   ],
+   [
+    "Etape",
+    "una",
+    "două: reducțională și ecvațională"
+   ],
+   [
+    "Crossing-over",
+    "nu",
+    "da (profaza I)"
+   ],
+   [
+    "Rol",
+    "creștere, înlocuire",
+    "formarea gameților, variabilitate"
+   ]
+  ]
+ },
+ {
+  "chapter": "A03",
+  "title": "Gimnosperme vs angiosperme",
+  "cols": [
+   "Criteriu",
+   "Gimnosperme",
+   "Angiosperme"
+  ],
+  "rows": [
+   [
+    "Floare",
+    "incompletă, fără ovar (conuri)",
+    "completă, cu ovar"
+   ],
+   [
+    "Sămânță",
+    "golașă, neînchisă în fruct",
+    "închisă în fruct"
+   ],
+   [
+    "Fruct",
+    "nu se formează",
+    "se formează din ovar"
+   ],
+   [
+    "Exemple",
+    "brad, molid, pin, tisă",
+    "dicotiledonate și monocotiledonate"
+   ]
+  ]
+ },
+ {
+  "chapter": "A03",
+  "title": "Clase de vertebrate",
+  "cols": [
+   "Clasă",
+   "Tegument",
+   "Respirație",
+   "Fecundație",
+   "Temperatura"
+  ],
+  "rows": [
+   [
+    "Pești",
+    "solzi",
+    "branhială",
+    "externă sau internă",
+    "poichiloterm"
+   ],
+   [
+    "Amfibieni",
+    "subțire, umed, fără solzi",
+    "branhială (larve), pulmonară și cutanată (adulți)",
+    "externă",
+    "poichiloterm"
+   ],
+   [
+    "Reptile",
+    "uscat, cu solzi cornoși",
+    "pulmonară",
+    "internă",
+    "poichiloterm"
+   ],
+   [
+    "Păsări",
+    "pene, puf",
+    "pulmonară",
+    "internă",
+    "homeoterm"
+   ],
+   [
+    "Mamifere",
+    "păr, glande mamare",
+    "pulmonară",
+    "internă",
+    "homeoterm"
+   ]
+  ]
+ },
+ {
+  "chapter": "A04",
+  "title": "Vase lemnoase vs liberiene",
+  "cols": [
+   "Criteriu",
+   "Lemnoase",
+   "Liberiene"
+  ],
+  "rows": [
+   [
+    "Celule",
+    "moarte, pereți îngroșați",
+    "vii, alungite, tuburi ciuruite"
+   ],
+   [
+    "Seva",
+    "brută (apă + săruri minerale)",
+    "elaborată (substanțe organice)"
+   ],
+   [
+    "Transport",
+    "pasiv/activ combinat (presiune radiculară, sucțiune)",
+    "activ, cu consum de energie, mai lent"
+   ],
+   [
+    "Sens",
+    "ascendent",
+    "ascendent și descendent"
+   ]
+  ]
+ },
+ {
+  "chapter": "A05",
+  "title": "Tipuri de țesut muscular",
+  "cols": [
+   "Tip",
+   "Localizare",
+   "Contracție"
+  ],
+  "rows": [
+   [
+    "Striat scheletic",
+    "mușchii scheletici",
+    "rapidă, voluntară"
+   ],
+   [
+    "Neted",
+    "pereții organelor interne și ai vaselor",
+    "lentă, involuntară"
+   ],
+   [
+    "Striat cardiac",
+    "miocard",
+    "involuntară, ritmică"
+   ]
+  ]
+ },
+ {
+  "chapter": "A06",
+  "title": "Fotosinteză vs respirație aerobă",
+  "cols": [
+   "Criteriu",
+   "Fotosinteză",
+   "Respirație aerobă"
+  ],
+  "rows": [
+   [
+    "Ecuație",
+    "6CO2 + 6H2O → C6H12O6 + 6O2",
+    "C6H12O6 + 6O2 → 6CO2 + 6H2O + energie"
+   ],
+   [
+    "Locul",
+    "cloroplaste",
+    "mitocondrii"
+   ],
+   [
+    "Energie",
+    "se înmagazinează (lumină → chimică)",
+    "se eliberează (ATP)"
+   ],
+   [
+    "O2",
+    "eliberat",
+    "consumat"
+   ],
+   [
+    "Organisme",
+    "autotrofe cu clorofilă",
+    "majoritatea organismelor"
+   ]
+  ]
+ },
+ {
+  "chapter": "A07",
+  "title": "Tipuri de nutriție heterotrofă",
+  "cols": [
+   "Tip",
+   "Sursă de hrană",
+   "Exemple"
+  ],
+  "rows": [
+   [
+    "Saprofită",
+    "resturi organice (substanțe dizolvate)",
+    "bacterii saprofite, drojdii, mucegai"
+   ],
+   [
+    "Parazită",
+    "organism viu (gazdă)",
+    "rugina grâului, torțel"
+   ],
+   [
+    "Simbiontă",
+    "ajutor reciproc",
+    "licheni, micorize"
+   ]
+  ]
+ },
+ {
+  "chapter": "A08",
+  "title": "Enzime și produsele lor",
+  "cols": [
+   "Sediul",
+   "Suc",
+   "Enzime",
+   "Acționează asupra"
+  ],
+  "rows": [
+   [
+    "Cavitate bucală",
+    "saliva",
+    "amilază salivară (ptialină)",
+    "glucide → dextrine, maltoză"
+   ],
+   [
+    "Stomac",
+    "suc gastric",
+    "pepsină",
+    "proteine → albumoze, peptone"
+   ],
+   [
+    "Duoden",
+    "suc pancreatic",
+    "tripsină, lipază, amilază",
+    "proteine, lipide, glucide"
+   ],
+   [
+    "Duoden",
+    "bilă",
+    "fără enzime (săruri biliare)",
+    "emulsionează grăsimile"
+   ],
+   [
+    "Intestin subțire",
+    "suc intestinal",
+    "peptidaze, lipază intestinală, dizaharidaze",
+    "încheie digestia"
+   ]
+  ]
+ },
+ {
+  "chapter": "A09",
+  "title": "Fermentații",
+  "cols": [
+   "Tip",
+   "Agent",
+   "Substrat → produs",
+   "Aplicație",
+   "O2"
+  ],
+  "rows": [
+   [
+    "alcoolică",
+    "drojdii",
+    "glucoză → alcool etilic",
+    "pâine, băuturi alcoolice",
+    "fără O2"
+   ],
+   [
+    "lactică",
+    "bacterii lactice",
+    "glucoză → acid lactic",
+    "lapte acru, murături",
+    "fără O2"
+   ],
+   [
+    "acetică",
+    "bacterii acetice",
+    "alcool etilic → acid acetic",
+    "oțet",
+    "cu O2"
+   ]
+  ]
+ },
+ {
+  "chapter": "A10",
+  "title": "Inspirație vs expirație",
+  "cols": [
+   "Parametru",
+   "Inspirație",
+   "Expirație (liniștită)"
+  ],
+  "rows": [
+   [
+    "Tip",
+    "activă",
+    "pasivă"
+   ],
+   [
+    "Mușchi inspiratori",
+    "se contractă",
+    "se relaxează"
+   ],
+   [
+    "Diametrele cutiei toracice",
+    "cresc",
+    "revin la normal"
+   ],
+   [
+    "Volum pulmonar",
+    "crește",
+    "scade"
+   ],
+   [
+    "Presiune intrapulmonară",
+    "scade față de atmosferică",
+    "crește față de atmosferică"
+   ]
+  ]
+ },
+ {
+  "chapter": "A11",
+  "title": "Seva brută vs elaborată",
+  "cols": [
+   "Criteriu",
+   "Brută",
+   "Elaborată"
+  ],
+  "rows": [
+   [
+    "Compoziție",
+    "apă + săruri minerale",
+    "apă + substanțe organice"
+   ],
+   [
+    "Vase",
+    "lemnoase",
+    "liberiene"
+   ],
+   [
+    "Sens",
+    "ascendent",
+    "ascendent și descendent"
+   ],
+   [
+    "Energie",
+    "presiune radiculară (activ) + sucțiune (pasiv)",
+    "activ, consum de energie"
+   ]
+  ]
+ },
+ {
+  "chapter": "A12",
+  "title": "Elementele figurate",
+  "cols": [
+   "Element",
+   "Nucleu",
+   "Rol"
+  ],
+  "rows": [
+   [
+    "Eritrocite",
+    "anucleate",
+    "transportul O2 și CO2"
+   ],
+   [
+    "Leucocite",
+    "nucleate",
+    "apărare (fagocitoză, anticorpi)"
+   ],
+   [
+    "Trombocite",
+    "anucleate (fragmente)",
+    "hemostază"
+   ]
+  ]
+ },
+ {
+  "chapter": "A13",
+  "title": "Marea vs mica circulație",
+  "cols": [
+   "Criteriu",
+   "Marea circulație",
+   "Mica circulație"
+  ],
+  "rows": [
+   [
+    "Începe în",
+    "ventriculul stâng",
+    "ventriculul drept"
+   ],
+   [
+    "Prin",
+    "artera aortă",
+    "artera pulmonară"
+   ],
+   [
+    "Se termină în",
+    "atriul drept (vene cave)",
+    "atriul stâng (4 vene pulmonare)"
+   ],
+   [
+    "Rol",
+    "nutriție",
+    "oxigenare"
+   ]
+  ]
+ },
+ {
+  "chapter": "A17",
+  "title": "Tactisme – tropisme – nastii",
+  "cols": [
+   "Tip",
+   "Orientare",
+   "Exemplu"
+  ],
+  "rows": [
+   [
+    "Tactism",
+    "al celulelor mobile, orientat de stimul",
+    "gameții bărbătești spre cei femeiești; alge la lumină"
+   ],
+   [
+    "Tropism",
+    "orientat, pozitiv sau negativ",
+    "rădăcina – geotropism pozitiv; tulpina – fototropism pozitiv"
+   ],
+   [
+    "Nastie",
+    "neorientat; depinde de intensitate",
+    "lalea (termo), regina nopții (foto), mimoza (seismo)"
+   ]
+  ]
+ },
+ {
+  "chapter": "A18",
+  "title": "Substanța cenușie vs albă (măduvă)",
+  "cols": [
+   "Criteriu",
+   "Cenușie",
+   "Albă"
+  ],
+  "rows": [
+   [
+    "Poziție",
+    "interior (H)",
+    "exterior"
+   ],
+   [
+    "Formată din",
+    "corpi neuronali, fibre",
+    "axoni mielinici"
+   ],
+   [
+    "Organizare",
+    "coarne (posterioare, laterale, anterioare)",
+    "cordoane (posterioare, anterioare, laterale)"
+   ],
+   [
+    "Rol",
+    "centru reflex",
+    "conducere"
+   ]
+  ]
+ },
+ {
+  "chapter": "A18",
+  "title": "Etajele encefalului",
+  "cols": [
+   "Structură",
+   "Componente",
+   "Rol principal"
+  ],
+  "rows": [
+   [
+    "Trunchi cerebral",
+    "bulb, punte, mezencefal",
+    "căi de conducere, centri vegetativi"
+   ],
+   [
+    "Cerebel",
+    "emisfere + vermis",
+    "echilibru, tonus, mișcări fine"
+   ],
+   [
+    "Diencefal",
+    "talamus, epitalamus, metatalamus, hipotalamus",
+    "integrare, funcții vegetative"
+   ],
+   [
+    "Emisfere cerebrale",
+    "lobi, scoarță, nuclei bazali",
+    "integrare superioară"
+   ]
+  ]
+ },
+ {
+  "chapter": "A19",
+  "title": "Deficiențe vizuale",
+  "cols": [
+   "Deficiență",
+   "Cauză",
+   "Imaginea",
+   "Corecție"
+  ],
+  "rows": [
+   [
+    "Miopie",
+    "glob alungit / refracție crescută",
+    "în fața retinei",
+    "lentile divergente (biconcave)"
+   ],
+   [
+    "Hipermetropie",
+    "glob turtit / refracție scăzută",
+    "în spatele retinei",
+    "lentile convergente (biconvexe)"
+   ],
+   [
+    "Astigmatism",
+    "curbură neuniformă",
+    "focalizare în puncte diferite",
+    "lentile cilindrice"
+   ],
+   [
+    "Strabism",
+    "slăbirea unui mușchi extern",
+    "axe neparalele",
+    "chirurgical / exerciții"
+   ]
+  ]
+ },
+ {
+  "chapter": "A20",
+  "title": "Androceu vs gineceu",
+  "cols": [
+   "Criteriu",
+   "Androceu",
+   "Gineceu"
+  ],
+  "rows": [
+   [
+    "Componente",
+    "stamine (filament + anteră)",
+    "carpele; pistil (ovar, stil, stigmat)"
+   ],
+   [
+    "Gameți",
+    "spermatii (în polen)",
+    "oosferă (în sacul embrionar)"
+   ],
+   [
+    "După fecundație",
+    "—",
+    "ovul → sămânță; ovar → fruct"
+   ]
+  ]
+ },
+ {
+  "chapter": "A21",
+  "title": "Boli cu transmitere sexuală",
+  "cols": [
+   "Boală",
+   "Agent",
+   "Tip agent",
+   "Manifestări"
+  ],
+  "rows": [
+   [
+    "Sifilis",
+    "spirochetă",
+    "bacterie",
+    "șancru, rozeolă, afectare cardiacă și cerebrală"
+   ],
+   [
+    "Gonoree",
+    "gonococ",
+    "bacterie",
+    "usturimi, scurgeri galben-verzui, sterilitate"
+   ],
+   [
+    "Candidoză",
+    "Candida albicans",
+    "ciupercă",
+    "scurgere albicioasă, mâncărime"
+   ],
+   [
+    "SIDA",
+    "HIV",
+    "virus",
+    "depresie imună, infecții grave, tumori"
+   ]
+  ]
+ },
+ {
+  "chapter": "A22",
+  "title": "Grupe de sânge AB0",
+  "cols": [
+   "Grupa",
+   "Genotip",
+   "Antigene pe hematii",
+   "Anticorpi în plasmă",
+   "Donează",
+   "Primește"
+  ],
+  "rows": [
+   [
+    "I (O)",
+    "ll",
+    "—",
+    "alfa și beta",
+    "tuturor",
+    "doar I"
+   ],
+   [
+    "II (A)",
+    "LALA, LAl",
+    "A",
+    "beta",
+    "A, AB",
+    "A, O"
+   ],
+   [
+    "III (B)",
+    "LBLB, LBl",
+    "B",
+    "alfa",
+    "B, AB",
+    "B, O"
+   ],
+   [
+    "IV (AB)",
+    "LALB",
+    "A și B",
+    "—",
+    "AB",
+    "toate"
+   ]
+  ]
+ },
+ {
+  "chapter": "A22",
+  "title": "Monohibridare vs dihibridare",
+  "cols": [
+   "Criteriu",
+   "Monohibridare",
+   "Dihibridare"
+  ],
+  "rows": [
+   [
+    "Perechi de caractere",
+    "1",
+    "2"
+   ],
+   [
+    "Gameți F1",
+    "2 tipuri",
+    "4 tipuri"
+   ],
+   [
+    "Combinații F2",
+    "4",
+    "16"
+   ],
+   [
+    "Raport fenotipic F2",
+    "3:1",
+    "9:3:3:1"
+   ]
+  ]
+ },
+ {
+  "chapter": "A23",
+  "title": "Tipuri de mutații",
+  "cols": [
+   "Tip",
+   "Ce se modifică",
+   "Exemple"
+  ],
+  "rows": [
+   [
+    "Genice",
+    "gene / perechi de nucleotide",
+    "mutații punctiforme; albinism, anemie falciformă"
+   ],
+   [
+    "Cromozomale",
+    "structura cromozomilor",
+    "deleții, translocații, duplicații; ţipătul pisicii"
+   ],
+   [
+    "Genomice",
+    "numărul de cromozomi",
+    "poliploidii; trisomia 21, XO, XXY"
+   ]
+  ]
+ },
+ {
+  "chapter": "A23",
+  "title": "Aneuploidii umane",
+  "cols": [
+   "Sindrom",
+   "Cariotip",
+   "Tip",
+   "Sex afectat"
+  ],
+  "rows": [
+   [
+    "Down",
+    "47, trisomia 21",
+    "autozomal",
+    "ambele sexe"
+   ],
+   [
+    "Klinefelter",
+    "47, XXY",
+    "heterozomal",
+    "bărbați"
+   ],
+   [
+    "Turner",
+    "45, XO",
+    "heterozomal",
+    "femei"
+   ]
+  ]
+ },
+ {
+  "chapter": "A23",
+  "title": "Determinism sex tip A vs B",
+  "cols": [
+   "Criteriu",
+   "Tip A (Drosophila)",
+   "Tip B (Abraxas)"
+  ],
+  "rows": [
+   [
+    "Femelă",
+    "XX (homogametic)",
+    "XY (heterogametic)"
+   ],
+   [
+    "Mascul",
+    "XY (heterogametic)",
+    "XX (homogametic)"
+   ],
+   [
+    "Exemple",
+    "om, mamifere, musculița de oțet, hamei",
+    "păsări, reptile, amfibieni, unele insecte"
+   ]
+  ]
+ },
+ {
+  "chapter": "A23",
+  "title": "Factori mutageni",
+  "cols": [
+   "Tip",
+   "Exemple",
+   "Efecte"
+  ],
+  "rows": [
+   [
+    "Fizici",
+    "radiații ionizante, neionizante, cosmice; variații bruște de temperatură",
+    "cancerigen, teratogen"
+   ],
+   [
+    "Chimici",
+    "acid nitros, coloranți, colchicină",
+    "cancerigen, teratogen"
+   ],
+   [
+    "Biologici",
+    "virusuri, microorganisme parazite",
+    "restructurări cromozomale, tumori"
+   ]
+  ]
+ }
+]

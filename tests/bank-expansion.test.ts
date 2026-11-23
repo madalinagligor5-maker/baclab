@@ -9,14 +9,17 @@ const raw = JSON.parse(readFileSync("public/content/bank.json", "utf8"));
 const bank = parseBank(raw);
 test("expanded bank: complete chapter coverage, unique questions, explicit provenance and no fabricated specialist review", () => {
   assert.equal(bank.errors.length, 0);
-  assert.equal(bank.bank.items.length, 333);
-  const added = bank.bank.items.filter((i) => i.id.startsWith("EXT27-"));
+  // Itemii BacLab (inițiali + EXT27); cei importați din materiale (MAT-) au testul lor, în materiale.test.ts.
+  const own = bank.bank.items.filter((i) => !i.id.startsWith("MAT-"));
+  assert.equal(own.length, 333);
+  const added = own.filter((i) => i.id.startsWith("EXT27-"));
   assert.equal(added.length, 276);
-  assert.equal(new Set(bank.bank.items.map((i) => i.id)).size, 333);
-  assert.equal(new Set(bank.bank.items.map((i) => i.q.trim().toLocaleLowerCase("ro"))).size, 333);
+  const all = bank.bank.items;
+  assert.equal(new Set(all.map((i) => i.id)).size, all.length);
+  assert.equal(new Set(all.map((i) => i.q.trim().toLocaleLowerCase("ro"))).size, all.length);
   for (const chapter of CHAPTERS_A) {
     assert.equal(added.filter((i) => i.chapter === chapter.code).length, 12);
-    assert.ok(bank.bank.items.filter((i) => i.chapter === chapter.code && ["grila", "adevarat_fals"].includes(i.type)).length >= 11);
+    assert.ok(own.filter((i) => i.chapter === chapter.code && ["grila", "adevarat_fals"].includes(i.type)).length >= 11);
   }
   for (const i of added) {
     assert.equal(i.validated, false);

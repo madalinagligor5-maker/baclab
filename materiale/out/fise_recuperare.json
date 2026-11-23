@@ -1,0 +1,2900 @@
+[
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: celulă",
+  "back": "Unitatea structurală, funcțională și genetică a organismelor vii.",
+  "id": "CD0001"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: celulă procariotă",
+  "back": "Celulă fără nucleu delimitat de membrană, cu nucleoid; caracteristică bacteriilor și cianobacteriilor.",
+  "id": "CD0002"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: celulă eucariotă",
+  "back": "Celulă cu nucleu delimitat de membrană dublă și organite; întâlnită la protiste, fungi, plante, animale.",
+  "id": "CD0003"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: nucleoid",
+  "back": "Zonă a citoplasmei procariotelor în care se află ADN-ul circular, fără membrană nucleară.",
+  "id": "CD0004"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: mureină",
+  "back": "Substanță din peretele celulei procariote.",
+  "id": "CD0005"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: mozaic fluid",
+  "back": "Model al membranei: două straturi fosfolipidice străbătute de proteine.",
+  "id": "CD0006"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: hialoplasmă",
+  "back": "Citoplasma fundamentală, nestructurată, mediul proceselor metabolice.",
+  "id": "CD0007"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: organit celular",
+  "back": "Component al citoplasmei cu structură și rol specific.",
+  "id": "CD0008"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: mitocondrie",
+  "back": "Organit cu membrană dublă, sediul respirației celulare, cu ADN propriu.",
+  "id": "CD0009"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: criste mitocondriale",
+  "back": "Pliuri ale membranei mitocondriale interne, cu enzime oxido-reducătoare.",
+  "id": "CD0010"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: reticul endoplasmatic",
+  "back": "Rețea de tubuli și vezicule cu membrană simplă; neted sau rugos (granular).",
+  "id": "CD0011"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: ribozom",
+  "back": "Organit fără membrană, din ARN și proteine, sediul sintezei proteinelor.",
+  "id": "CD0012"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: aparat Golgi",
+  "back": "Totalitatea dictiozomilor; rol în secreție și formarea membranelor.",
+  "id": "CD0013"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: dictiozom",
+  "back": "Formațiune discoidală, aplatizată, cu membrană simplă, componentă a aparatului Golgi.",
+  "id": "CD0014"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: lizozom",
+  "back": "Organit cu membrană simplă și enzime hidrolitice; digestie intracelulară.",
+  "id": "CD0015"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: centrozom",
+  "back": "Centrul celular, format din doi centrioli; dă naștere fusului de diviziune.",
+  "id": "CD0016"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: vacuolă",
+  "back": "Veziculă cu membrană simplă (tonoplast) și suc vacuolar.",
+  "id": "CD0017"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: tonoplast",
+  "back": "Membrana vacuolei.",
+  "id": "CD0018"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: plastidă",
+  "back": "Organit specific celulei vegetale, cu membrană dublă și ADN propriu.",
+  "id": "CD0019"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: cloroplast",
+  "back": "Plastidă cu pigmenți clorofilieni, sediul fotosintezei.",
+  "id": "CD0020"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: grana",
+  "back": "Grămezi de tilacoide din cloroplast, unde se desfășoară faza de lumină.",
+  "id": "CD0021"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: stromă",
+  "back": "Substanța fundamentală a cloroplastului; faza de întuneric.",
+  "id": "CD0022"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: cromoplast",
+  "back": "Plastidă cu pigmenți roșii-portocalii (colorează fructe, petale).",
+  "id": "CD0023"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: leucoplast",
+  "back": "Plastidă incoloră de depozitare: amiloplast, oleoplast, proteoplast.",
+  "id": "CD0024"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: cromatină",
+  "back": "ADN + ARN + proteine din nucleu; formează cromozomii.",
+  "id": "CD0025"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: nucleol",
+  "back": "Corpuscul din nucleu cu ARN; biogeneza ribozomilor.",
+  "id": "CD0026"
+ },
+ {
+  "chapter": "A01",
+  "kind": "definitie",
+  "front": "Definiți / explicați: carioplasmă",
+  "back": "Substanța fundamentală a nucleului (nucleoplasma).",
+  "id": "CD0027"
+ },
+ {
+  "chapter": "A01",
+  "kind": "recuperare",
+  "front": "Ce organite au membrană dublă?",
+  "back": "Mitocondriile și plastidele (cloroplaste, cromoplaste, leucoplaste).",
+  "id": "CD0028"
+ },
+ {
+  "chapter": "A01",
+  "kind": "recuperare",
+  "front": "Ce organite sunt fără membrană?",
+  "back": "Ribozomii, centrozomul (și cilii/flagelii).",
+  "id": "CD0029"
+ },
+ {
+  "chapter": "A01",
+  "kind": "recuperare",
+  "front": "Ce organite au membrană simplă?",
+  "back": "Reticulul endoplasmatic, aparatul Golgi, lizozomii, vacuolele.",
+  "id": "CD0030"
+ },
+ {
+  "chapter": "A01",
+  "kind": "recuperare",
+  "front": "Din ce este alcătuit peretele celular la plante / fungi / procariote?",
+  "back": "Celuloză (plante) / chitină (fungi) / mureină (procariote).",
+  "id": "CD0031"
+ },
+ {
+  "chapter": "A01",
+  "kind": "recuperare",
+  "front": "Unde se desfășoară faza de lumină și unde faza de întuneric?",
+  "back": "Lumină: grana (tilacoide). Întuneric: stroma.",
+  "id": "CD0032"
+ },
+ {
+  "chapter": "A01",
+  "kind": "recuperare",
+  "front": "Ce rol au lizozomii?",
+  "back": "Digestia intracelulară (fagocitoză) prin enzime hidrolitice.",
+  "id": "CD0033"
+ },
+ {
+  "chapter": "A01",
+  "kind": "recuperare",
+  "front": "Ce conține cromatina?",
+  "back": "ADN, ARN și proteine.",
+  "id": "CD0034"
+ },
+ {
+  "chapter": "A01",
+  "kind": "recuperare",
+  "front": "Ce celule sunt anucleate la maturitate?",
+  "back": "Hematiile adulte și trombocitele (fragmente celulare).",
+  "id": "CD0035"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: ciclu celular",
+  "back": "Succesiunea proceselor care asigură creșterea și diviziunea celulei: interfază + diviziune.",
+  "id": "CD0036"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: interfază",
+  "back": "Perioada dintre două diviziuni; sinteză de ARN, proteine și dublarea ADN.",
+  "id": "CD0037"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: amitoză",
+  "back": "Diviziune directă, prin strangulare, la procariote și protiste; fără fus.",
+  "id": "CD0038"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: cariochineză",
+  "back": "Diviziunea nucleului (profază, metafază, anafază, telofază).",
+  "id": "CD0039"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: citochineză",
+  "back": "Diviziunea citoplasmei.",
+  "id": "CD0040"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: fus de diviziune",
+  "back": "Structură de filamente între cei doi centrozomi; orientează cromozomii.",
+  "id": "CD0041"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: cromozom bicromatidic",
+  "back": "Cromozom format din două cromatide unite prin centromer.",
+  "id": "CD0042"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: cromozom monocromatidic",
+  "back": "Cromozom cu o singură cromatidă.",
+  "id": "CD0043"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: celulă diploidă (2n)",
+  "back": "Celulă cu două seturi de cromozomi (matern și patern), de exemplu celula somatică.",
+  "id": "CD0044"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: celulă haploidă (n)",
+  "back": "Celulă cu un singur set de cromozomi, de exemplu gametul.",
+  "id": "CD0045"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: autozomi",
+  "back": "Cromozomi identici la cele două sexe; la om 44.",
+  "id": "CD0046"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: heterozomi",
+  "back": "Cromozomi sexului (X și Y); la om 2.",
+  "id": "CD0047"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: cariotip",
+  "back": "Totalitatea cromozomilor unei specii; la om 2n = 46.",
+  "id": "CD0048"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: etapă reducțională",
+  "back": "Meioza I; reduce numărul de cromozomi la jumătate.",
+  "id": "CD0049"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: etapă ecvațională",
+  "back": "Meioza II; de tip mitotic.",
+  "id": "CD0050"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: bivalent (tetradă)",
+  "back": "Pereche de cromozomi omologi alipiți în profaza I.",
+  "id": "CD0051"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: chiasmă",
+  "back": "Punct de contact între cromatide nesurori ale omologilor.",
+  "id": "CD0052"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: crossing-over",
+  "back": "Schimb de material genetic între cromatide nesurori; recombinare intracromozomală.",
+  "id": "CD0053"
+ },
+ {
+  "chapter": "A02",
+  "kind": "definitie",
+  "front": "Definiți / explicați: dansul cromozomilor",
+  "back": "Distribuirea întâmplătoare a omologilor; recombinare intercromozomală.",
+  "id": "CD0054"
+ },
+ {
+  "chapter": "A02",
+  "kind": "recuperare",
+  "front": "Care sunt fazele mitozei, în ordine?",
+  "back": "Profază, metafază, anafază, telofază.",
+  "id": "CD0055"
+ },
+ {
+  "chapter": "A02",
+  "kind": "recuperare",
+  "front": "Câte celule și ce ploidie rezultă din mitoză?",
+  "back": "Două celule-fiice diploide (2n).",
+  "id": "CD0056"
+ },
+ {
+  "chapter": "A02",
+  "kind": "recuperare",
+  "front": "Câte celule și ce ploidie rezultă din meioză?",
+  "back": "Patru celule-fiice haploide (n).",
+  "id": "CD0057"
+ },
+ {
+  "chapter": "A02",
+  "kind": "recuperare",
+  "front": "Unde are loc crossing-over-ul?",
+  "back": "În profaza I a meiozei.",
+  "id": "CD0058"
+ },
+ {
+  "chapter": "A02",
+  "kind": "recuperare",
+  "front": "Cum se numește meioza I și meioza II?",
+  "back": "Etapa reducțională (I) și etapa ecvațională (II).",
+  "id": "CD0059"
+ },
+ {
+  "chapter": "A02",
+  "kind": "recuperare",
+  "front": "Care e cariotipul uman?",
+  "back": "2n = 46: 44 autozomi + 2 heterozomi.",
+  "id": "CD0060"
+ },
+ {
+  "chapter": "A02",
+  "kind": "recuperare",
+  "front": "Ce se întâmplă cu ADN-ul în interfază?",
+  "back": "Se dublează.",
+  "id": "CD0061"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: taxon",
+  "back": "Unitate de clasificare: specie, gen, familie, ordin, clasă, încrengătură, regn.",
+  "id": "CD0062"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: specie",
+  "back": "Unitatea de bază a clasificării; indivizi înrudiți care se încrucișează dând descendenți fertili.",
+  "id": "CD0063"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: nomenclatură binară",
+  "back": "Denumirea organismelor prin două cuvinte latine: gen + specie (Carl Linné).",
+  "id": "CD0064"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: virus",
+  "back": "Entitate infecțioasă acelulară, cu ADN sau ARN, parazit intracelular.",
+  "id": "CD0065"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: adenovirus (dezoxiribovirus)",
+  "back": "Virus cu ADN: variola, herpesul, varicela.",
+  "id": "CD0066"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: ribovirus",
+  "back": "Virus cu ARN: gripa, HIV, turbarea.",
+  "id": "CD0067"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: viroză",
+  "back": "Boală produsă de virusuri.",
+  "id": "CD0068"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: bacterioză",
+  "back": "Boală produsă de bacterii: sifilis, tuberculoză, holeră.",
+  "id": "CD0069"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: micoză",
+  "back": "Boală produsă de ciuperci.",
+  "id": "CD0070"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: micoriză",
+  "back": "Simbioză între o ciupercă și rădăcina unei plante.",
+  "id": "CD0071"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: lichen",
+  "back": "Simbioză între o algă verde (sau cianobacterie) și o ciupercă.",
+  "id": "CD0072"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: tal",
+  "back": "Corp neîmpărțit în rădăcină, tulpină și frunze, la plantele avasculare.",
+  "id": "CD0073"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: cormofite",
+  "back": "Plante vasculare cu rădăcină, tulpină și frunze (corm).",
+  "id": "CD0074"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: briofite",
+  "back": "Mușchi; plante avasculare evoluate.",
+  "id": "CD0075"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: pteridofite",
+  "back": "Ferigi; plante vasculare fără flori și semințe, care se înmulțesc prin spori.",
+  "id": "CD0076"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: gimnosperme",
+  "back": "Conifere, cu semințe golașe, fără ovar.",
+  "id": "CD0077"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: angiosperme",
+  "back": "Plante cu flori complete, cu semințe închise în fruct.",
+  "id": "CD0078"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: dicotiledonate",
+  "back": "Angiosperme cu două cotiledoane.",
+  "id": "CD0079"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: monocotiledonate",
+  "back": "Angiosperme cu un singur cotiledon.",
+  "id": "CD0080"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: homeoterm",
+  "back": "Organism cu temperatura corpului constantă (păsări, mamifere).",
+  "id": "CD0081"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: poichiloterm",
+  "back": "Organism cu temperatura corpului variabilă.",
+  "id": "CD0082"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: carenate / acarenate",
+  "back": "Păsări cu / fără carenă pe stern.",
+  "id": "CD0083"
+ },
+ {
+  "chapter": "A03",
+  "kind": "definitie",
+  "front": "Definiți / explicați: biodiversitate",
+  "back": "Varietatea speciilor și a ecosistemelor; conservată prin specii ocrotite, rezervații, parcuri naționale.",
+  "id": "CD0084"
+ },
+ {
+  "chapter": "A03",
+  "kind": "recuperare",
+  "front": "Care este ordinea taxonilor de la specie la regn?",
+  "back": "Specie, gen, familie, ordin, clasă, încrengătură, regn.",
+  "id": "CD0085"
+ },
+ {
+  "chapter": "A03",
+  "kind": "recuperare",
+  "front": "Care sunt cele 5 regnuri?",
+  "back": "Monera, Protista, Fungi, Plantae, Animalia.",
+  "id": "CD0086"
+ },
+ {
+  "chapter": "A03",
+  "kind": "recuperare",
+  "front": "Ce tipuri de virusuri după acidul nucleic?",
+  "back": "Adenovirusuri (ADN) și ribovirusuri (ARN).",
+  "id": "CD0087"
+ },
+ {
+  "chapter": "A03",
+  "kind": "recuperare",
+  "front": "Exemple de viroze?",
+  "back": "Gripa, herpesul, varicela, rujeola, hepatita, SIDA.",
+  "id": "CD0088"
+ },
+ {
+  "chapter": "A03",
+  "kind": "recuperare",
+  "front": "Cele cinci clase de vertebrate?",
+  "back": "Pești, amfibieni, reptile, păsări, mamifere.",
+  "id": "CD0089"
+ },
+ {
+  "chapter": "A03",
+  "kind": "recuperare",
+  "front": "Clasele de moluște și câte un exemplu?",
+  "back": "Gasteropode (melc), lamelibranhiate (scoică), cefalopode (sepie).",
+  "id": "CD0090"
+ },
+ {
+  "chapter": "A03",
+  "kind": "recuperare",
+  "front": "Clasele de artropode și câte un exemplu?",
+  "back": "Arahnide (păianjen), crustacei (rac), insecte (albină).",
+  "id": "CD0091"
+ },
+ {
+  "chapter": "A03",
+  "kind": "recuperare",
+  "front": "Exemple de plante ocrotite în România?",
+  "back": "Floarea de colț, bujorul românesc, laleaua pestriță, papucul doamnei, tisa, laricea.",
+  "id": "CD0092"
+ },
+ {
+  "chapter": "A03",
+  "kind": "recuperare",
+  "front": "Exemple de animale ocrotite în România?",
+  "back": "Dropia, cocoșul de munte, pelicanul, lopătarul, capra neagră, râsul.",
+  "id": "CD0093"
+ },
+ {
+  "chapter": "A04",
+  "kind": "definitie",
+  "front": "Definiți / explicați: țesut",
+  "back": "Complex celular interdependent, format din celule asemănătoare ca formă, structură și funcție.",
+  "id": "CD0094"
+ },
+ {
+  "chapter": "A04",
+  "kind": "definitie",
+  "front": "Definiți / explicați: histogeneză",
+  "back": "Proces de diferențiere celulară prin care iau naștere țesuturile.",
+  "id": "CD0095"
+ },
+ {
+  "chapter": "A04",
+  "kind": "definitie",
+  "front": "Definiți / explicați: meristem",
+  "back": "Țesut embrionar format din celule nediferențiate, cu capacitate de diviziune.",
+  "id": "CD0096"
+ },
+ {
+  "chapter": "A04",
+  "kind": "definitie",
+  "front": "Definiți / explicați: meristem apical",
+  "back": "Meristem din vârfurile de creștere; creștere în lungime.",
+  "id": "CD0097"
+ },
+ {
+  "chapter": "A04",
+  "kind": "definitie",
+  "front": "Definiți / explicați: meristem intercalar",
+  "back": "Meristem de la nivelul nodurilor plantelor cu tulpini articulate.",
+  "id": "CD0098"
+ },
+ {
+  "chapter": "A04",
+  "kind": "definitie",
+  "front": "Definiți / explicați: epidermă",
+  "back": "Țesut de apărare, un strat de celule aplatizate acoperite de cuticulă.",
+  "id": "CD0099"
+ },
+ {
+  "chapter": "A04",
+  "kind": "definitie",
+  "front": "Definiți / explicați: vas lemnos",
+  "back": "Vas din celule moarte cu pereți îngroșați; conduce seva brută.",
+  "id": "CD0100"
+ },
+ {
+  "chapter": "A04",
+  "kind": "definitie",
+  "front": "Definiți / explicați: vas liberian",
+  "back": "Vas din celule vii, alungite, cu tuburi ciuruite; conduce seva elaborată.",
+  "id": "CD0101"
+ },
+ {
+  "chapter": "A04",
+  "kind": "definitie",
+  "front": "Definiți / explicați: parenchim asimilator",
+  "back": "Țesut cu cloroplaste din frunză, de exemplu palisadic.",
+  "id": "CD0102"
+ },
+ {
+  "chapter": "A04",
+  "kind": "definitie",
+  "front": "Definiți / explicați: parenchim de depozitare",
+  "back": "Țesut care depozitează substanțe de rezervă (rizomi, tuberculi, morcov).",
+  "id": "CD0103"
+ },
+ {
+  "chapter": "A04",
+  "kind": "definitie",
+  "front": "Definiți / explicați: țesut secretor",
+  "back": "Țesut care produce mucilagii, latex, uleiuri volatile, nectar, rășini.",
+  "id": "CD0104"
+ },
+ {
+  "chapter": "A04",
+  "kind": "recuperare",
+  "front": "Ce tipuri de meristeme primare există?",
+  "back": "Apicale și intercalare.",
+  "id": "CD0105"
+ },
+ {
+  "chapter": "A04",
+  "kind": "recuperare",
+  "front": "Ce conduc vasele lemnoase / liberiene?",
+  "back": "Seva brută / seva elaborată.",
+  "id": "CD0106"
+ },
+ {
+  "chapter": "A04",
+  "kind": "recuperare",
+  "front": "Din ce celule sunt formate vasele lemnoase?",
+  "back": "Celule moarte, cu pereți puternic îngroșați.",
+  "id": "CD0107"
+ },
+ {
+  "chapter": "A04",
+  "kind": "recuperare",
+  "front": "Din ce celule sunt formate vasele liberiene?",
+  "back": "Celule vii, alungite, cu pereți transversali perforați (tuburi ciuruite).",
+  "id": "CD0108"
+ },
+ {
+  "chapter": "A04",
+  "kind": "recuperare",
+  "front": "Unde se află parenchimul de depozitare?",
+  "back": "Rizomi, bulbi, tuberculi, rădăcini tuberizate (morcov, sfeclă), semințe oleaginoase.",
+  "id": "CD0109"
+ },
+ {
+  "chapter": "A05",
+  "kind": "definitie",
+  "front": "Definiți / explicați: epiteliu",
+  "back": "Țesut nevascularizat de acoperire, secreție sau recepție.",
+  "id": "CD0110"
+ },
+ {
+  "chapter": "A05",
+  "kind": "definitie",
+  "front": "Definiți / explicați: glandă exocrină",
+  "back": "Varsă secreția printr-un canal (sebacee, sudoripare, salivare).",
+  "id": "CD0111"
+ },
+ {
+  "chapter": "A05",
+  "kind": "definitie",
+  "front": "Definiți / explicați: glandă endocrină",
+  "back": "Varsă hormonii direct în sânge (tiroida, hipofiza).",
+  "id": "CD0112"
+ },
+ {
+  "chapter": "A05",
+  "kind": "definitie",
+  "front": "Definiți / explicați: glandă mixtă",
+  "back": "Secreție externă și internă: pancreas, gonade.",
+  "id": "CD0113"
+ },
+ {
+  "chapter": "A05",
+  "kind": "definitie",
+  "front": "Definiți / explicați: țesut conjunctiv",
+  "back": "Țesut cu celule, fibre și substanță fundamentală; legătură, susținere.",
+  "id": "CD0114"
+ },
+ {
+  "chapter": "A05",
+  "kind": "definitie",
+  "front": "Definiți / explicați: colagen",
+  "back": "Tip de fibră a țesutului conjunctiv.",
+  "id": "CD0115"
+ },
+ {
+  "chapter": "A05",
+  "kind": "definitie",
+  "front": "Definiți / explicați: țesut osos compact",
+  "back": "Lamele osoase concentrice; diafiza oaselor lungi.",
+  "id": "CD0116"
+ },
+ {
+  "chapter": "A05",
+  "kind": "definitie",
+  "front": "Definiți / explicați: țesut osos spongios",
+  "back": "Lamele dezordonate; epifize, oase scurte și late.",
+  "id": "CD0117"
+ },
+ {
+  "chapter": "A05",
+  "kind": "definitie",
+  "front": "Definiți / explicați: fibră musculară",
+  "back": "Celulă alungită, contractilă.",
+  "id": "CD0118"
+ },
+ {
+  "chapter": "A05",
+  "kind": "definitie",
+  "front": "Definiți / explicați: neuron",
+  "back": "Unitatea structurală și funcțională a sistemului nervos; fără diviziune.",
+  "id": "CD0119"
+ },
+ {
+  "chapter": "A05",
+  "kind": "definitie",
+  "front": "Definiți / explicați: dendrită",
+  "back": "Prelungire scurtă, ramificată; conduce impulsul spre corpul celular.",
+  "id": "CD0120"
+ },
+ {
+  "chapter": "A05",
+  "kind": "definitie",
+  "front": "Definiți / explicați: axon",
+  "back": "Prelungire lungă, unică; conduce impulsul de la corpul celular spre periferie.",
+  "id": "CD0121"
+ },
+ {
+  "chapter": "A05",
+  "kind": "definitie",
+  "front": "Definiți / explicați: sinapsă",
+  "back": "Legătura morfofuncțională dintre neuroni sau între neuron și celula inervată.",
+  "id": "CD0122"
+ },
+ {
+  "chapter": "A05",
+  "kind": "definitie",
+  "front": "Definiți / explicați: celule gliale",
+  "back": "Celule ale nevrogliei; nutriție, susținere, izolare, mielină (Schwann); se divid.",
+  "id": "CD0123"
+ },
+ {
+  "chapter": "A05",
+  "kind": "recuperare",
+  "front": "Care sunt cele patru tipuri de țesuturi animale?",
+  "back": "Epitelial, conjunctiv, muscular, nervos.",
+  "id": "CD0124"
+ },
+ {
+  "chapter": "A05",
+  "kind": "recuperare",
+  "front": "Care sunt tipurile de țesut muscular?",
+  "back": "Striat scheletic, neted, striat cardiac.",
+  "id": "CD0125"
+ },
+ {
+  "chapter": "A05",
+  "kind": "recuperare",
+  "front": "Care țesuturi conjunctive sunt moi / semidure / dure?",
+  "back": "Moi: lax, adipos, reticulat. Semidur: cartilaginos. Dur: osos.",
+  "id": "CD0126"
+ },
+ {
+  "chapter": "A05",
+  "kind": "recuperare",
+  "front": "Ce țesut formează miocardul?",
+  "back": "Muscular striat de tip cardiac.",
+  "id": "CD0127"
+ },
+ {
+  "chapter": "A05",
+  "kind": "recuperare",
+  "front": "Din ce este alcătuit țesutul nervos?",
+  "back": "Neuroni și celule gliale.",
+  "id": "CD0128"
+ },
+ {
+  "chapter": "A06",
+  "kind": "definitie",
+  "front": "Definiți / explicați: fotosinteză",
+  "back": "Proces de sinteză a substanțelor organice din apă, CO2 și săruri minerale, folosind energia luminoasă.",
+  "id": "CD0129"
+ },
+ {
+  "chapter": "A06",
+  "kind": "definitie",
+  "front": "Definiți / explicați: clorofilă",
+  "back": "Pigment verde din cloroplaste; clorofila a convertește energia luminoasă, clorofila b doar o absoarbe.",
+  "id": "CD0130"
+ },
+ {
+  "chapter": "A06",
+  "kind": "definitie",
+  "front": "Definiți / explicați: tilacoid",
+  "back": "Vezicule aplatizate din cloroplast; suprapuse formează grana.",
+  "id": "CD0131"
+ },
+ {
+  "chapter": "A06",
+  "kind": "definitie",
+  "front": "Definiți / explicați: fotoliză",
+  "back": "Descompunerea apei în faza de lumină, cu eliberare de O2.",
+  "id": "CD0132"
+ },
+ {
+  "chapter": "A06",
+  "kind": "definitie",
+  "front": "Definiți / explicați: ATP",
+  "back": "Adenozintrifosfat; substanță macroergică ce înmagazinează energie.",
+  "id": "CD0133"
+ },
+ {
+  "chapter": "A06",
+  "kind": "definitie",
+  "front": "Definiți / explicați: chemosinteză",
+  "back": "Nutriție autotrofă la unele bacterii, în care energia provine din reacții chimice.",
+  "id": "CD0134"
+ },
+ {
+  "chapter": "A06",
+  "kind": "definitie",
+  "front": "Definiți / explicați: autotrof",
+  "back": "Organism care își sintetizează substanțele organice din substanțe minerale.",
+  "id": "CD0135"
+ },
+ {
+  "chapter": "A06",
+  "kind": "recuperare",
+  "front": "Care este ecuația fotosintezei?",
+  "back": "6CO2 + 6H2O → C6H12O6 + 6O2 (la lumină, cu clorofilă).",
+  "id": "CD0136"
+ },
+ {
+  "chapter": "A06",
+  "kind": "recuperare",
+  "front": "Unde are loc faza de lumină / de întuneric?",
+  "back": "Grana / stroma.",
+  "id": "CD0137"
+ },
+ {
+  "chapter": "A06",
+  "kind": "recuperare",
+  "front": "De unde provine O2 eliberat în fotosinteză?",
+  "back": "Din fotoliza apei.",
+  "id": "CD0138"
+ },
+ {
+  "chapter": "A06",
+  "kind": "recuperare",
+  "front": "Cum se evidențiază fotosinteza?",
+  "back": "După CO2 absorbit, substanța organică produsă, O2 eliberat.",
+  "id": "CD0139"
+ },
+ {
+  "chapter": "A06",
+  "kind": "recuperare",
+  "front": "Importanța fotosintezei?",
+  "back": "Conversia energiei, sinteza de substanțe organice, eliberarea O2, purificarea atmosferei prin absorbția CO2.",
+  "id": "CD0140"
+ },
+ {
+  "chapter": "A07",
+  "kind": "definitie",
+  "front": "Definiți / explicați: heterotrofie",
+  "back": "Obținerea carbonului din substanțe organice produse de alte organisme.",
+  "id": "CD0141"
+ },
+ {
+  "chapter": "A07",
+  "kind": "definitie",
+  "front": "Definiți / explicați: saprofitism",
+  "back": "Hrănire pe resturi organice, cu substanțe dizolvate.",
+  "id": "CD0142"
+ },
+ {
+  "chapter": "A07",
+  "kind": "definitie",
+  "front": "Definiți / explicați: parazitism",
+  "back": "Hrănire pe seama unui organism viu (gazdă), pe care îl îmbolnăvește.",
+  "id": "CD0143"
+ },
+ {
+  "chapter": "A07",
+  "kind": "definitie",
+  "front": "Definiți / explicați: simbioză (mutualism)",
+  "back": "Relație între două organisme bazată pe ajutor reciproc.",
+  "id": "CD0144"
+ },
+ {
+  "chapter": "A07",
+  "kind": "definitie",
+  "front": "Definiți / explicați: haustor",
+  "back": "Prelungire a plantelor parazite care pătrunde în vasele gazdei.",
+  "id": "CD0145"
+ },
+ {
+  "chapter": "A07",
+  "kind": "definitie",
+  "front": "Definiți / explicați: fermentație acetică",
+  "back": "Transformarea alcoolului etilic în acid acetic, de către bacterii acetice (proces aerob).",
+  "id": "CD0146"
+ },
+ {
+  "chapter": "A07",
+  "kind": "recuperare",
+  "front": "Care sunt tipurile de nutriție heterotrofă?",
+  "back": "Saprofită, parazită, mixotrofă, simbiontă.",
+  "id": "CD0147"
+ },
+ {
+  "chapter": "A07",
+  "kind": "recuperare",
+  "front": "Exemple de ciuperci parazite pe plante?",
+  "back": "Rugina grâului, mana viței de vie, cornul secarei, tăciunele porumbului.",
+  "id": "CD0148"
+ },
+ {
+  "chapter": "A07",
+  "kind": "recuperare",
+  "front": "Exemple de plante parazite?",
+  "back": "Torțelul (Cuscuta), lupoaia.",
+  "id": "CD0149"
+ },
+ {
+  "chapter": "A07",
+  "kind": "recuperare",
+  "front": "Ce sunt lichenii?",
+  "back": "Simbioză între o algă (sau cianobacterie) și o ciupercă.",
+  "id": "CD0150"
+ },
+ {
+  "chapter": "A08",
+  "kind": "definitie",
+  "front": "Definiți / explicați: digestie",
+  "back": "Transformările mecanice, fizice și chimice ale substanțelor organice complexe în nutrimente absorbabile.",
+  "id": "CD0151"
+ },
+ {
+  "chapter": "A08",
+  "kind": "definitie",
+  "front": "Definiți / explicați: nutriment",
+  "back": "Substanță organică simplă, absorbabilă: glucoză, acizi grași, glicerol, aminoacizi.",
+  "id": "CD0152"
+ },
+ {
+  "chapter": "A08",
+  "kind": "definitie",
+  "front": "Definiți / explicați: fagocitoză",
+  "back": "Înglobarea particulelor solide de către celulă; digestie intracelulară.",
+  "id": "CD0153"
+ },
+ {
+  "chapter": "A08",
+  "kind": "definitie",
+  "front": "Definiți / explicați: masticație",
+  "back": "Mărunțirea hranei cu dinții, limba, saliva; formează bolul alimentar.",
+  "id": "CD0154"
+ },
+ {
+  "chapter": "A08",
+  "kind": "definitie",
+  "front": "Definiți / explicați: deglutiție",
+  "back": "Înghițirea; transportul bolului din cavitatea bucală în stomac.",
+  "id": "CD0155"
+ },
+ {
+  "chapter": "A08",
+  "kind": "definitie",
+  "front": "Definiți / explicați: amilază salivară (ptialină)",
+  "back": "Enzimă din salivă; descompune glucidele până la dextrine și maltoză.",
+  "id": "CD0156"
+ },
+ {
+  "chapter": "A08",
+  "kind": "definitie",
+  "front": "Definiți / explicați: pepsină",
+  "back": "Enzimă proteolitică din sucul gastric.",
+  "id": "CD0157"
+ },
+ {
+  "chapter": "A08",
+  "kind": "definitie",
+  "front": "Definiți / explicați: duoden",
+  "back": "Porțiunea fixă a intestinului subțire, în formă de potcoavă; primește bila și sucul pancreatic.",
+  "id": "CD0158"
+ },
+ {
+  "chapter": "A08",
+  "kind": "definitie",
+  "front": "Definiți / explicați: bilă",
+  "back": "Secreția ficatului; săruri biliare, fără enzime; emulsionează grăsimile.",
+  "id": "CD0159"
+ },
+ {
+  "chapter": "A08",
+  "kind": "definitie",
+  "front": "Definiți / explicați: suc pancreatic",
+  "back": "Conține tripsină, lipază și amilază pancreatice.",
+  "id": "CD0160"
+ },
+ {
+  "chapter": "A08",
+  "kind": "definitie",
+  "front": "Definiți / explicați: apendice vermiform",
+  "back": "Organ rudimentar la om, atașat cecumului.",
+  "id": "CD0161"
+ },
+ {
+  "chapter": "A08",
+  "kind": "definitie",
+  "front": "Definiți / explicați: gastrită",
+  "back": "Inflamația mucoasei gastrice.",
+  "id": "CD0162"
+ },
+ {
+  "chapter": "A08",
+  "kind": "definitie",
+  "front": "Definiți / explicați: ulcer gastroduodenal",
+  "back": "Leziuni ale mucoasei gastrice sau duodenale; HCl, Helicobacter pylori.",
+  "id": "CD0163"
+ },
+ {
+  "chapter": "A08",
+  "kind": "definitie",
+  "front": "Definiți / explicați: toxiinfecție alimentară",
+  "back": "Îmbolnăvire prin alimente alterate sau manipulate defectuos.",
+  "id": "CD0164"
+ },
+ {
+  "chapter": "A08",
+  "kind": "recuperare",
+  "front": "Ce enzime conține sucul pancreatic?",
+  "back": "Tripsină (proteolitică), lipază, amilază.",
+  "id": "CD0165"
+ },
+ {
+  "chapter": "A08",
+  "kind": "recuperare",
+  "front": "Conține bila enzime?",
+  "back": "Nu; conține săruri biliare care emulsionează grăsimile.",
+  "id": "CD0166"
+ },
+ {
+  "chapter": "A08",
+  "kind": "recuperare",
+  "front": "Ce hidrolizează pepsina?",
+  "back": "Proteinele, până la albumoze și peptone.",
+  "id": "CD0167"
+ },
+ {
+  "chapter": "A08",
+  "kind": "recuperare",
+  "front": "Unde începe digestia glucidelor?",
+  "back": "În cavitatea bucală, prin amilaza salivară.",
+  "id": "CD0168"
+ },
+ {
+  "chapter": "A08",
+  "kind": "recuperare",
+  "front": "Care sunt segmentele intestinului gros?",
+  "back": "Cecum, colon, rect.",
+  "id": "CD0169"
+ },
+ {
+  "chapter": "A08",
+  "kind": "recuperare",
+  "front": "Camerele stomacului la rumegătoare?",
+  "back": "Burduf, ciur, foios, cheag.",
+  "id": "CD0170"
+ },
+ {
+  "chapter": "A08",
+  "kind": "recuperare",
+  "front": "Prevenirea hepatitei virale A?",
+  "back": "Igienă a mâinilor, alimente curate, apă potabilă de calitate.",
+  "id": "CD0171"
+ },
+ {
+  "chapter": "A09",
+  "kind": "definitie",
+  "front": "Definiți / explicați: respirație",
+  "back": "Oxidarea substanțelor organice la nivel celular, cu eliberare de energie (ATP).",
+  "id": "CD0172"
+ },
+ {
+  "chapter": "A09",
+  "kind": "definitie",
+  "front": "Definiți / explicați: respirație aerobă",
+  "back": "Oxidare completă cu O2; produși CO2 și apă; mitocondrii.",
+  "id": "CD0173"
+ },
+ {
+  "chapter": "A09",
+  "kind": "definitie",
+  "front": "Definiți / explicați: respirație anaerobă",
+  "back": "Oxidare parțială, fără O2; energie mică.",
+  "id": "CD0174"
+ },
+ {
+  "chapter": "A09",
+  "kind": "definitie",
+  "front": "Definiți / explicați: fermentație",
+  "back": "Respirație anaerobă la microorganisme.",
+  "id": "CD0175"
+ },
+ {
+  "chapter": "A09",
+  "kind": "definitie",
+  "front": "Definiți / explicați: fermentație alcoolică",
+  "back": "Glucoză → alcool etilic; drojdii.",
+  "id": "CD0176"
+ },
+ {
+  "chapter": "A09",
+  "kind": "definitie",
+  "front": "Definiți / explicați: fermentație lactică",
+  "back": "Glucoză → acid lactic; bacterii lactice.",
+  "id": "CD0177"
+ },
+ {
+  "chapter": "A09",
+  "kind": "definitie",
+  "front": "Definiți / explicați: fermentație acetică",
+  "back": "Alcool etilic → acid acetic; aerob; bacterii acetice.",
+  "id": "CD0178"
+ },
+ {
+  "chapter": "A09",
+  "kind": "definitie",
+  "front": "Definiți / explicați: oxihemoglobină",
+  "back": "Compus instabil al hemoglobinei cu oxigenul.",
+  "id": "CD0179"
+ },
+ {
+  "chapter": "A09",
+  "kind": "recuperare",
+  "front": "Ecuația respirației aerobe?",
+  "back": "C6H12O6 + 6O2 → 6CO2 + 6H2O + energie.",
+  "id": "CD0180"
+ },
+ {
+  "chapter": "A09",
+  "kind": "recuperare",
+  "front": "Unde are loc respirația aerobă?",
+  "back": "În mitocondrii.",
+  "id": "CD0181"
+ },
+ {
+  "chapter": "A09",
+  "kind": "recuperare",
+  "front": "Care fermentație este aerobă?",
+  "back": "Fermentația acetică.",
+  "id": "CD0182"
+ },
+ {
+  "chapter": "A09",
+  "kind": "recuperare",
+  "front": "Exemple de aplicații ale fermentațiilor?",
+  "back": "Pâine/băuturi (alcoolică); iaurt/murături (lactică); oțet (acetică).",
+  "id": "CD0183"
+ },
+ {
+  "chapter": "A10",
+  "kind": "definitie",
+  "front": "Definiți / explicați: fose nazale",
+  "back": "Căi respiratorii căptușite cu mucoasă; comunică cu exteriorul prin nări și cu faringele prin coane.",
+  "id": "CD0184"
+ },
+ {
+  "chapter": "A10",
+  "kind": "definitie",
+  "front": "Definiți / explicați: laringe",
+  "back": "Organ cartilaginos cu coarde vocale; glota.",
+  "id": "CD0185"
+ },
+ {
+  "chapter": "A10",
+  "kind": "definitie",
+  "front": "Definiți / explicați: glotă",
+  "back": "Orificiul laringian dintre coardele vocale.",
+  "id": "CD0186"
+ },
+ {
+  "chapter": "A10",
+  "kind": "definitie",
+  "front": "Definiți / explicați: trahee",
+  "back": "Inele cartilaginoase incomplete posterior; cili.",
+  "id": "CD0187"
+ },
+ {
+  "chapter": "A10",
+  "kind": "definitie",
+  "front": "Definiți / explicați: arbore bronșic",
+  "back": "Căile intrapulmonare, de la bronhiile principale la acini.",
+  "id": "CD0188"
+ },
+ {
+  "chapter": "A10",
+  "kind": "definitie",
+  "front": "Definiți / explicați: alveolă pulmonară",
+  "back": "Suprafață de schimb; epiteliu pavimentos unistratificat.",
+  "id": "CD0189"
+ },
+ {
+  "chapter": "A10",
+  "kind": "definitie",
+  "front": "Definiți / explicați: membrană alveolo-capilară",
+  "back": "Membrana alveolară + endoteliul capilar; schimb de gaze.",
+  "id": "CD0190"
+ },
+ {
+  "chapter": "A10",
+  "kind": "definitie",
+  "front": "Definiți / explicați: pleură",
+  "back": "Seroasă cu foiță parietală și viscerală; lichid pleural.",
+  "id": "CD0191"
+ },
+ {
+  "chapter": "A10",
+  "kind": "definitie",
+  "front": "Definiți / explicați: ventilație pulmonară",
+  "back": "Respirație externă: inspirație și expirație.",
+  "id": "CD0192"
+ },
+ {
+  "chapter": "A10",
+  "kind": "definitie",
+  "front": "Definiți / explicați: diafragm",
+  "back": "Mușchi inspirator, între torace și abdomen.",
+  "id": "CD0193"
+ },
+ {
+  "chapter": "A10",
+  "kind": "definitie",
+  "front": "Definiți / explicați: lobul pulmonar",
+  "back": "Unitate structurală și funcțională a plămânului.",
+  "id": "CD0194"
+ },
+ {
+  "chapter": "A10",
+  "kind": "recuperare",
+  "front": "Inspirație: activ sau pasiv? Ce se întâmplă cu presiunea?",
+  "back": "Activ; presiunea intrapulmonară scade, volumul plămânilor crește.",
+  "id": "CD0195"
+ },
+ {
+  "chapter": "A10",
+  "kind": "recuperare",
+  "front": "Expirație liniștită: activ sau pasiv?",
+  "back": "Pasiv; volumul scade, presiunea crește.",
+  "id": "CD0196"
+ },
+ {
+  "chapter": "A10",
+  "kind": "recuperare",
+  "front": "Câți lobi au plămânii?",
+  "back": "Drept 3, stâng 2.",
+  "id": "CD0197"
+ },
+ {
+  "chapter": "A10",
+  "kind": "recuperare",
+  "front": "Din ce foițe e formată pleura?",
+  "back": "Parietală și viscerală.",
+  "id": "CD0198"
+ },
+ {
+  "chapter": "A10",
+  "kind": "recuperare",
+  "front": "Prevenirea bolilor respiratorii?",
+  "back": "Aer curat (18–20°C, umiditate), călire, alimentație echilibrată, evitarea surselor de infecție, vaccinare antituberculoasă.",
+  "id": "CD0199"
+ },
+ {
+  "chapter": "A11",
+  "kind": "definitie",
+  "front": "Definiți / explicați: rizodermă",
+  "back": "Epiderma rădăcinii; celulele ei modificate formează perii absorbanți.",
+  "id": "CD0200"
+ },
+ {
+  "chapter": "A11",
+  "kind": "definitie",
+  "front": "Definiți / explicați: osmoză",
+  "back": "Trecerea apei printr-o membrană semipermeabilă spre soluția mai concentrată.",
+  "id": "CD0201"
+ },
+ {
+  "chapter": "A11",
+  "kind": "definitie",
+  "front": "Definiți / explicați: presiune radiculară",
+  "back": "Forță activă, cu consum de energie, care contribuie la ascensiunea sevei.",
+  "id": "CD0202"
+ },
+ {
+  "chapter": "A11",
+  "kind": "definitie",
+  "front": "Definiți / explicați: forță de sucțiune",
+  "back": "Forță pasivă creată de transpirație; se transmite prin vasele lemnoase.",
+  "id": "CD0203"
+ },
+ {
+  "chapter": "A11",
+  "kind": "definitie",
+  "front": "Definiți / explicați: seva brută",
+  "back": "Apă cu săruri minerale; vase lemnoase.",
+  "id": "CD0204"
+ },
+ {
+  "chapter": "A11",
+  "kind": "definitie",
+  "front": "Definiți / explicați: seva elaborată",
+  "back": "Apă cu substanțe organice; vase liberiene.",
+  "id": "CD0205"
+ },
+ {
+  "chapter": "A11",
+  "kind": "recuperare",
+  "front": "Ce conduc vasele lemnoase / liberiene?",
+  "back": "Seva brută / elaborată.",
+  "id": "CD0206"
+ },
+ {
+  "chapter": "A11",
+  "kind": "recuperare",
+  "front": "Cum se numesc cele două tipuri de absorbție și forțele?",
+  "back": "Pasivă (sucțiune, osmoză) și activă (presiune radiculară).",
+  "id": "CD0207"
+ },
+ {
+  "chapter": "A11",
+  "kind": "recuperare",
+  "front": "Unde se depun rezervele plantelor?",
+  "back": "Rădăcini (morcov, sfeclă, ridiche), tulpini (gulie, cartof).",
+  "id": "CD0208"
+ },
+ {
+  "chapter": "A12",
+  "kind": "definitie",
+  "front": "Definiți / explicați: mediu intern",
+  "back": "Totalitatea lichidelor extracelulare: sânge, limfă, lichid interstițial.",
+  "id": "CD0209"
+ },
+ {
+  "chapter": "A12",
+  "kind": "definitie",
+  "front": "Definiți / explicați: homeostazie",
+  "back": "Constanța parametrilor mediului intern în limite fiziologice.",
+  "id": "CD0210"
+ },
+ {
+  "chapter": "A12",
+  "kind": "definitie",
+  "front": "Definiți / explicați: plasmă",
+  "back": "Componenta lichidă a sângelui (55%); 90% apă.",
+  "id": "CD0211"
+ },
+ {
+  "chapter": "A12",
+  "kind": "definitie",
+  "front": "Definiți / explicați: hematocrit",
+  "back": "Elementele figurate ale sângelui (45% din volumul sanguin).",
+  "id": "CD0212"
+ },
+ {
+  "chapter": "A12",
+  "kind": "definitie",
+  "front": "Definiți / explicați: eritrocit (hematie)",
+  "back": "Celulă anucleată, discoidală biconcavă, cu hemoglobină.",
+  "id": "CD0213"
+ },
+ {
+  "chapter": "A12",
+  "kind": "definitie",
+  "front": "Definiți / explicați: leucocit",
+  "back": "Celulă nucleată fără pigmenți; apărare prin fagocitoză și anticorpi.",
+  "id": "CD0214"
+ },
+ {
+  "chapter": "A12",
+  "kind": "definitie",
+  "front": "Definiți / explicați: trombocit",
+  "back": "Fragment celular anucleat; hemostază.",
+  "id": "CD0215"
+ },
+ {
+  "chapter": "A12",
+  "kind": "definitie",
+  "front": "Definiți / explicați: hemoglobină",
+  "back": "Pigment respirator din eritrocite; fixează și transportă gazele respiratorii.",
+  "id": "CD0216"
+ },
+ {
+  "chapter": "A12",
+  "kind": "definitie",
+  "front": "Definiți / explicați: hemostază",
+  "back": "Oprirea hemoragiei.",
+  "id": "CD0217"
+ },
+ {
+  "chapter": "A12",
+  "kind": "recuperare",
+  "front": "Ce procente au plasma și elementele figurate?",
+  "back": "Plasma 55%, elementele figurate 45%.",
+  "id": "CD0218"
+ },
+ {
+  "chapter": "A12",
+  "kind": "recuperare",
+  "front": "Cât din masa corpului este sângele?",
+  "back": "7–8%.",
+  "id": "CD0219"
+ },
+ {
+  "chapter": "A12",
+  "kind": "recuperare",
+  "front": "Ce procent din plasmă este apă?",
+  "back": "90%.",
+  "id": "CD0220"
+ },
+ {
+  "chapter": "A12",
+  "kind": "recuperare",
+  "front": "Care elemente figurate sunt anucleate?",
+  "back": "Eritrocitele mature și trombocitele.",
+  "id": "CD0221"
+ },
+ {
+  "chapter": "A12",
+  "kind": "recuperare",
+  "front": "Ce formează hemoglobina cu CO?",
+  "back": "Carboxihemoglobină, compus stabil → asfixie.",
+  "id": "CD0222"
+ },
+ {
+  "chapter": "A13",
+  "kind": "definitie",
+  "front": "Definiți / explicați: pericard",
+  "back": "Membrană care acoperă inima.",
+  "id": "CD0223"
+ },
+ {
+  "chapter": "A13",
+  "kind": "definitie",
+  "front": "Definiți / explicați: miocard",
+  "back": "Mușchiul inimii; țesut muscular striat cardiac.",
+  "id": "CD0224"
+ },
+ {
+  "chapter": "A13",
+  "kind": "definitie",
+  "front": "Definiți / explicați: endocard",
+  "back": "Foița internă a peretelui inimii.",
+  "id": "CD0225"
+ },
+ {
+  "chapter": "A13",
+  "kind": "definitie",
+  "front": "Definiți / explicați: atriu",
+  "back": "Cameră cardiacă de la baza inimii, cu pereți subțiri.",
+  "id": "CD0226"
+ },
+ {
+  "chapter": "A13",
+  "kind": "definitie",
+  "front": "Definiți / explicați: ventricul",
+  "back": "Cameră cardiacă de la vârf, cu pereți groși.",
+  "id": "CD0227"
+ },
+ {
+  "chapter": "A13",
+  "kind": "definitie",
+  "front": "Definiți / explicați: valvulă tricuspidă",
+  "back": "Între atriul drept și ventriculul drept.",
+  "id": "CD0228"
+ },
+ {
+  "chapter": "A13",
+  "kind": "definitie",
+  "front": "Definiți / explicați: valvulă bicuspidă",
+  "back": "Între atriul stâng și ventriculul stâng.",
+  "id": "CD0229"
+ },
+ {
+  "chapter": "A13",
+  "kind": "definitie",
+  "front": "Definiți / explicați: valvule semilunare",
+  "back": "La originea aortei și a arterei pulmonare; împiedică refluxul.",
+  "id": "CD0230"
+ },
+ {
+  "chapter": "A13",
+  "kind": "definitie",
+  "front": "Definiți / explicați: arteră",
+  "back": "Vas prin care sângele pleacă de la inimă.",
+  "id": "CD0231"
+ },
+ {
+  "chapter": "A13",
+  "kind": "definitie",
+  "front": "Definiți / explicați: venă",
+  "back": "Vas prin care sângele se întoarce la inimă.",
+  "id": "CD0232"
+ },
+ {
+  "chapter": "A13",
+  "kind": "definitie",
+  "front": "Definiți / explicați: capilar",
+  "back": "Cel mai mic vas; schimb de substanțe.",
+  "id": "CD0233"
+ },
+ {
+  "chapter": "A13",
+  "kind": "definitie",
+  "front": "Definiți / explicați: marea circulație",
+  "back": "Circulația sistemică: ventricul stâng → aortă → țesuturi → vene cave → atriu drept.",
+  "id": "CD0234"
+ },
+ {
+  "chapter": "A13",
+  "kind": "definitie",
+  "front": "Definiți / explicați: mica circulație",
+  "back": "Circulația pulmonară: ventricul drept → artera pulmonară → plămâni → vene pulmonare → atriu stâng.",
+  "id": "CD0235"
+ },
+ {
+  "chapter": "A13",
+  "kind": "definitie",
+  "front": "Definiți / explicați: ateroscleroză",
+  "back": "Infiltrarea arterelor cu lipide și colesterol.",
+  "id": "CD0236"
+ },
+ {
+  "chapter": "A13",
+  "kind": "definitie",
+  "front": "Definiți / explicați: hipertensiune arterială",
+  "back": "Creșterea presiunii sângelui în artere peste valorile normale.",
+  "id": "CD0237"
+ },
+ {
+  "chapter": "A13",
+  "kind": "definitie",
+  "front": "Definiți / explicați: infarct miocardic",
+  "back": "Necroza miocardului prin astuparea vaselor coronare.",
+  "id": "CD0238"
+ },
+ {
+  "chapter": "A13",
+  "kind": "recuperare",
+  "front": "Traseul marii circulații?",
+  "back": "VS → aortă → țesuturi → vene cave → AD.",
+  "id": "CD0239"
+ },
+ {
+  "chapter": "A13",
+  "kind": "recuperare",
+  "front": "Traseul micii circulații?",
+  "back": "VD → artera pulmonară → plămâni → 4 vene pulmonare → AS.",
+  "id": "CD0240"
+ },
+ {
+  "chapter": "A13",
+  "kind": "recuperare",
+  "front": "Ce valvule are inima?",
+  "back": "Tricuspidă (dreapta), bicuspidă (stânga), semilunare (la originea arterelor).",
+  "id": "CD0241"
+ },
+ {
+  "chapter": "A13",
+  "kind": "recuperare",
+  "front": "Ce conține artera pulmonară?",
+  "back": "Sânge neoxigenat.",
+  "id": "CD0242"
+ },
+ {
+  "chapter": "A13",
+  "kind": "recuperare",
+  "front": "Ce conțin venele pulmonare?",
+  "back": "Sânge oxigenat.",
+  "id": "CD0243"
+ },
+ {
+  "chapter": "A13",
+  "kind": "recuperare",
+  "front": "Cauze ale hipertensiunii?",
+  "back": "Tutun, alcool, cafea în exces, obezitate, sedentarism, stres, sare.",
+  "id": "CD0244"
+ },
+ {
+  "chapter": "A14",
+  "kind": "definitie",
+  "front": "Definiți / explicați: excreție",
+  "back": "Eliminarea din organism a produșilor de dezasimilație și a substanțelor în exces.",
+  "id": "CD0245"
+ },
+ {
+  "chapter": "A14",
+  "kind": "definitie",
+  "front": "Definiți / explicați: transpirație (la plante)",
+  "back": "Eliminarea apei sub formă de vapori, în special prin stomate.",
+  "id": "CD0246"
+ },
+ {
+  "chapter": "A14",
+  "kind": "definitie",
+  "front": "Definiți / explicați: gutație",
+  "back": "Cale de excreție la plante, alături de transpirație (definiție standard, eliminarea apei sub formă de picături).",
+  "id": "CD0247"
+ },
+ {
+  "chapter": "A14",
+  "kind": "definitie",
+  "front": "Definiți / explicați: stomată",
+  "back": "Structură din două celule reniforme care delimitează ostiola.",
+  "id": "CD0248"
+ },
+ {
+  "chapter": "A14",
+  "kind": "definitie",
+  "front": "Definiți / explicați: ostiolă",
+  "back": "Orificiul stomatei prin care circulă gazele și vaporii.",
+  "id": "CD0249"
+ },
+ {
+  "chapter": "A14",
+  "kind": "definitie",
+  "front": "Definiți / explicați: lenticelă",
+  "back": "Structură a tulpinii prin care se elimină apa în cantitate redusă.",
+  "id": "CD0250"
+ },
+ {
+  "chapter": "A14",
+  "kind": "definitie",
+  "front": "Definiți / explicați: cuticulă",
+  "back": "Strat protector al epidermei; transpirație redusă.",
+  "id": "CD0251"
+ },
+ {
+  "chapter": "A14",
+  "kind": "recuperare",
+  "front": "Prin ce căi se face excreția la plante?",
+  "back": "Transpirație și gutație.",
+  "id": "CD0252"
+ },
+ {
+  "chapter": "A14",
+  "kind": "recuperare",
+  "front": "Prin ce structuri se elimină vaporii de apă?",
+  "back": "Stomate (masiv), cuticulă (redus), lenticele (la tulpină).",
+  "id": "CD0253"
+ },
+ {
+  "chapter": "A14",
+  "kind": "recuperare",
+  "front": "Când se deschid stomatele?",
+  "back": "La lumină, prin creșterea hidratării celulelor; la întuneric se închid.",
+  "id": "CD0254"
+ },
+ {
+  "chapter": "A14",
+  "kind": "recuperare",
+  "front": "Importanța transpirației?",
+  "back": "Ascensiunea sevei brute, prevenirea supraîncălzirii, circulația gazelor prin ostiole deschise.",
+  "id": "CD0255"
+ },
+ {
+  "chapter": "A15",
+  "kind": "definitie",
+  "front": "Definiți / explicați: nefron",
+  "back": "Unitatea structurală și funcțională a rinichiului.",
+  "id": "CD0256"
+ },
+ {
+  "chapter": "A15",
+  "kind": "definitie",
+  "front": "Definiți / explicați: corpuscul Malpighi (renal)",
+  "back": "Glomerul vascular + capsula Bowman; în zona corticală.",
+  "id": "CD0257"
+ },
+ {
+  "chapter": "A15",
+  "kind": "definitie",
+  "front": "Definiți / explicați: ansa Henle",
+  "back": "Segment intermediar al tubului urinifer; în zona medulară.",
+  "id": "CD0258"
+ },
+ {
+  "chapter": "A15",
+  "kind": "definitie",
+  "front": "Definiți / explicați: piramidă Malpighi",
+  "back": "Formațiune triunghiulară a medularei, cu baza spre exterior.",
+  "id": "CD0259"
+ },
+ {
+  "chapter": "A15",
+  "kind": "definitie",
+  "front": "Definiți / explicați: uretră",
+  "back": "Canal de eliminare a urinei; la bărbat și a spermei.",
+  "id": "CD0260"
+ },
+ {
+  "chapter": "A15",
+  "kind": "definitie",
+  "front": "Definiți / explicați: vezică urinară",
+  "back": "Organ cavitar din pelvis, capacitate 300–350 ml.",
+  "id": "CD0261"
+ },
+ {
+  "chapter": "A15",
+  "kind": "definitie",
+  "front": "Definiți / explicați: litiază urinară",
+  "back": "Formarea calculilor renali.",
+  "id": "CD0262"
+ },
+ {
+  "chapter": "A15",
+  "kind": "definitie",
+  "front": "Definiți / explicați: anurie",
+  "back": "Oprirea eliminării de urină.",
+  "id": "CD0263"
+ },
+ {
+  "chapter": "A15",
+  "kind": "recuperare",
+  "front": "Unde sunt localizați rinichii?",
+  "back": "Cavitatea abdominală, de o parte și de alta a coloanei, regiunea toraco-lombară.",
+  "id": "CD0264"
+ },
+ {
+  "chapter": "A15",
+  "kind": "recuperare",
+  "front": "Care sunt zonele rinichiului?",
+  "back": "Corticală (externă) și medulară (internă).",
+  "id": "CD0265"
+ },
+ {
+  "chapter": "A15",
+  "kind": "recuperare",
+  "front": "Ce procese au loc în nefron?",
+  "back": "Filtrare, reabsorbție, secreție.",
+  "id": "CD0266"
+ },
+ {
+  "chapter": "A15",
+  "kind": "recuperare",
+  "front": "Care sunt căile urinare extrarenale?",
+  "back": "Uretere, vezică urinară, uretră.",
+  "id": "CD0267"
+ },
+ {
+  "chapter": "A16",
+  "kind": "definitie",
+  "front": "Definiți / explicați: neurocraniu",
+  "back": "Cutia craniană.",
+  "id": "CD0268"
+ },
+ {
+  "chapter": "A16",
+  "kind": "definitie",
+  "front": "Definiți / explicați: viscerocraniu",
+  "back": "Oasele feței.",
+  "id": "CD0269"
+ },
+ {
+  "chapter": "A16",
+  "kind": "definitie",
+  "front": "Definiți / explicați: humerus",
+  "back": "Osul brațului.",
+  "id": "CD0270"
+ },
+ {
+  "chapter": "A16",
+  "kind": "definitie",
+  "front": "Definiți / explicați: radius și ulnă",
+  "back": "Oasele antebrațului.",
+  "id": "CD0271"
+ },
+ {
+  "chapter": "A16",
+  "kind": "definitie",
+  "front": "Definiți / explicați: femur",
+  "back": "Osul coapsei.",
+  "id": "CD0272"
+ },
+ {
+  "chapter": "A16",
+  "kind": "definitie",
+  "front": "Definiți / explicați: tibia și fibula",
+  "back": "Oasele gambei.",
+  "id": "CD0273"
+ },
+ {
+  "chapter": "A16",
+  "kind": "definitie",
+  "front": "Definiți / explicați: coxal",
+  "back": "Os al bazinului; împreună cu sacrul formează bazinul.",
+  "id": "CD0274"
+ },
+ {
+  "chapter": "A16",
+  "kind": "definitie",
+  "front": "Definiți / explicați: digitigrad",
+  "back": "Se sprijină pe degete (pisica, tigrul).",
+  "id": "CD0275"
+ },
+ {
+  "chapter": "A16",
+  "kind": "definitie",
+  "front": "Definiți / explicați: unguligrad",
+  "back": "Se sprijină pe copite.",
+  "id": "CD0276"
+ },
+ {
+  "chapter": "A16",
+  "kind": "definitie",
+  "front": "Definiți / explicați: plantigrad",
+  "back": "Se sprijină pe toată talpa (urs, maimuță, om).",
+  "id": "CD0277"
+ },
+ {
+  "chapter": "A16",
+  "kind": "recuperare",
+  "front": "Câte perechi de coaste are omul?",
+  "back": "12.",
+  "id": "CD0278"
+ },
+ {
+  "chapter": "A16",
+  "kind": "recuperare",
+  "front": "Câte vertebre are coloana?",
+  "back": "33–34.",
+  "id": "CD0279"
+ },
+ {
+  "chapter": "A16",
+  "kind": "recuperare",
+  "front": "Care sunt oasele antebrațului / gambei?",
+  "back": "Radius și ulnă / tibia și fibula.",
+  "id": "CD0280"
+ },
+ {
+  "chapter": "A16",
+  "kind": "recuperare",
+  "front": "Care mamifere sunt digitigrade, unguligrade, plantigrade?",
+  "back": "Pisica; vaca, calul; omul, ursul.",
+  "id": "CD0281"
+ },
+ {
+  "chapter": "A17",
+  "kind": "definitie",
+  "front": "Definiți / explicați: sensibilitate",
+  "back": "Proprietatea organismelor de a reacționa la stimuli din mediu.",
+  "id": "CD0282"
+ },
+ {
+  "chapter": "A17",
+  "kind": "definitie",
+  "front": "Definiți / explicați: tactism",
+  "back": "Mișcare a celulelor mobile ca răspuns la un stimul.",
+  "id": "CD0283"
+ },
+ {
+  "chapter": "A17",
+  "kind": "definitie",
+  "front": "Definiți / explicați: tropism",
+  "back": "Mișcare orientată a organelor plantei, pozitivă sau negativă.",
+  "id": "CD0284"
+ },
+ {
+  "chapter": "A17",
+  "kind": "definitie",
+  "front": "Definiți / explicați: nastie",
+  "back": "Mișcare neorientată, determinată de intensitatea stimulului.",
+  "id": "CD0285"
+ },
+ {
+  "chapter": "A17",
+  "kind": "definitie",
+  "front": "Definiți / explicați: geotropism",
+  "back": "Tropism determinat de gravitație: rădăcina +, tulpina −.",
+  "id": "CD0286"
+ },
+ {
+  "chapter": "A17",
+  "kind": "definitie",
+  "front": "Definiți / explicați: fototropism",
+  "back": "Tropism determinat de lumină: tulpina +, rădăcina −.",
+  "id": "CD0287"
+ },
+ {
+  "chapter": "A17",
+  "kind": "definitie",
+  "front": "Definiți / explicați: fotonastie",
+  "back": "Nastie la lumină (regina nopții, zorele).",
+  "id": "CD0288"
+ },
+ {
+  "chapter": "A17",
+  "kind": "definitie",
+  "front": "Definiți / explicați: termonastie",
+  "back": "Nastie la temperatură (lalea).",
+  "id": "CD0289"
+ },
+ {
+  "chapter": "A17",
+  "kind": "definitie",
+  "front": "Definiți / explicați: seismonastie",
+  "back": "Nastie la stimul mecanic (Mimosa pudica).",
+  "id": "CD0290"
+ },
+ {
+  "chapter": "A17",
+  "kind": "recuperare",
+  "front": "Geotropismul rădăcinii / tulpinii?",
+  "back": "Pozitiv / negativ.",
+  "id": "CD0291"
+ },
+ {
+  "chapter": "A17",
+  "kind": "recuperare",
+  "front": "Fototropismul rădăcinii / tulpinii?",
+  "back": "Negativ / pozitiv.",
+  "id": "CD0292"
+ },
+ {
+  "chapter": "A17",
+  "kind": "recuperare",
+  "front": "Diferența tropism – nastie?",
+  "back": "Tropism: orientat; nastie: neorientat, depinde de intensitatea stimulului.",
+  "id": "CD0293"
+ },
+ {
+  "chapter": "A17",
+  "kind": "recuperare",
+  "front": "Exemple de nastii?",
+  "back": "Foto: regina nopții; termo: lalea; seismo: Mimosa pudica.",
+  "id": "CD0294"
+ },
+ {
+  "chapter": "A18",
+  "kind": "definitie",
+  "front": "Definiți / explicați: SNC",
+  "back": "Sistem nervos central: măduva spinării și encefalul.",
+  "id": "CD0295"
+ },
+ {
+  "chapter": "A18",
+  "kind": "definitie",
+  "front": "Definiți / explicați: substanță cenușie",
+  "back": "Corpii neuronilor; centri nervoși; în măduvă are forma H.",
+  "id": "CD0296"
+ },
+ {
+  "chapter": "A18",
+  "kind": "definitie",
+  "front": "Definiți / explicați: substanță albă",
+  "back": "Axonii mielinici; căi de conducere; cordoane.",
+  "id": "CD0297"
+ },
+ {
+  "chapter": "A18",
+  "kind": "definitie",
+  "front": "Definiți / explicați: canal ependimar",
+  "back": "Canal central al măduvei, străbate substanța cenușie.",
+  "id": "CD0298"
+ },
+ {
+  "chapter": "A18",
+  "kind": "definitie",
+  "front": "Definiți / explicați: act reflex",
+  "back": "Răspunsul organismului la un stimul prin arc reflex.",
+  "id": "CD0299"
+ },
+ {
+  "chapter": "A18",
+  "kind": "definitie",
+  "front": "Definiți / explicați: arc reflex",
+  "back": "Receptor – cale aferentă – centru nervos – cale eferentă – efector.",
+  "id": "CD0300"
+ },
+ {
+  "chapter": "A18",
+  "kind": "definitie",
+  "front": "Definiți / explicați: trunchi cerebral",
+  "back": "Bulb rahidian, punte, mezencefal.",
+  "id": "CD0301"
+ },
+ {
+  "chapter": "A18",
+  "kind": "definitie",
+  "front": "Definiți / explicați: cerebel",
+  "back": "Echilibru, tonus muscular, precizia mișcărilor.",
+  "id": "CD0302"
+ },
+ {
+  "chapter": "A18",
+  "kind": "definitie",
+  "front": "Definiți / explicați: diencefal",
+  "back": "Talamus, epitalamus, metatalamus, hipotalamus.",
+  "id": "CD0303"
+ },
+ {
+  "chapter": "A18",
+  "kind": "definitie",
+  "front": "Definiți / explicați: hipotalamus",
+  "back": "Centru vegetativ; homeotermie; controlează sistemul endocrin.",
+  "id": "CD0304"
+ },
+ {
+  "chapter": "A18",
+  "kind": "definitie",
+  "front": "Definiți / explicați: scizură",
+  "back": "Șanț adânc care delimitează lobii cerebrali.",
+  "id": "CD0305"
+ },
+ {
+  "chapter": "A18",
+  "kind": "definitie",
+  "front": "Definiți / explicați: scoarță cerebrală",
+  "back": "Etajul superior de integrare; substanță cenușie la exterior.",
+  "id": "CD0306"
+ },
+ {
+  "chapter": "A18",
+  "kind": "definitie",
+  "front": "Definiți / explicați: boala Parkinson",
+  "back": "Degenerare progresivă; rigiditate și tremurături.",
+  "id": "CD0307"
+ },
+ {
+  "chapter": "A18",
+  "kind": "definitie",
+  "front": "Definiți / explicați: epilepsie",
+  "back": "Descărcări bioelectrice anormale; convulsii.",
+  "id": "CD0308"
+ },
+ {
+  "chapter": "A18",
+  "kind": "definitie",
+  "front": "Definiți / explicați: scleroză în plăci",
+  "back": "Distrugerea tecii de mielină, cu plăci în substanța albă.",
+  "id": "CD0309"
+ },
+ {
+  "chapter": "A18",
+  "kind": "recuperare",
+  "front": "Unde sunt coarnele și unde cordoanele?",
+  "back": "Coarne – substanța cenușie; cordoane – substanța albă.",
+  "id": "CD0310"
+ },
+ {
+  "chapter": "A18",
+  "kind": "recuperare",
+  "front": "Componentele arcului reflex?",
+  "back": "Receptor, cale aferentă, centru, cale eferentă, efector.",
+  "id": "CD0311"
+ },
+ {
+  "chapter": "A18",
+  "kind": "recuperare",
+  "front": "Ce conține trunchiul cerebral?",
+  "back": "Bulb rahidian, punte, mezencefal.",
+  "id": "CD0312"
+ },
+ {
+  "chapter": "A18",
+  "kind": "recuperare",
+  "front": "Funcțiile cerebelului?",
+  "back": "Echilibru, tonus muscular, mișcări fine.",
+  "id": "CD0313"
+ },
+ {
+  "chapter": "A18",
+  "kind": "recuperare",
+  "front": "Ce reglează hipotalamusul?",
+  "back": "Funcții vegetative, homeotermie, echilibru hidroelectrolitic, comportamente, activitatea endocrină.",
+  "id": "CD0314"
+ },
+ {
+  "chapter": "A18",
+  "kind": "recuperare",
+  "front": "Lobii emisferelor?",
+  "back": "Frontal, temporal, parietal, occipital.",
+  "id": "CD0315"
+ },
+ {
+  "chapter": "A19",
+  "kind": "definitie",
+  "front": "Definiți / explicați: analizator",
+  "back": "Receptor + cale de conducere + centru cortical.",
+  "id": "CD0316"
+ },
+ {
+  "chapter": "A19",
+  "kind": "definitie",
+  "front": "Definiți / explicați: retină",
+  "back": "Tunica internă a ochiului; conține fotoreceptorii.",
+  "id": "CD0317"
+ },
+ {
+  "chapter": "A19",
+  "kind": "definitie",
+  "front": "Definiți / explicați: con",
+  "back": "Celulă fotoreceptoare pentru vederea diurnă, cromatică.",
+  "id": "CD0318"
+ },
+ {
+  "chapter": "A19",
+  "kind": "definitie",
+  "front": "Definiți / explicați: bastonaș",
+  "back": "Celulă fotoreceptoare pentru vederea nocturnă, acromatică.",
+  "id": "CD0319"
+ },
+ {
+  "chapter": "A19",
+  "kind": "definitie",
+  "front": "Definiți / explicați: pata galbenă (macula lutea)",
+  "back": "Zona cu conuri; foveea centralis are acuitate maximă.",
+  "id": "CD0320"
+ },
+ {
+  "chapter": "A19",
+  "kind": "definitie",
+  "front": "Definiți / explicați: cristalin",
+  "back": "Lentilă biconvexă transparentă din spatele irisului.",
+  "id": "CD0321"
+ },
+ {
+  "chapter": "A19",
+  "kind": "definitie",
+  "front": "Definiți / explicați: corp vitros",
+  "back": "Gel transparent din camera posterioară.",
+  "id": "CD0322"
+ },
+ {
+  "chapter": "A19",
+  "kind": "definitie",
+  "front": "Definiți / explicați: organul Corti",
+  "back": "Receptorul auzului din melcul membranos.",
+  "id": "CD0323"
+ },
+ {
+  "chapter": "A19",
+  "kind": "definitie",
+  "front": "Definiți / explicați: trompa lui Eustachio",
+  "back": "Leagă urechea medie de faringe.",
+  "id": "CD0324"
+ },
+ {
+  "chapter": "A19",
+  "kind": "definitie",
+  "front": "Definiți / explicați: miopie",
+  "back": "Imagine în fața retinei; lentile divergente.",
+  "id": "CD0325"
+ },
+ {
+  "chapter": "A19",
+  "kind": "definitie",
+  "front": "Definiți / explicați: hipermetropie",
+  "back": "Imagine în spatele retinei; lentile convergente.",
+  "id": "CD0326"
+ },
+ {
+  "chapter": "A19",
+  "kind": "definitie",
+  "front": "Definiți / explicați: astigmatism",
+  "back": "Curbură neuniformă; lentile cilindrice.",
+  "id": "CD0327"
+ },
+ {
+  "chapter": "A19",
+  "kind": "definitie",
+  "front": "Definiți / explicați: strabism",
+  "back": "Axe optice neparalele; slăbirea unui mușchi extern.",
+  "id": "CD0328"
+ },
+ {
+  "chapter": "A19",
+  "kind": "recuperare",
+  "front": "Care sunt tunicile ochiului?",
+  "back": "Externă (sclerotică, cornee), medie (coroidă, iris), internă (retina).",
+  "id": "CD0329"
+ },
+ {
+  "chapter": "A19",
+  "kind": "recuperare",
+  "front": "Conuri vs bastonașe?",
+  "back": "Conuri: vedere diurnă, cromatică, pata galbenă; bastonașe: vedere nocturnă, acromatică, periferie.",
+  "id": "CD0330"
+ },
+ {
+  "chapter": "A19",
+  "kind": "recuperare",
+  "front": "Părțile urechii?",
+  "back": "Externă, medie (oscioare), internă (labirint osos și membranos).",
+  "id": "CD0331"
+ },
+ {
+  "chapter": "A19",
+  "kind": "recuperare",
+  "front": "Corecția miopiei / hipermetropiei?",
+  "back": "Lentile divergente / convergente.",
+  "id": "CD0332"
+ },
+ {
+  "chapter": "A19",
+  "kind": "recuperare",
+  "front": "Senzații gustative primare?",
+  "back": "Acru, amar, dulce, sărat.",
+  "id": "CD0333"
+ },
+ {
+  "chapter": "A20",
+  "kind": "definitie",
+  "front": "Definiți / explicați: androceu",
+  "back": "Totalitatea staminelor.",
+  "id": "CD0334"
+ },
+ {
+  "chapter": "A20",
+  "kind": "definitie",
+  "front": "Definiți / explicați: gineceu",
+  "back": "Totalitatea carpelelor; pistil: ovar, stil, stigmat.",
+  "id": "CD0335"
+ },
+ {
+  "chapter": "A20",
+  "kind": "definitie",
+  "front": "Definiți / explicați: stamină",
+  "back": "Filament + anteră (cu polen).",
+  "id": "CD0336"
+ },
+ {
+  "chapter": "A20",
+  "kind": "definitie",
+  "front": "Definiți / explicați: spermatie",
+  "back": "Gamet bărbătesc din grăuncior de polen.",
+  "id": "CD0337"
+ },
+ {
+  "chapter": "A20",
+  "kind": "definitie",
+  "front": "Definiți / explicați: oosferă",
+  "back": "Gametul femeiesc din sacul embrionar.",
+  "id": "CD0338"
+ },
+ {
+  "chapter": "A20",
+  "kind": "definitie",
+  "front": "Definiți / explicați: sac embrionar",
+  "back": "Structură din ovul cu 7 nuclee.",
+  "id": "CD0339"
+ },
+ {
+  "chapter": "A20",
+  "kind": "definitie",
+  "front": "Definiți / explicați: zigot principal",
+  "back": "Celulă 2n din care se dezvoltă embrionul.",
+  "id": "CD0340"
+ },
+ {
+  "chapter": "A20",
+  "kind": "definitie",
+  "front": "Definiți / explicați: zigot accesoriu",
+  "back": "Celulă 3n din care se formează endospermul.",
+  "id": "CD0341"
+ },
+ {
+  "chapter": "A20",
+  "kind": "definitie",
+  "front": "Definiți / explicați: endosperm (albumen)",
+  "back": "Țesut nutritiv al seminței.",
+  "id": "CD0342"
+ },
+ {
+  "chapter": "A20",
+  "kind": "definitie",
+  "front": "Definiți / explicați: cotiledon",
+  "back": "Frunză embrionară cu substanțe de rezervă; 1 sau 2.",
+  "id": "CD0343"
+ },
+ {
+  "chapter": "A20",
+  "kind": "definitie",
+  "front": "Definiți / explicați: drupă / baca / poamă",
+  "back": "Fructe cărnoase: prună; tomată; măr.",
+  "id": "CD0344"
+ },
+ {
+  "chapter": "A20",
+  "kind": "definitie",
+  "front": "Definiți / explicați: achenă / cariopsă / nucă",
+  "back": "Fructe uscate indehiscente.",
+  "id": "CD0345"
+ },
+ {
+  "chapter": "A20",
+  "kind": "definitie",
+  "front": "Definiți / explicați: păstaie / capsulă",
+  "back": "Fructe uscate dehiscente.",
+  "id": "CD0346"
+ },
+ {
+  "chapter": "A20",
+  "kind": "definitie",
+  "front": "Definiți / explicați: stolon",
+  "back": "Tulpină târâtoare (căpșun).",
+  "id": "CD0347"
+ },
+ {
+  "chapter": "A20",
+  "kind": "definitie",
+  "front": "Definiți / explicați: rizom",
+  "back": "Tulpină subterană (iris).",
+  "id": "CD0348"
+ },
+ {
+  "chapter": "A20",
+  "kind": "definitie",
+  "front": "Definiți / explicați: altoi",
+  "back": "Fragment de ramură atașat unui portaltoi.",
+  "id": "CD0349"
+ },
+ {
+  "chapter": "A20",
+  "kind": "recuperare",
+  "front": "Din ce se formează sămânța? Dar fructul?",
+  "back": "Sămânța din ovul; fructul din ovar.",
+  "id": "CD0350"
+ },
+ {
+  "chapter": "A20",
+  "kind": "recuperare",
+  "front": "Ce este androceul / gineceul?",
+  "back": "Stamine / carpele.",
+  "id": "CD0351"
+ },
+ {
+  "chapter": "A20",
+  "kind": "recuperare",
+  "front": "Ce formează zigotul principal / accesoriu?",
+  "back": "Embrionul / endospermul.",
+  "id": "CD0352"
+ },
+ {
+  "chapter": "A20",
+  "kind": "recuperare",
+  "front": "Exemple de reproducere vegetativă?",
+  "back": "Stolon (căpșun), rizom (iris), bulb (lalea), tubercul (cartof), butași, marcote, altoi.",
+  "id": "CD0353"
+ },
+ {
+  "chapter": "A20",
+  "kind": "recuperare",
+  "front": "Exemple de fructe: drupă, bacă, poamă, păstaie, capsulă?",
+  "back": "Prun, tomată, măr, fasole, mac.",
+  "id": "CD0354"
+ },
+ {
+  "chapter": "A21",
+  "kind": "definitie",
+  "front": "Definiți / explicați: spermatogeneză",
+  "back": "Formarea spermatozoizilor prin meioză, în testicule.",
+  "id": "CD0355"
+ },
+ {
+  "chapter": "A21",
+  "kind": "definitie",
+  "front": "Definiți / explicați: ovogeneză",
+  "back": "Formarea ovulelor prin meioză, în ovare.",
+  "id": "CD0356"
+ },
+ {
+  "chapter": "A21",
+  "kind": "definitie",
+  "front": "Definiți / explicați: tub seminifer",
+  "back": "Structură din testicul unde se formează spermatozoizii.",
+  "id": "CD0357"
+ },
+ {
+  "chapter": "A21",
+  "kind": "definitie",
+  "front": "Definiți / explicați: epididim",
+  "back": "Cale genitală masculină.",
+  "id": "CD0358"
+ },
+ {
+  "chapter": "A21",
+  "kind": "definitie",
+  "front": "Definiți / explicați: prostată",
+  "back": "Glandă anexă care hrănește spermatozoizii; traversată de uretră.",
+  "id": "CD0359"
+ },
+ {
+  "chapter": "A21",
+  "kind": "definitie",
+  "front": "Definiți / explicați: folicul ovarian",
+  "back": "Structură ovariană care formează ovule.",
+  "id": "CD0360"
+ },
+ {
+  "chapter": "A21",
+  "kind": "definitie",
+  "front": "Definiți / explicați: ovulație",
+  "back": "Expulzia ovulului din ovar.",
+  "id": "CD0361"
+ },
+ {
+  "chapter": "A21",
+  "kind": "definitie",
+  "front": "Definiți / explicați: trompă uterină",
+  "back": "Cale genitală feminină.",
+  "id": "CD0362"
+ },
+ {
+  "chapter": "A21",
+  "kind": "definitie",
+  "front": "Definiți / explicați: uter",
+  "back": "Implantarea embrionului, dezvoltarea fătului, nașterea.",
+  "id": "CD0363"
+ },
+ {
+  "chapter": "A21",
+  "kind": "definitie",
+  "front": "Definiți / explicați: BTS",
+  "back": "Boală cu transmitere sexuală: sifilis, gonoree, candidoză, SIDA.",
+  "id": "CD0364"
+ },
+ {
+  "chapter": "A21",
+  "kind": "definitie",
+  "front": "Definiți / explicați: șancru sifilitic",
+  "back": "Rană în zona genitală în sifilisul primar.",
+  "id": "CD0365"
+ },
+ {
+  "chapter": "A21",
+  "kind": "definitie",
+  "front": "Definiți / explicați: HIV",
+  "back": "Virus care produce SIDA.",
+  "id": "CD0366"
+ },
+ {
+  "chapter": "A21",
+  "kind": "recuperare",
+  "front": "Unde se formează gameții masculini / feminini?",
+  "back": "Testicule (tuburi seminifere) / ovare (foliculi).",
+  "id": "CD0367"
+ },
+ {
+  "chapter": "A21",
+  "kind": "recuperare",
+  "front": "Agenții BTS?",
+  "back": "Sifilis – spirochetă; gonoree – gonococ; candidoză – Candida; SIDA – HIV.",
+  "id": "CD0368"
+ },
+ {
+  "chapter": "A21",
+  "kind": "recuperare",
+  "front": "Prevenirea BTS?",
+  "back": "Evitarea partenerilor multipli/necunoscuți, prezervativ, seringi de unică folosință, controlul donatorilor, igienă.",
+  "id": "CD0369"
+ },
+ {
+  "chapter": "A21",
+  "kind": "recuperare",
+  "front": "Rolul uterului?",
+  "back": "Implantare, dezvoltarea fătului, naștere.",
+  "id": "CD0370"
+ },
+ {
+  "chapter": "A22",
+  "kind": "definitie",
+  "front": "Definiți / explicați: ereditate",
+  "back": "Însușirea organismelor de a transmite informația genetică descendenților.",
+  "id": "CD0371"
+ },
+ {
+  "chapter": "A22",
+  "kind": "definitie",
+  "front": "Definiți / explicați: variabilitate",
+  "back": "Însușirea organismelor de a se deosebi prin caractere ereditare și neereditare.",
+  "id": "CD0372"
+ },
+ {
+  "chapter": "A22",
+  "kind": "definitie",
+  "front": "Definiți / explicați: gene alele",
+  "back": "Factori ereditari care determină manifestări contrastante ale aceluiași caracter.",
+  "id": "CD0373"
+ },
+ {
+  "chapter": "A22",
+  "kind": "definitie",
+  "front": "Definiți / explicați: homozigot",
+  "back": "Organism cu alele identice (AA sau aa).",
+  "id": "CD0374"
+ },
+ {
+  "chapter": "A22",
+  "kind": "definitie",
+  "front": "Definiți / explicați: heterozigot",
+  "back": "Organism cu alele diferite (Aa).",
+  "id": "CD0375"
+ },
+ {
+  "chapter": "A22",
+  "kind": "definitie",
+  "front": "Definiți / explicați: genotip",
+  "back": "Totalitatea factorilor ereditari ai unui organism.",
+  "id": "CD0376"
+ },
+ {
+  "chapter": "A22",
+  "kind": "definitie",
+  "front": "Definiți / explicați: fenotip",
+  "back": "Totalitatea însușirilor rezultate din interacțiunea genotip – mediu.",
+  "id": "CD0377"
+ },
+ {
+  "chapter": "A22",
+  "kind": "definitie",
+  "front": "Definiți / explicați: monohibridare",
+  "back": "Încrucișare între organisme care diferă printr-o pereche de caractere.",
+  "id": "CD0378"
+ },
+ {
+  "chapter": "A22",
+  "kind": "definitie",
+  "front": "Definiți / explicați: dihibridare",
+  "back": "Încrucișare între organisme care diferă prin două perechi de caractere.",
+  "id": "CD0379"
+ },
+ {
+  "chapter": "A22",
+  "kind": "definitie",
+  "front": "Definiți / explicați: legea purității gameților",
+  "back": "Gameții conțin un singur factor ereditar din fiecare pereche.",
+  "id": "CD0380"
+ },
+ {
+  "chapter": "A22",
+  "kind": "definitie",
+  "front": "Definiți / explicați: legea segregării independente",
+  "back": "Fiecare pereche de gene alele segregă independent de celelalte.",
+  "id": "CD0381"
+ },
+ {
+  "chapter": "A22",
+  "kind": "definitie",
+  "front": "Definiți / explicați: codominanță",
+  "back": "Două alele dominante care se manifestă împreună (grupa AB).",
+  "id": "CD0382"
+ },
+ {
+  "chapter": "A22",
+  "kind": "definitie",
+  "front": "Definiți / explicați: aglutinogen",
+  "back": "Antigen (A, B) de pe membrana hematiilor.",
+  "id": "CD0383"
+ },
+ {
+  "chapter": "A22",
+  "kind": "definitie",
+  "front": "Definiți / explicați: aglutinină",
+  "back": "Anticorp (alfa, beta) din plasmă.",
+  "id": "CD0384"
+ },
+ {
+  "chapter": "A22",
+  "kind": "definitie",
+  "front": "Definiți / explicați: autogamă",
+  "back": "Plantă care se reproduce prin autopolenizare.",
+  "id": "CD0385"
+ },
+ {
+  "chapter": "A22",
+  "kind": "recuperare",
+  "front": "Care sunt cele două legi mendeliene (din programă)?",
+  "back": "Legea purității gameților; legea segregării independente a perechilor de caractere.",
+  "id": "CD0386"
+ },
+ {
+  "chapter": "A22",
+  "kind": "recuperare",
+  "front": "Raporturile în F2: monohibridare / dihibridare?",
+  "back": "Fenotipic 3:1 (genotipic 1:2:1); dihibridare 9:3:3:1.",
+  "id": "CD0387"
+ },
+ {
+  "chapter": "A22",
+  "kind": "recuperare",
+  "front": "Câte tipuri de gameți formează NzGg?",
+  "back": "4 (2²): NG, Ng, zG, zg.",
+  "id": "CD0388"
+ },
+ {
+  "chapter": "A22",
+  "kind": "recuperare",
+  "front": "Genotipurile grupelor de sânge?",
+  "back": "I: ll; II: LALA/LAl; III: LBLB/LBl; IV: LALB.",
+  "id": "CD0389"
+ },
+ {
+  "chapter": "A22",
+  "kind": "recuperare",
+  "front": "Donator / primitor universal?",
+  "back": "I(O) / IV(AB).",
+  "id": "CD0390"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: recombinare genetică",
+  "back": "Reunirea elementelor genetice din surse independente într-o singură unitate.",
+  "id": "CD0391"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: crossing-over",
+  "back": "Schimb reciproc de gene între cromatidele nesurori ale omologilor, în profaza I.",
+  "id": "CD0392"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: chiasmă",
+  "back": "Punct de contact între cromatidele nesurori ale cromozomilor omologi.",
+  "id": "CD0393"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: bivalent (tetradă)",
+  "back": "Pereche de cromozomi omologi, unită în profaza I.",
+  "id": "CD0394"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: heterozom",
+  "back": "Cromozom sexual (X sau Y).",
+  "id": "CD0395"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: sex homogametic",
+  "back": "Sex cu heterozomi identici (XX în tipul A), formează un singur tip de gameți.",
+  "id": "CD0396"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: sex heterogametic",
+  "back": "Sex cu heterozomi diferiți (XY în tipul A), formează două tipuri de gameți.",
+  "id": "CD0397"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: mutație",
+  "back": "Modificare a materialului genetic care nu este consecința recombinării.",
+  "id": "CD0398"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: mutație punctiformă",
+  "back": "Mutație care afectează o pereche de nucleotide.",
+  "id": "CD0399"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: poliploidie",
+  "back": "Multiplicarea seturilor de cromozomi (3n, 4n).",
+  "id": "CD0400"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: aneuploidie",
+  "back": "Variația numărului de cromozomi fără modificarea setului de bază (2n±1).",
+  "id": "CD0401"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: factor mutagen",
+  "back": "Agent fizic, chimic sau biologic care produce mutații.",
+  "id": "CD0402"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: teratogen",
+  "back": "Care produce malformații în dezvoltarea intrauterină.",
+  "id": "CD0403"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: cariotip",
+  "back": "Totalitatea cromozomilor unei specii; la om 46.",
+  "id": "CD0404"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: hemizigoție",
+  "back": "Prezența unei singure alele pentru o genă de pe X, la bărbat.",
+  "id": "CD0405"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: sindrom Down",
+  "back": "Trisomia 21.",
+  "id": "CD0406"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: sindrom Turner",
+  "back": "Monosomia XO, la femei.",
+  "id": "CD0407"
+ },
+ {
+  "chapter": "A23",
+  "kind": "definitie",
+  "front": "Definiți / explicați: sindrom Klinefelter",
+  "back": "Trisomia XXY, la bărbați.",
+  "id": "CD0408"
+ },
+ {
+  "chapter": "A23",
+  "kind": "recuperare",
+  "front": "Unde și când are loc crossing-over?",
+  "back": "În profaza I a meiozei, între cromatidele nesurori ale cromozomilor omologi.",
+  "id": "CD0409"
+ },
+ {
+  "chapter": "A23",
+  "kind": "recuperare",
+  "front": "Tipul A / tipul B de determinare a sexului?",
+  "back": "A (Drosophila): femelă XX, mascul XY – om, mamifere. B (Abraxas): mascul XX, femelă XY – păsări, reptile etc.",
+  "id": "CD0410"
+ },
+ {
+  "chapter": "A23",
+  "kind": "recuperare",
+  "front": "Clasificarea mutațiilor?",
+  "back": "După celulă: gametice/somatice; după structură: genice, cromozomale, genomice.",
+  "id": "CD0411"
+ },
+ {
+  "chapter": "A23",
+  "kind": "recuperare",
+  "front": "Factori mutageni?",
+  "back": "Fizici (radiații), chimici (acid nitros, colchicină), biologici (virusuri).",
+  "id": "CD0412"
+ },
+ {
+  "chapter": "A23",
+  "kind": "recuperare",
+  "front": "Sindroame cromozomale?",
+  "back": "Down 21 (47); Klinefelter XXY (47); Turner XO (45).",
+  "id": "CD0413"
+ },
+ {
+  "chapter": "A23",
+  "kind": "recuperare",
+  "front": "Boli genice?",
+  "back": "Dominante: polidactilie, sindactilie; recesive: albinism; heterozomale recesive: hemofilie, daltonism.",
+  "id": "CD0414"
+ }
+]

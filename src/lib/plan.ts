@@ -39,7 +39,8 @@ export interface PlanInput {
 }
 
 export function budgetFor(minutes: number): number {
-  return Math.max(5, Math.round((minutes * 60) / PRODUCT.secondsPerItem));
+  // În jos: planul nu are voie să depășească timpul ales (20 min / 45 s = 26,7 → 26 de itemi, nu 27).
+  return Math.max(5, Math.floor((minutes * 60) / PRODUCT.secondsPerItem));
 }
 
 /** Un capitol e „deschis” când prerechizitele lui au fost parcurse măcar pe jumătate (sau n-au itemi). */
