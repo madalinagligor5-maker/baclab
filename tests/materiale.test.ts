@@ -44,3 +44,17 @@ test("materials bank: misconception explanations read as second-person feedback"
     assert.doesNotMatch(w, /^(Confundă|Atribuie|Încurcă)/);
   }
 });
+
+test("writing practice: Subiectele II–III items are reachable per chapter, quick sessions mix sources", async () => {
+  const { buildWritingSession, buildChapterSession, writingCount } = await import("../src/lib/plan");
+  const all = bank.bank.items;
+  const covered = CHAPTERS_A.filter((c) => writingCount(c.code, all) > 0);
+  assert.ok(covered.length >= 20, `doar ${covered.length} capitole au itemi de redactare`);
+  for (const c of covered) {
+    const s = buildWritingSession(c.code, all, {}, "2026-11-23");
+    assert.ok(s.length > 0 && s.every((i) => !AUTO_GRADED.includes(i.type) && i.model?.length));
+  }
+  const first = buildChapterSession("A01", all, {}, "2026-11-23");
+  assert.ok(first.some((i) => i.id.startsWith("MAT-")), "sesiunea A01 nu conține niciun item din materiale");
+  assert.ok(first.some((i) => !i.id.startsWith("MAT-")), "sesiunea A01 conține doar itemi din materiale");
+});

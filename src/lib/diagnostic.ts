@@ -1,4 +1,5 @@
 import type { Chapter, Item } from "./content/types";
+import { byDifficultyMixed } from "./order";
 import type { Attempt } from "./state";
 import { addDays, type DayStr } from "./dates";
 
@@ -18,7 +19,7 @@ export function diagnosticItems(items: Item[], chapters: Chapter[], perChapter =
   for (let round = 0; round < perChapter; round++) {
     for (const ch of chapters) {
       const candidates = pool.filter((i) => i.chapter === ch.code)
-        .sort((a, b) => (a.difficulty ?? 2) - (b.difficulty ?? 2) || a.id.localeCompare(b.id));
+        .sort(byDifficultyMixed);
       if (candidates[round]) selected.push(candidates[round]);
     }
   }

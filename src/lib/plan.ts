@@ -4,6 +4,7 @@ import { chapterStats, itemsByChapter } from "./mastery";
 import { diffDays, type DayStr } from "./dates";
 import { isDue, overdueDays, type Card } from "./srs";
 import { makeRng } from "./rng";
+import { byDifficultyMixed } from "./order";
 import type { Attempt, Profile, SimRun } from "./state";
 
 /** Tipurile care se rezolvă repede, potrivite pentru sesiunile zilnice. */
@@ -70,7 +71,7 @@ export function buildPlan(input: PlanInput): Plan {
   const unseenIn = (code: string) =>
     (byChapter[code] ?? [])
       .filter((it) => !cards[it.id])
-      .sort((a, b) => (a.difficulty ?? 2) - (b.difficulty ?? 2) || a.id.localeCompare(b.id));
+      .sort(byDifficultyMixed);
 
   // 2. Capitolul slab (acuratețe mică în ultimele 30 de zile)
   let weakChapter: string | null = null;
@@ -136,12 +137,25 @@ export function buildPlan(input: PlanInput): Plan {
 }
 
 /** Sesiune pe un capitol: scadentele, apoi noile, apoi restul (cele mai vechi văzute). */
+/** Itemi de redactare (Subiectele II și III): structurați, enunțuri, minieseuri, probleme. Se autoevaluează pe baza modelului. */
+export function buildWritingSession(code: string, items: Item[], cards: Record<string, Card>, today: DayStr, limit = 6): Item[] {
+  const list = items.filter((it) => it.chapter === code && !isQuick(it));
+  const due = list.filter((it) => cards[it.id] && isDue(cards[it.id] as Card, today));
+  const fresh = list.filter((it) => !cards[it.id]).sort(byDifficultyMixed);
+  const rest = list
+    .filter((it) => cards[it.id] && !isDue(cards[it.id] as Card, today))
+    .sort((a, b) => (cards[a.id] as Card).due.localeCompare((cards[b.id] as Card).due));
+  return [...due, ...fresh, ...rest].slice(0, limit);
+}
+
+export const writingCount = (code: string, items: Item[]) => items.filter((it) => it.chapter === code && !isQuick(it)).length;
+
 export function buildChapterSession(code: string, items: Item[], cards: Record<string, Card>, today: DayStr, limit = 15): Item[] {
   const list = items.filter((it) => it.chapter === code && isQuick(it));
   const due = list.filter((it) => cards[it.id] && isDue(cards[it.id] as Card, today));
   const fresh = list
     .filter((it) => !cards[it.id])
-    .sort((a, b) => (a.difficulty ?? 2) - (b.difficulty ?? 2) || a.id.localeCompare(b.id));
+    .sort(byDifficultyMixed);
   const rest = list
     .filter((it) => cards[it.id] && !isDue(cards[it.id] as Card, today))
     .sort((a, b) => (cards[a.id] as Card).due.localeCompare((cards[b.id] as Card).due));

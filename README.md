@@ -8,10 +8,14 @@ Aplicație web (PWA) în beta pentru pregătirea la Bacalaureat, biologie vegeta
 
 **Ce face**
 - **Azi** – plan zilnic de 10–30 de minute: recapitulări scadente (repetiție spațiată) + întrebări noi din capitolele deschise, cu accent pe capitolul slab.
-- **Diagnostic** – evaluare inițială pe 23 de capitole; după o greșeală adaugă un item diferit din capitol, dacă există, maximum trei per capitol. Coada se păstrează local; rezultatul adaptează prioritățile și recapitulările. Este un screening după reguli, nu o evaluare psihometrică validată. **Lecții**: 23 de lecții scrise (A01–A23), în `src/content/lectii/`, la `/lectii`: teorie pe secțiuni, „de reținut” și capcane de examen, după ghidul Nominatrix și fișele de sinteză 2012.
+- **Diagnostic** – evaluare inițială pe 23 de capitole; după o greșeală adaugă un item diferit din capitol, dacă există, maximum trei per capitol. Coada se păstrează local; rezultatul adaptează prioritățile și recapitulările. Este un screening după reguli, nu o evaluare psihometrică validată. **Lecții**: 23 de lecții scrise (A01–A23), în `src/content/lectii/`, la `/lectii`: teorie pe secțiuni, „de reținut”, capcane de examen și „Cum apare la Bac”, după ghidul Nominatrix și fișele de sinteză 2012. Fiecare lecție are 1–3 imagini (44 în total, de pe Wikimedia Commons, domeniu public sau CC; 19 cu etichete în română), cu legendă și atribuire, plus termenii-cheie ai capitolului.
 - **Greșelile mele** – întrebările cu ultimul răspuns automat greșit, care pot fi reluate într-o sesiune separată.
 - **Capitole** – 23 de capitole (clasele IX–X) cu fișă de recapitulare și sesiuni de exersare.
 - **Exersare** – grile (cu explicația confuziei din spatele fiecărei variante greșite), adevărat/fals cu corectare, itemi autoevaluați.
+- **Subiectele II–III** – pe fiecare capitol, itemi de redactare (itemi structurați, enunțuri, minieseuri, probleme de calcul și de genetică), autoevaluați după răspunsul model.
+- **Cartonașe** – 414 întrebări și definiții pentru recuperare activă, câte un pachet pe capitol (`/cartonase`); ce nu știi revine până îl fixezi.
+- **Glosar** – 294 de termeni, cu căutare fără diacritice (`/glosar`).
+- **Confuzii frecvente** – registrul celor 47 de greșeli tipice, cu remediere (`/confuzii`); aceleași texte apar la exersare când alegi o variantă greșită.
 - **Simulări** – subiecte în formatul real (90 p + 10 oficiu, nota = total/10, promovare ≥ 5, 3 ore), cu autoevaluare și capitolele de reluat.
 - **Laborator** – calcul în lanț cu procente (II.A.c) și probleme de genetică generate (mono-, dihibridare F2, încrucișare test), cu pătrat Punnett. Calculele sunt exacte (fracții `BigInt`).
 - **Fișe** – 24 de fișe vizuale (76 de tabele comparative, 26 de scheme: fluxuri, arbori, pătrate Punnett calculate de motor), câte una pe capitol, plus structura probei E.d. Sursa: fișele de sinteză 2012, subiectele 2025/2026. Datele sunt în `src/content/fise/`. Modulul B (clasele XI–XII): 14 fișe de recapitulare (63 de tabele și scheme), într-o secțiune separată „în pregătire”, fără exersare.
@@ -29,6 +33,8 @@ npm run check:types  # verificare de tipuri cu stub-uri (fără next)
 npm run content:check
 npm run content:audit
 npm run content:release-check # eșuează intenționat cât timp banca nu este validată și completată
+python3 -I scripts/import-materiale.py   # (re)importă itemii MAT- din materiale/out/banca_itemi.json
+python3 -I scripts/la-bac.py            # regenerează „Cum apare la Bac” din materiale/lectii/*.md
 ```
 Copiază `.env.example` în `.env.local`. Paywall-ul e **oprit** implicit (`NEXT_PUBLIC_PAYWALL=off`): tot conținutul e deschis în beta.
 
@@ -40,7 +46,7 @@ Copiază `.env.example` în `.env.local`. Paywall-ul e **oprit** implicit (`NEXT
 - PWA: `public/manifest.webmanifest`, `public/sw.js` (offline), `public/offline.html`.
 
 ## Conținut — ce este și ce nu este
-- `bank.json` conține **333 de itemi**: 57 inițiali și 276 noi (12 suplimentari pe fiecare dintre cele 23 de capitole). Noile întrebări includ grile, A/F cu reformulare și cerințe scurte, cu referințe documentare; `validated: false` păstrează distinctă validarea de specialitate. Banca completă (623 itemi: `out/banca_itemi.json`) **nu era în proiect**. Importă-o cu `npm run content:import -- cale/banca_itemi.json`; normalizatorul acceptă câmpurile `bac_slot`, `wrong_why`, răspunsul corect ca literă sau index.
+- `bank.json` conține **949 de itemi**: 57 inițiali, 276 noi (12 suplimentari pe fiecare dintre cele 23 de capitole) și 616 din materialele BacBio (prefix `MAT-`, toate cele nouă tipuri de itemi ai probei E.d). Banca de 333 de itemi descrisă mai jos rămâne neschimbată. Noile întrebări includ grile, A/F cu reformulare și cerințe scurte, cu referințe documentare; `validated: false` păstrează distinctă validarea de specialitate. Banca completă (623 de itemi) este acum în `materiale/out/banca_itemi.json`, împreună cu glosarul, cartonașele, confuziile, tabelele, hărțile modulelor, lecțiile BacBio și imaginile (vezi `materiale/README.md`). `python3 -I scripts/import-materiale.py` o convertește idempotent: explicația fiecărei variante greșite vine din registrul de confuzii, răspunsurile model se păstrează, iar duplicatele față de banca existentă (7) se sar. Nu folosi `content:import` pentru banca din materiale: el înlocuiește toată banca.
 - **Simularea națională 2026:** enunțurile și cheile grilelor au fost confruntate cu documentele CNCE. Punctajele I.D, II.A și II.B au fost corectate, iar cerințele deschise au criterii discrete din barem. Răspunsurile model sunt exemple ale autorilor, iar evaluarea lor rămâne făcută de elev. Cronometrul oprește editarea la expirare.
 - **Bac 2025 var. 1:** baremul pe subcerințe rămâne orientativ până la confruntarea cu documentul oficial pereche. Nu intră automat în istoricul de simulări cu barem verificat.
 - Fișele de sinteză provin din materiale anterioare și necesită audit editorial complet. Programa actuală a fost identificată și mapată pe capitole; aceasta nu certifică fiecare afirmație din fișe. B2 (XI–XII) are fișe în pregătire, fără exersare completă; ecologia umană face parte din programa B2.

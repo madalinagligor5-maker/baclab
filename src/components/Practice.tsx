@@ -5,7 +5,7 @@ import { CHAPTERS_A, CHAPTER_BY_CODE } from "@/content/chapters";
 import { useBank } from "@/lib/client/content";
 import { useStore } from "@/lib/client/store";
 import { todayStr } from "@/lib/dates";
-import { buildChapterSession, buildMixedSession, buildPlan, buildReviewSession } from "@/lib/plan";
+import { buildChapterSession, buildMixedSession, buildPlan, buildReviewSession, buildWritingSession } from "@/lib/plan";
 import { canOpenChapter } from "@/lib/access";
 import { wrongItems } from "@/lib/diagnostic";
 import type { Item } from "@/lib/content/types";
@@ -26,6 +26,8 @@ export function Practice() {
     if (cap) {
       const ch = CHAPTER_BY_CODE[cap];
       if (!ch || !canOpenChapter(cap)) return { list: [], title: "Capitol", back: "/capitole" };
+      if (mode === "redactare")
+        return { list: buildWritingSession(cap, items, state.cards, today), title: `${ch.short} · Subiectele II–III`, back: `/capitole/${ch.slug}` };
       return { list: buildChapterSession(cap, items, state.cards, today), title: ch.short, back: `/capitole/${ch.slug}` };
     }
     if (mode === "mixt") return { list: buildMixedSession(items, today), title: "Mix ca la Bac", back: "/azi" };

@@ -12,8 +12,13 @@ export default function Lectii() {
         <Eyebrow>Învață teoria</Eyebrow>
         <H1>Lecții</H1>
         <p className="mt-2 max-w-xl text-muted">
-          Fiecare capitol, explicat pe înțeles: ce trebuie să știi, ce reții și unde greșesc cei mai mulți elevi. După lecție, treci la fișe și la exersare.
+          Fiecare capitol, explicat pe înțeles, cu imagini: ce trebuie să știi, ce reții și unde greșesc cei mai mulți elevi. După lecție, treci la cartonașe, fișe și exersare.
         </p>
+        <nav aria-label="Materiale de sprijin" className="mt-4 flex flex-wrap gap-2">
+          <Link href="/cartonase" className="rounded-full border-2 border-line bg-surface px-4 py-2 text-sm font-bold hover:border-ink/40">Cartonașe</Link>
+          <Link href="/glosar" className="rounded-full border-2 border-line bg-surface px-4 py-2 text-sm font-bold hover:border-ink/40">Glosar</Link>
+          <Link href="/confuzii" className="rounded-full border-2 border-line bg-surface px-4 py-2 text-sm font-bold hover:border-ink/40">Confuzii frecvente</Link>
+        </nav>
       </div>
       {chapterGroups().map((g) => (
         <section key={g.group} aria-labelledby={`g-${g.group}`}>

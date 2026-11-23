@@ -9,6 +9,7 @@ import { useBank } from "@/lib/client/content";
 import { useStore } from "@/lib/client/store";
 import { todayStr } from "@/lib/dates";
 import { chapterStats } from "@/lib/mastery";
+import { writingCount } from "@/lib/plan";
 
 export function ChapterView({ code }: { code: string }) {
   const ch = CHAPTER_BY_CODE[code];
@@ -17,6 +18,7 @@ export function ChapterView({ code }: { code: string }) {
   if (!ch) return null;
   const s = items ? chapterStats([ch], items, state.cards, state.attempts, todayStr())[code] : null;
   const open = canOpenChapter(code);
+  const redactare = items ? writingCount(code, items) : 0;
   return (
     <div className="space-y-6">
       <Link href="/capitole" className="text-sm font-bold text-muted hover:text-ink">
@@ -43,9 +45,16 @@ export function ChapterView({ code }: { code: string }) {
               {s.accuracy !== null && ` · acuratețe ${Math.round(s.accuracy * 100)}%`}
             </p>
             {open ? (
-              <LinkButton href={`/exersare?cap=${code}`} variant="accent" className="w-full sm:w-auto">
-                Exersează capitolul
-              </LinkButton>
+              <div className="flex flex-wrap gap-3">
+                <LinkButton href={`/exersare?cap=${code}`} variant="accent" className="w-full sm:w-auto">
+                  Exersează capitolul
+                </LinkButton>
+                {redactare > 0 && (
+                  <LinkButton href={`/exersare?cap=${code}&mod=redactare`} variant="ghost" className="w-full sm:w-auto">
+                    Subiectele II–III ({redactare})
+                  </LinkButton>
+                )}
+              </div>
             ) : (
               <p className="rounded-xl bg-bg p-3 font-bold">Acest capitol face parte din planul complet.</p>
             )}
